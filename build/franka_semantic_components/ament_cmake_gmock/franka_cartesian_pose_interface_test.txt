@@ -1,0 +1,48 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/franka_semantic_components':
+ - /home/zac/franka_ws/build/franka_semantic_components/franka_cartesian_pose_interface_test --gtest_output=xml:/home/zac/franka_ws/build/franka_semantic_components/test_results/franka_semantic_components/franka_cartesian_pose_interface_test.gtest.xml
+
+Running main() from gmock_main.cc
+[==========] Running 14 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 14 tests from FrankaCartesianPoseTest
+[ RUN      ] FrankaCartesianPoseTest.given_correct_interfaces_set_carte_with_elbow_command_expect_successful
+[       OK ] FrankaCartesianPoseTest.given_correct_interfaces_set_carte_with_elbow_command_expect_successful (1 ms)
+[ RUN      ] FrankaCartesianPoseTest.given_correct_interfaces_when_get_elbow_command_values_called_expect_successful
+[       OK ] FrankaCartesianPoseTest.given_correct_interfaces_when_get_elbow_command_values_called_expect_successful (0 ms)
+[ RUN      ] FrankaCartesianPoseTest.given_elbow_is_not_activated_when_elbow_command_get_value_is_called_expect_throw
+[       OK ] FrankaCartesianPoseTest.given_elbow_is_not_activated_when_elbow_command_get_value_is_called_expect_throw (0 ms)
+[ RUN      ] FrankaCartesianPoseTest.given_elbow_and_cartesian_pose_claimed_when_set_pose_command_without_elbow_expect_failure
+[ERROR] [1723715665.667261369] [franka_cartesian_velocity_interface]: Elbow command interface must not claimed, if elbow is not commanded. If elbow is activated, Use setCommand(pose_command, elbow_command) interface.
+[       OK ] FrankaCartesianPoseTest.given_elbow_and_cartesian_pose_claimed_when_set_pose_command_without_elbow_expect_failure (0 ms)
+[ RUN      ] FrankaCartesianPoseTest.given_only_cartesian_velocity_claimed_without_elbow_when_set_velocity_command_cartesian_vel_expect_successful
+[ERROR] [1723715665.667351270] [franka_cartesian_pose_interface]: Elbow command interface must be claimed to command elbow.
+[       OK ] FrankaCartesianPoseTest.given_only_cartesian_velocity_claimed_without_elbow_when_set_velocity_command_cartesian_vel_expect_successful (0 ms)
+[ RUN      ] FrankaCartesianPoseTest.given_incorrect_command_interfaces_set_velocity_expect_unsuccesful
+[ERROR] [1723715665.667365711] [franka_cartesian_velocity_interface]: Elbow command interface must not claimed, if elbow is not commanded. If elbow is activated, Use setCommand(pose_command, elbow_command) interface.
+[       OK ] FrankaCartesianPoseTest.given_incorrect_command_interfaces_set_velocity_expect_unsuccesful (0 ms)
+[ RUN      ] FrankaCartesianPoseTest.given_correct_interfaces_when_set_command_called_with_quaternion_and_translation_expect_the_correct_pose
+[       OK ] FrankaCartesianPoseTest.given_correct_interfaces_when_set_command_called_with_quaternion_and_translation_expect_the_correct_pose (0 ms)
+[ RUN      ] FrankaCartesianPoseTest.given_correct_interfaces_when_set_command_called_with_quaternion_and_translation_and_elbow_expect_the_correct_pose
+[       OK ] FrankaCartesianPoseTest.given_correct_interfaces_when_set_command_called_with_quaternion_and_translation_and_elbow_expect_the_correct_pose (0 ms)
+[ RUN      ] FrankaCartesianPoseTest.given_correct_interfaces_when_get_commanded_pose_called_expect_the_correct_pose
+[       OK ] FrankaCartesianPoseTest.given_correct_interfaces_when_get_commanded_pose_called_expect_the_correct_pose (0 ms)
+[ RUN      ] FrankaCartesianPoseTest.given_correct_interfaces_when_get_elbow_commanded_called_expect_the_correct_elbow
+[       OK ] FrankaCartesianPoseTest.given_correct_interfaces_when_get_elbow_commanded_called_expect_the_correct_elbow (0 ms)
+[ RUN      ] FrankaCartesianPoseTest.given_correct_interfaces_when_initial_elbow_request_expect_correct_state
+[       OK ] FrankaCartesianPoseTest.given_correct_interfaces_when_initial_elbow_request_expect_correct_state (0 ms)
+[ RUN      ] FrankaCartesianPoseTest.given_elbow_not_activated_when_initial_elbow_requested_expect_throw
+[       OK ] FrankaCartesianPoseTest.given_elbow_not_activated_when_initial_elbow_requested_expect_throw (0 ms)
+[ RUN      ] FrankaCartesianPoseTest.given_correct_interfaces_when_initial_orientation_request_expect_correct_pose
+[       OK ] FrankaCartesianPoseTest.given_correct_interfaces_when_initial_orientation_request_expect_correct_pose (0 ms)
+[ RUN      ] FrankaCartesianPoseTest.given_correct_interfaces_when_pose_requested_expect_correct_pose
+[       OK ] FrankaCartesianPoseTest.given_correct_interfaces_when_pose_requested_expect_correct_pose (0 ms)
+[----------] 14 tests from FrankaCartesianPoseTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 14 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 14 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/zac/franka_ws/build/franka_semantic_components/test_results/franka_semantic_components/franka_cartesian_pose_interface_test.gtest.xml'
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_semantic_components/test_results/franka_semantic_components/franka_cartesian_pose_interface_test.gtest.xml'

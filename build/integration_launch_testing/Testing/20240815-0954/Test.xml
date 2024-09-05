@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240815-0954-Experimental"
+	Name="CHARISMA-Predator-571"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="CHARISMA-Predator-571"
+	OSRelease="5.15.0-1068-realtime"
+	OSVersion="#76-Ubuntu SMP PREEMPT_RT Thu Jul 25 11:57:39 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="158"
+	ProcessorCacheSize="6144"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15869"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3424.33"
+	>
+	<Testing>
+		<StartDateTime>Aug 15 02:54 PDT</StartDateTime>
+		<StartTestTime>1723715653</StartTestTime>
+		<TestList>
+			<Test>./copyright</Test>
+			<Test>./lint_cmake</Test>
+			<Test>./flake8</Test>
+			<Test>./pep257</Test>
+			<Test>./xmllint</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>copyright</Name>
+			<Path>.</Path>
+			<FullName>./copyright</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/copyright.xunit.xml" "--package-name" "integration_launch_testing" "--output-file" "/home/zac/franka_ws/build/integration_launch_testing/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/copyright.xunit.xml" "package.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.240701</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/copyright.xunit.xml" "--package-name" "integration_launch_testing" "--output-file" "/home/zac/franka_ws/build/integration_launch_testing/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/copyright.xunit.xml" "package.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/integration_launch_testing':
+ - /opt/ros/humble/bin/ament_copyright --xunit-file /home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/copyright.xunit.xml package.xml
+No repository roots and files found
+No problems found, checked 0 files
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/copyright.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>copyright</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>lint_cmake</Name>
+			<Path>.</Path>
+			<FullName>./lint_cmake</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/lint_cmake.xunit.xml" "--package-name" "integration_launch_testing" "--output-file" "/home/zac/franka_ws/build/integration_launch_testing/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/lint_cmake.xunit.xml" "CMakeLists.txt"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.215241</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/lint_cmake.xunit.xml" "--package-name" "integration_launch_testing" "--output-file" "/home/zac/franka_ws/build/integration_launch_testing/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/lint_cmake.xunit.xml" "CMakeLists.txt"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/integration_launch_testing':
+ - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/lint_cmake.xunit.xml CMakeLists.txt
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/lint_cmake.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>lint_cmake</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>flake8</Name>
+			<Path>.</Path>
+			<FullName>./flake8</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/flake8.xunit.xml" "--package-name" "integration_launch_testing" "--output-file" "/home/zac/franka_ws/build/integration_launch_testing/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/flake8.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.338609</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/flake8.xunit.xml" "--package-name" "integration_launch_testing" "--output-file" "/home/zac/franka_ws/build/integration_launch_testing/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/flake8.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/integration_launch_testing':
+ - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/flake8.xunit.xml
+
+2 files checked
+No problems found
+
+Checked files:
+
+* ./test/test_franka_gripper_position.py
+* ./test/test_move_to_start_example_controller.py
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/flake8.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>flake8</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>pep257</Name>
+			<Path>.</Path>
+			<FullName>./pep257</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/pep257.xunit.xml" "--package-name" "integration_launch_testing" "--output-file" "/home/zac/franka_ws/build/integration_launch_testing/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/pep257.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.297845</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/pep257.xunit.xml" "--package-name" "integration_launch_testing" "--output-file" "/home/zac/franka_ws/build/integration_launch_testing/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/pep257.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/integration_launch_testing':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/pep257.xunit.xml
+checking ./test/test_franka_gripper_position.py
+checking ./test/test_move_to_start_example_controller.py
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/pep257.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>pep257</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>xmllint</Name>
+			<Path>.</Path>
+			<FullName>./xmllint</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/xmllint.xunit.xml" "--package-name" "integration_launch_testing" "--output-file" "/home/zac/franka_ws/build/integration_launch_testing/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/xmllint.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.352254</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/xmllint.xunit.xml" "--package-name" "integration_launch_testing" "--output-file" "/home/zac/franka_ws/build/integration_launch_testing/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/xmllint.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/integration_launch_testing':
+ - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/xmllint.xunit.xml
+File 'package.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/xmllint.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>xmllint</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Aug 15 02:54 PDT</EndDateTime>
+		<EndTestTime>1723715654</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

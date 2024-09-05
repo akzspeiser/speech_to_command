@@ -1,0 +1,11 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_fr3_moveit_config':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/pep257.xunit.xml
+
+checking ./launch/move_group.launch.py
+checking ./launch/moveit.launch.py
+checking ./test/srdf_tests.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/pep257.xunit.xml'

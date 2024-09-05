@@ -1,0 +1,4 @@
+Invoking command in '/home/zac/franka_ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zac/franka_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/zac/franka_ws/build/moveit_common -- -j8 -l8
+Invoked command in '/home/zac/franka_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zac/franka_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/zac/franka_ws/build/moveit_common -- -j8 -l8
+Invoking command in '/home/zac/franka_ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zac/franka_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/zac/franka_ws/build/moveit_common
+Invoked command in '/home/zac/franka_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zac/franka_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/zac/franka_ws/build/moveit_common

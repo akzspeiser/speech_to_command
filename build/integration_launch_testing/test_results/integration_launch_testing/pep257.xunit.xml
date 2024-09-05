@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="integration_launch_testing.pep257"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="0.024"
+>
+  <testcase
+    name="./test/test_franka_gripper_position.py"
+    classname="integration_launch_testing.pep257"/>
+  <testcase
+    name="./test/test_move_to_start_example_controller.py"
+    classname="integration_launch_testing.pep257"/>
+  <system-out>Checked files:
+* ./test/test_franka_gripper_position.py
+* ./test/test_move_to_start_example_controller.py</system-out>
+</testsuite>

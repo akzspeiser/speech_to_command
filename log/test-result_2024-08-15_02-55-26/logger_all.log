@@ -1,0 +1,16 @@
+[0.091s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test-result', '--verbose']
+[0.091s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='test-result', test_result_base='build', all=False, result_files_only=False, verbose=True, delete=False, delete_yes=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7faf4f308bb0>, verb_extension=<colcon_test_result.verb.test_result.TestResultVerb object at 0x7faf4f2cbaf0>, main=<bound method TestResultVerb.main of <colcon_test_result.verb.test_result.TestResultVerb object at 0x7faf4f2cbaf0>>)
+[0.094s] Level 1:colcon.colcon_test_result.test_result:get_test_results(ctest)
+[0.125s] Level 1:colcon.colcon_test_result.test_result:get_test_results(xunit)
+[0.125s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/franka_bringup/Testing/20240815-0954/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.127s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/franka_description/Testing/20240815-0954/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.129s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/franka_example_controllers/Testing/20240815-0954/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.132s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/franka_fr3_moveit_config/Testing/20240815-0954/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.134s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/franka_gripper/Testing/20240815-0954/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.136s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/franka_hardware/Testing/20240815-0954/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.139s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/franka_ign_ros2_control/Testing/20240815-0954/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.142s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/franka_msgs/Testing/20240815-0954/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.146s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/franka_robot_state_broadcaster/Testing/20240815-0954/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.149s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/franka_semantic_components/Testing/20240815-0954/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.151s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/integration_launch_testing/Testing/20240815-0954/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.153s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/joint_trajectory_controller/Testing/20240815-0954/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'

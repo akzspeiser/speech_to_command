@@ -1,0 +1,8 @@
+clang_format 1 0.266872
+copyright 1 0.391075
+cppcheck 1 0.205848
+lint_cmake 1 0.169705
+flake8 1 0.356329
+pep257 1 0.259235
+xmllint 1 0.376894
+---

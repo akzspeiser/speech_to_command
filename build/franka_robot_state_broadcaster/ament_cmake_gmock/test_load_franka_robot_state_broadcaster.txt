@@ -1,0 +1,26 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/franka_robot_state_broadcaster':
+ - /home/zac/franka_ws/build/franka_robot_state_broadcaster/test_load_franka_robot_state_broadcaster --gtest_output=xml:/home/zac/franka_ws/build/franka_robot_state_broadcaster/test_results/franka_robot_state_broadcaster/test_load_franka_robot_state_broadcaster.gtest.xml
+
+Running main() from gmock_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestLoadFrankaRobotStateBroadcaster
+[ RUN      ] TestLoadFrankaRobotStateBroadcaster.load_controller
+[INFO] [1723715667.542676793] [resource_manager]: Loading hardware 'TestActuatorHardware' 
+unknown file: Failure
+C++ exception with description "According to the loaded plugin descriptions the class test_actuator with base class type hardware_interface::ActuatorInterface does not exist. Declared types are  test_hardware_components/TestSingleJointActuator" thrown in the test body.
+[  FAILED  ] TestLoadFrankaRobotStateBroadcaster.load_controller (8 ms)
+[----------] 1 test from TestLoadFrankaRobotStateBroadcaster (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] TestLoadFrankaRobotStateBroadcaster.load_controller
+
+ 1 FAILED TEST
+
+
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/zac/franka_ws/build/franka_robot_state_broadcaster/test_results/franka_robot_state_broadcaster/test_load_franka_robot_state_broadcaster.gtest.xml'
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_robot_state_broadcaster/test_results/franka_robot_state_broadcaster/test_load_franka_robot_state_broadcaster.gtest.xml'

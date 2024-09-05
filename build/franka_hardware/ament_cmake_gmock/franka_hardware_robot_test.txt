@@ -1,0 +1,45 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/franka_hardware/test':
+ - /home/zac/franka_ws/build/franka_hardware/test/franka_hardware_robot_test --gtest_output=xml:/home/zac/franka_ws/build/franka_hardware/test_results/franka_hardware/franka_hardware_robot_test.gtest.xml
+
+Running main() from gmock_main.cc
+[==========] Running 14 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 14 tests from FrankaRobotTests
+[ RUN      ] FrankaRobotTests.whenInitializeTorqueInterfaceCalled_thenStartTorqueControlCalled
+[       OK ] FrankaRobotTests.whenInitializeTorqueInterfaceCalled_thenStartTorqueControlCalled (0 ms)
+[ RUN      ] FrankaRobotTests.whenInitializeJointVelocityInterfaceCalled_thenStartJointVelocityControl
+[       OK ] FrankaRobotTests.whenInitializeJointVelocityInterfaceCalled_thenStartJointVelocityControl (0 ms)
+[ RUN      ] FrankaRobotTests.whenInitializeJointtPositionInterfaceCalled_thenStartJointPositionControl
+[       OK ] FrankaRobotTests.whenInitializeJointtPositionInterfaceCalled_thenStartJointPositionControl (0 ms)
+[ RUN      ] FrankaRobotTests.whenInitializeCartesianVelocityInterfaceCalled_thenStartCartesianVelocityControl
+[       OK ] FrankaRobotTests.whenInitializeCartesianVelocityInterfaceCalled_thenStartCartesianVelocityControl (0 ms)
+[ RUN      ] FrankaRobotTests.whenInitializeCartesianPoseInterfaceCalled_thenStartCartesianPoseControl
+[       OK ] FrankaRobotTests.whenInitializeCartesianPoseInterfaceCalled_thenStartCartesianPoseControl (0 ms)
+[ RUN      ] FrankaRobotTests.givenCartesianVelocityControlIsStarted_whenReadOnceIsCalled_expectCorrectRobotState
+[       OK ] FrankaRobotTests.givenCartesianVelocityControlIsStarted_whenReadOnceIsCalled_expectCorrectRobotState (0 ms)
+[ RUN      ] FrankaRobotTests.givenCartesianPoseControlIsStarted_whenReadOnceIsCalled_expectCorrectRobotState
+[       OK ] FrankaRobotTests.givenCartesianPoseControlIsStarted_whenReadOnceIsCalled_expectCorrectRobotState (0 ms)
+[ RUN      ] FrankaRobotTests.givenJointControlIsNotStarted_whenReadOnceIsCalled_expectCorrectRobotState
+[       OK ] FrankaRobotTests.givenJointControlIsNotStarted_whenReadOnceIsCalled_expectCorrectRobotState (0 ms)
+[ RUN      ] FrankaRobotTests.givenCartesianVelocityControlIsStarted_whenWriteOnceIsCalled_expectActiveControlWriteOnceCalled
+[       OK ] FrankaRobotTests.givenCartesianVelocityControlIsStarted_whenWriteOnceIsCalled_expectActiveControlWriteOnceCalled (0 ms)
+[ RUN      ] FrankaRobotTests.givenCartesianPoseControlIsStart_whenWriteOnceIsCalled_expectActiveControlWriteOnceCalled
+[       OK ] FrankaRobotTests.givenCartesianPoseControlIsStart_whenWriteOnceIsCalled_expectActiveControlWriteOnceCalled (0 ms)
+[ RUN      ] FrankaRobotTests.givenJointPositionControlIsControlIsStarted_whenWriteOnceIsCalled_expectActiveControlWriteOnceCalled
+[       OK ] FrankaRobotTests.givenJointPositionControlIsControlIsStarted_whenWriteOnceIsCalled_expectActiveControlWriteOnceCalled (0 ms)
+[ RUN      ] FrankaRobotTests.givenJointVelocityControlIsStarted_whenWriteOnceIsCalled_expectActiveControlWriteOnceCalled
+[       OK ] FrankaRobotTests.givenJointVelocityControlIsStarted_whenWriteOnceIsCalled_expectActiveControlWriteOnceCalled (0 ms)
+[ RUN      ] FrankaRobotTests.givenEffortControlIsStarted_whenWriteOnceIsCalled_expectActiveControlWriteOnceCalled
+[       OK ] FrankaRobotTests.givenEffortControlIsStarted_whenWriteOnceIsCalled_expectActiveControlWriteOnceCalled (0 ms)
+[ RUN      ] FrankaRobotTests.givenControlIsNotStarted_whenWriteOnceIsCalled_expectRuntimeExceptionToBeThrown
+[       OK ] FrankaRobotTests.givenControlIsNotStarted_whenWriteOnceIsCalled_expectRuntimeExceptionToBeThrown (0 ms)
+[----------] 14 tests from FrankaRobotTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 14 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 14 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/zac/franka_ws/build/franka_hardware/test_results/franka_hardware/franka_hardware_robot_test.gtest.xml'
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_hardware/test_results/franka_hardware/franka_hardware_robot_test.gtest.xml'

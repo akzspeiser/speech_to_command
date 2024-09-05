@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="franka_gripper.pep257"
+  tests="3"
+  errors="0"
+  failures="0"
+  time="0.021"
+>
+  <testcase
+    name="./franka_gripper/__init__.py"
+    classname="franka_gripper.pep257"/>
+  <testcase
+    name="./launch/gripper.launch.py"
+    classname="franka_gripper.pep257"/>
+  <testcase
+    name="./scripts/fake_gripper_state_publisher.py"
+    classname="franka_gripper.pep257"/>
+  <system-out>Checked files:
+* ./franka_gripper/__init__.py
+* ./launch/gripper.launch.py
+* ./scripts/fake_gripper_state_publisher.py</system-out>
+</testsuite>

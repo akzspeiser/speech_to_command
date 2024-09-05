@@ -1,0 +1,52 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/franka_robot_state_broadcaster':
+ - /home/zac/franka_ws/build/franka_robot_state_broadcaster/franka_robot_state_broadcaster_test --ros-args --params-file /home/zac/franka_ws/src/franka_ros2/franka_robot_state_broadcaster/test/franka_robot_state_broadcaster_parameters.yaml -- --gtest_output=xml:/home/zac/franka_ws/build/franka_robot_state_broadcaster/test_results/franka_robot_state_broadcaster/franka_robot_state_broadcaster_test.gtest.xml
+
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from TestFrankaRobotStateBroadcaster
+[ RUN      ] TestFrankaRobotStateBroadcaster.test_init_return_success
+[       OK ] TestFrankaRobotStateBroadcaster.test_init_return_success (48 ms)
+[ RUN      ] TestFrankaRobotStateBroadcaster.test_configure_return_success
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: initialize_robot_state_msg(@0x563e99d82fa0 2360-byte object <00-00 00-00 00-00 00-00 B8-2F D8-99 3E-56 00-00 00-00 00-00 00-00 00-00 00-2F D8-99 3E-56 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 ... 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00>)
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] TestFrankaRobotStateBroadcaster.test_configure_return_success (14 ms)
+[ RUN      ] TestFrankaRobotStateBroadcaster.test_activate_return_success
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: initialize_robot_state_msg(@0x563e99bc5de0 2360-byte object <00-00 00-00 00-00 00-00 F8-5D BC-99 3E-56 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 ... 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-3F 00-00 00-00 00-00>)
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] TestFrankaRobotStateBroadcaster.test_activate_return_success (12 ms)
+[ RUN      ] TestFrankaRobotStateBroadcaster.test_deactivate_return_success
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: initialize_robot_state_msg(@0x563e99ba6960 2360-byte object <00-00 00-00 00-00 00-00 78-69 BA-99 3E-56 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 ... 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00>)
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] TestFrankaRobotStateBroadcaster.test_deactivate_return_success (11 ms)
+[ RUN      ] TestFrankaRobotStateBroadcaster.test_update_without_franka_state_interface_returns_error
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: initialize_robot_state_msg(@0x563e99dcfdc0 2360-byte object <00-00 00-00 00-00 00-00 D8-FD DC-99 3E-56 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 ... 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00>)
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[ERROR] [1723715667.330351070] [franka_state_semantic_component]: Franka state interface does not exist! Did you assign the loaned state in the controller?
+[ERROR] [1723715667.330401475] [test_broadcaster]: Failed to get franka state via franka state interface.
+[       OK ] TestFrankaRobotStateBroadcaster.test_update_without_franka_state_interface_returns_error (13 ms)
+[ RUN      ] TestFrankaRobotStateBroadcaster.test_update_with_franka_state_returns_success
+[  SKIPPED ] TestFrankaRobotStateBroadcaster.test_update_with_franka_state_returns_success (10 ms)
+[----------] 6 tests from TestFrankaRobotStateBroadcaster (109 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (109 ms total)
+[  PASSED  ] 5 tests.
+[  SKIPPED ] 1 test, listed below:
+[  SKIPPED ] TestFrankaRobotStateBroadcaster.test_update_with_franka_state_returns_success
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/zac/franka_ws/build/franka_robot_state_broadcaster/test_results/franka_robot_state_broadcaster/franka_robot_state_broadcaster_test.gtest.xml'
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_robot_state_broadcaster/test_results/franka_robot_state_broadcaster/franka_robot_state_broadcaster_test.gtest.xml'

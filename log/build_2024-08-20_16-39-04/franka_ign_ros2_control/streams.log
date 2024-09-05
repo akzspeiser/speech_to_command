@@ -1,0 +1,265 @@
+[0.122s] Invoking command in '/home/zac/franka_ws/build/franka_ign_ros2_control': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_hardware/lib:/home/zac/franka_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zac/franka_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/franka_ign_ros2_control
+[1.113s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.114s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.114s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[1.114s] -- Found controller_manager: 2.42.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.114s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.115s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.115s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.115s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.115s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.450s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.467s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.525s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.536s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.581s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.596s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.632s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.901s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[1.905s] -- Found franka_hardware: 0.1.15 (/home/zac/franka_ws/install/franka_hardware/share/franka_hardware/cmake)
+[1.918s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[1.932s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[1.938s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.941s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.961s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.165s] -- Found tf2_eigen: 0.25.7 (/opt/ros/humble/share/tf2_eigen/cmake)
+[2.181s] -- Looking for ignition-gazebo6 -- found version 6.16.0
+[2.217s] -- Searching for dependencies of ignition-gazebo6
+[2.218s] -- Looking for sdformat12 -- found version 12.7.2
+[2.219s] -- Searching for dependencies of sdformat12
+[2.237s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.238s] -- Searching for dependencies of ignition-math6
+[2.264s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.267s] -- Searching for dependencies of ignition-utils1
+[2.275s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.275s] -- Searching for dependencies of ignition-plugin1
+[2.293s] -- Searching for <ignition-plugin1> component [loader]
+[2.293s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[2.293s] -- Searching for dependencies of ignition-plugin1-loader
+[2.294s] -- Searching for <ignition-plugin1> component [register]
+[2.304s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[2.305s] -- Searching for dependencies of ignition-plugin1-register
+[2.311s] -- Looking for ignition-transport11 -- found version 11.4.1
+[2.313s] -- Searching for dependencies of ignition-transport11
+[2.463s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.475s] -- Checking for module 'libzmq >= 4'
+[2.513s] --   Found libzmq , version 4.3.4
+[2.618s] -- Checking for module 'uuid'
+[2.657s] --   Found uuid, version 2.37.2
+[2.753s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.754s] -- Searching for dependencies of ignition-utils1
+[2.754s] -- Searching for <ignition-utils1> component [cli]
+[2.757s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[2.763s] -- Searching for dependencies of ignition-utils1-cli
+[2.767s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.767s] -- Searching for dependencies of ignition-msgs8
+[2.824s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.827s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.857s] -- Searching for <ignition-transport11> component [log]
+[2.859s] -- Looking for ignition-transport11-log -- found version 11.4.1
+[2.861s] -- Searching for dependencies of ignition-transport11-log
+[2.863s] -- Searching for <ignition-transport11> component [parameters]
+[2.866s] -- Looking for ignition-transport11-parameters -- found version 11.4.1
+[2.868s] -- Searching for dependencies of ignition-transport11-parameters
+[2.870s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.873s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.874s] -- Searching for dependencies of ignition-common4
+[2.876s] -- Looking for dlfcn.h - found
+[2.876s] -- Looking for libdl - found
+[2.899s] -- Searching for <ignition-common4> component [profiler]
+[2.901s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[2.902s] -- Searching for dependencies of ignition-common4-profiler
+[2.906s] -- Searching for <ignition-common4> component [events]
+[2.906s] -- Looking for ignition-common4-events -- found version 4.7.0
+[2.907s] -- Searching for dependencies of ignition-common4-events
+[2.908s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.909s] -- Searching for <ignition-common4> component [av]
+[2.911s] -- Looking for ignition-common4-av -- found version 4.7.0
+[2.912s] -- Searching for dependencies of ignition-common4-av
+[2.924s] -- Checking for module 'libswscale'
+[2.953s] --   Found libswscale, version 5.9.100
+[3.042s] -- Checking for module 'libavdevice >= 56.4.100'
+[3.071s] --   Found libavdevice , version 58.13.100
+[3.153s] -- Checking for module 'libavformat'
+[3.179s] --   Found libavformat, version 58.76.100
+[3.251s] -- Checking for module 'libavcodec'
+[3.275s] --   Found libavcodec, version 58.134.100
+[3.345s] -- Checking for module 'libavutil'
+[3.371s] --   Found libavutil, version 56.70.100
+[3.436s] -- Looking for ignition-fuel_tools7 -- found version 7.3.0
+[3.437s] -- Searching for dependencies of ignition-fuel_tools7
+[3.555s] -- Checking for module 'jsoncpp'
+[3.608s] --   Found jsoncpp, version 1.9.5
+[3.803s] -- Checking for module 'libzip'
+[3.874s] --   Found libzip, version 1.7.3
+[4.050s] -- Looking for ignition-common4 -- found version 4.7.0
+[4.051s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.051s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[4.058s] -- Looking for ignition-gui6 -- found version 6.8.0
+[4.062s] -- Searching for dependencies of ignition-gui6
+[4.161s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.162s] -- Looking for ignition-common4 -- found version 4.7.0
+[4.163s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[4.164s] -- Looking for ignition-transport11 -- found version 11.4.1
+[4.166s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[4.167s] -- Searching for dependencies of ignition-rendering6
+[4.169s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.170s] -- Searching for dependencies of ignition-math6
+[4.170s] -- Searching for <ignition-math6> component [eigen3]
+[4.172s] -- Looking for ignition-math6-eigen3 -- found version 6.15.1
+[4.174s] -- Searching for dependencies of ignition-math6-eigen3
+[4.178s] -- Looking for ignition-common4 -- found version 4.7.0
+[4.179s] -- Searching for dependencies of ignition-common4
+[4.180s] -- Looking for dlfcn.h - found
+[4.180s] -- Looking for libdl - found
+[4.215s] -- Searching for <ignition-common4> component [graphics]
+[4.217s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[4.219s] -- Searching for dependencies of ignition-common4-graphics
+[4.220s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.221s] -- Looking for ignition-utils1 -- found version 1.5.1
+[4.224s] -- Searching for <ignition-common4> component [events]
+[4.226s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[4.227s] -- Searching for dependencies of ignition-plugin1
+[4.228s] -- Searching for <ignition-plugin1> component [all]
+[4.229s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[4.231s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[4.237s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[4.294s] -- Looking for ignition-physics5 -- found version 5.3.2
+[4.296s] -- Searching for dependencies of ignition-physics5
+[4.297s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.298s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[4.299s] -- Looking for ignition-utils1 -- found version 1.5.1
+[4.302s] -- Searching for <ignition-physics5> component [heightmap]
+[4.304s] -- Looking for ignition-physics5-heightmap -- found version 5.3.2
+[4.305s] -- Searching for dependencies of ignition-physics5-heightmap
+[4.306s] -- Looking for ignition-common4 -- found version 4.7.0
+[4.309s] -- Searching for <ignition-physics5> component [mesh]
+[4.309s] -- Looking for ignition-physics5-mesh -- found version 5.3.2
+[4.311s] -- Searching for dependencies of ignition-physics5-mesh
+[4.311s] -- Looking for ignition-common4 -- found version 4.7.0
+[4.313s] -- Searching for <ignition-physics5> component [sdf]
+[4.315s] -- Looking for ignition-physics5-sdf -- found version 5.3.2
+[4.316s] -- Searching for dependencies of ignition-physics5-sdf
+[4.317s] -- Looking for sdformat12 -- found version 12.7.2
+[4.321s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[4.322s] -- Searching for dependencies of ignition-sensors6
+[4.367s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[4.369s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.369s] -- Looking for ignition-common4 -- found version 4.7.0
+[4.370s] -- Looking for ignition-transport11 -- found version 11.4.1
+[4.371s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[4.372s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[4.372s] -- Looking for sdformat12 -- found version 12.7.2
+[4.374s] -- Searching for <ignition-sensors6> component [air_pressure]
+[4.375s] -- Looking for ignition-sensors6-air_pressure -- found version 6.8.0
+[4.377s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[4.377s] -- Searching for <ignition-sensors6> component [altimeter]
+[4.381s] -- Looking for ignition-sensors6-altimeter -- found version 6.8.0
+[4.382s] -- Searching for dependencies of ignition-sensors6-altimeter
+[4.382s] -- Searching for <ignition-sensors6> component [imu]
+[4.383s] -- Looking for ignition-sensors6-imu -- found version 6.8.0
+[4.385s] -- Searching for dependencies of ignition-sensors6-imu
+[4.387s] -- Searching for <ignition-sensors6> component [force_torque]
+[4.389s] -- Looking for ignition-sensors6-force_torque -- found version 6.8.0
+[4.390s] -- Searching for dependencies of ignition-sensors6-force_torque
+[4.392s] -- Searching for <ignition-sensors6> component [logical_camera]
+[4.393s] -- Looking for ignition-sensors6-logical_camera -- found version 6.8.0
+[4.395s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[4.397s] -- Searching for <ignition-sensors6> component [magnetometer]
+[4.399s] -- Looking for ignition-sensors6-magnetometer -- found version 6.8.0
+[4.400s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[4.401s] -- Searching for <ignition-sensors6> component [navsat]
+[4.403s] -- Looking for ignition-sensors6-navsat -- found version 6.8.0
+[4.404s] -- Searching for dependencies of ignition-sensors6-navsat
+[4.406s] -- Searching for <ignition-sensors6> component [rendering]
+[4.407s] -- Looking for ignition-sensors6-rendering -- found version 6.8.0
+[4.419s] -- Searching for dependencies of ignition-sensors6-rendering
+[4.420s] -- Searching for <ignition-sensors6> component [lidar]
+[4.421s] -- Looking for ignition-sensors6-lidar -- found version 6.8.0
+[4.421s] -- Searching for dependencies of ignition-sensors6-lidar
+[4.421s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[4.421s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[4.421s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.0
+[4.421s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[4.422s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[4.422s] -- Searching for <ignition-sensors6> component [camera]
+[4.424s] -- Looking for ignition-sensors6-camera -- found version 6.8.0
+[4.425s] -- Searching for dependencies of ignition-sensors6-camera
+[4.426s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[4.428s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[4.430s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.0
+[4.431s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[4.433s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[4.435s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.0
+[4.436s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[4.438s] -- Searching for <ignition-sensors6> component [depth_camera]
+[4.442s] -- Looking for ignition-sensors6-depth_camera -- found version 6.8.0
+[4.444s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[4.445s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[4.448s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[4.453s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.0
+[4.454s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[4.455s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[4.457s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[4.459s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.8.0
+[4.460s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[4.463s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[4.466s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[4.467s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.469s] -- Looking for ignition-utils1 -- found version 1.5.1
+[4.520s] -- Compiling against Ignition Fortress
+[4.521s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[4.633s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.958s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.982s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.983s] -- Configured cppcheck include dirs: /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include
+[4.983s] -- Configured cppcheck exclude dirs and/or files: 
+[4.996s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.996s] -- Configured cpplint exclude dirs and/or files: 
+[5.001s] -- Added test 'lint_cmake' to check CMake code style
+[5.056s] -- Added test 'uncrustify' to check C / C++ code style
+[5.056s] -- Configured uncrustify additional arguments: 
+[5.057s] -- Added test 'xmllint' to check XML markup files
+[5.073s] -- Configuring done
+[5.337s] -- Generating done
+[5.360s] -- Build files have been written to: /home/zac/franka_ws/build/franka_ign_ros2_control
+[5.408s] Invoked command in '/home/zac/franka_ws/build/franka_ign_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_hardware/lib:/home/zac/franka_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zac/franka_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/franka_ign_ros2_control
+[5.414s] Invoking command in '/home/zac/franka_ws/build/franka_ign_ros2_control': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_hardware/lib:/home/zac/franka_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zac/franka_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zac/franka_ws/build/franka_ign_ros2_control -- -j8 -l8
+[5.601s] [35m[1mConsolidate compiler generated dependencies of target franka_ign_ros2_control-system[0m
+[5.634s] [35m[1mConsolidate compiler generated dependencies of target ign_hardware_plugins[0m
+[5.714s] [ 16%] [32m[1mLinking CXX shared library libfranka_ign_ros2_control-system.so[0m
+[5.794s] [ 33%] [32m[1mLinking CXX shared library libign_hardware_plugins.so[0m
+[6.729s] [ 66%] Built target ign_hardware_plugins
+[6.822s] [100%] Built target franka_ign_ros2_control-system
+[6.843s] Invoked command in '/home/zac/franka_ws/build/franka_ign_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_hardware/lib:/home/zac/franka_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zac/franka_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zac/franka_ws/build/franka_ign_ros2_control -- -j8 -l8
+[6.896s] Invoking command in '/home/zac/franka_ws/build/franka_ign_ros2_control': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_hardware/lib:/home/zac/franka_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zac/franka_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zac/franka_ws/build/franka_ign_ros2_control
+[6.909s] -- Install configuration: "Release"
+[6.909s] -- Execute custom install script
+[6.910s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/lib/libign_hardware_plugins.so
+[6.928s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/include/ign_ros2_control/ign_ros2_control_plugin.hpp
+[6.944s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/include/ign_ros2_control/ign_system.hpp
+[6.959s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/include/ign_ros2_control/ign_system_interface.hpp
+[6.974s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/include/ign_ros2_control/model_kdl.h
+[6.990s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/environment/library_path.sh
+[7.007s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/environment/library_path.dsv
+[7.025s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/lib/libfranka_ign_ros2_control-system.so
+[7.043s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control//ign_hardware_plugins.xml
+[7.060s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/ament_index/resource_index/package_run_dependencies/franka_ign_ros2_control
+[7.073s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/ament_index/resource_index/parent_prefix_path/franka_ign_ros2_control
+[7.090s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/environment/ament_prefix_path.sh
+[7.104s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/environment/ament_prefix_path.dsv
+[7.118s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/environment/path.sh
+[7.135s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/environment/path.dsv
+[7.151s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/local_setup.bash
+[7.165s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/local_setup.sh
+[7.179s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/local_setup.zsh
+[7.192s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/local_setup.dsv
+[7.206s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/package.dsv
+[7.219s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/ament_index/resource_index/packages/franka_ign_ros2_control
+[7.232s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/ament_index/resource_index/franka_ign_ros2_control__pluginlib__plugin/franka_ign_ros2_control
+[7.244s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.257s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[7.271s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/cmake/franka_ign_ros2_controlConfig.cmake
+[7.286s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/cmake/franka_ign_ros2_controlConfig-version.cmake
+[7.299s] -- Symlinking: /home/zac/franka_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/package.xml
+[7.315s] Invoked command in '/home/zac/franka_ws/build/franka_ign_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_hardware/lib:/home/zac/franka_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zac/franka_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zac/franka_ws/build/franka_ign_ros2_control

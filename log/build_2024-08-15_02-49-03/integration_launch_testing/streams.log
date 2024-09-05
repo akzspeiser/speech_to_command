@@ -1,0 +1,4 @@
+[0.021s] Invoking command in '/home/zac/franka_ws/build/integration_launch_testing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zac/franka_ws/src/franka_ros2/integration_launch_testing -DCMAKE_BUILD_TYPE=Release --parallel-s 8 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/integration_launch_testing
+[0.029s] [0mCMake Error: Unknown argument --parallel-s[0m
+[0.029s] [0mCMake Error: Run 'cmake --help' for all supported options.[0m
+[0.033s] Invoked command in '/home/zac/franka_ws/build/integration_launch_testing' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zac/franka_ws/src/franka_ros2/integration_launch_testing -DCMAKE_BUILD_TYPE=Release --parallel-s 8 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/integration_launch_testing

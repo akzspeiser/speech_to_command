@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target chomp_motion_planner[0m
+[100%] Built target chomp_motion_planner
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_cost.h
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_optimizer.h
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_parameters.h
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_planner.h
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_trajectory.h
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_utils.h
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/include/chomp_motion_planner/multivariate_gaussian.h
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.sh
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.dsv
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/share/ament_index/resource_index/package_run_dependencies/chomp_motion_planner
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/share/ament_index/resource_index/parent_prefix_path/chomp_motion_planner
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.sh
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.sh
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.dsv
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.bash
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.sh
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.zsh
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.dsv
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/package.dsv
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/share/ament_index/resource_index/packages/chomp_motion_planner
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig.cmake
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig-version.cmake
+-- Symlinking: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/package.xml
+-- Up-to-date: /home/zac/franka_ws/install/chomp_motion_planner/lib/libchomp_motion_planner.so.2.5.5
+-- Up-to-date: /home/zac/franka_ws/install/chomp_motion_planner/lib/libchomp_motion_planner.so
+-- Up-to-date: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport.cmake
+-- Up-to-date: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport-release.cmake

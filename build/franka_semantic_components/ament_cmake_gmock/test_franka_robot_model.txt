@@ -1,0 +1,42 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/franka_semantic_components':
+ - /home/zac/franka_ws/build/franka_semantic_components/test_franka_robot_model --gtest_output=xml:/home/zac/franka_ws/build/franka_semantic_components/test_results/franka_semantic_components/test_franka_robot_model.gtest.xml
+
+Running main() from gmock_main.cc
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from FrankaRobotModelTest
+[ RUN      ] FrankaRobotModelTest.given_franka_semantic_model_initialized_when_get_coriolis_expect_one
+[       OK ] FrankaRobotModelTest.given_franka_semantic_model_initialized_when_get_coriolis_expect_one (0 ms)
+[ RUN      ] FrankaRobotModelTest.validate_state_names_and_size
+[       OK ] FrankaRobotModelTest.validate_state_names_and_size (0 ms)
+[ RUN      ] FrankaRobotModelTest.given_franka_semantic_model_initialized_when_get_gravity_expect_one
+[       OK ] FrankaRobotModelTest.given_franka_semantic_model_initialized_when_get_gravity_expect_one (0 ms)
+[ RUN      ] FrankaRobotModelTest.given_franka_semantic_model_initialized_when_get_pose_expect_one
+[       OK ] FrankaRobotModelTest.given_franka_semantic_model_initialized_when_get_pose_expect_one (0 ms)
+[ RUN      ] FrankaRobotModelTest.given_franka_semantic_model_initialized_when_get_mass_expect_correct
+[       OK ] FrankaRobotModelTest.given_franka_semantic_model_initialized_when_get_mass_expect_correct (0 ms)
+[ RUN      ] FrankaRobotModelTest.given_franka_semantic_model_not_initialized_expect_exception
+[ERROR] [1723715665.422722269] [franka_model_semantic_component]: Franka interface does not exist! Did you assign the loaned state in the controller?
+[       OK ] FrankaRobotModelTest.given_franka_semantic_model_not_initialized_expect_exception (0 ms)
+[ RUN      ] FrankaRobotModelTest.given_franka_semantic_model_not_initialized_when_get_gravity_called_expect_exception
+[ERROR] [1723715665.422794712] [franka_model_semantic_component]: Franka interface does not exist! Did you assign the loaned state in the controller?
+[       OK ] FrankaRobotModelTest.given_franka_semantic_model_not_initialized_when_get_gravity_called_expect_exception (0 ms)
+[ RUN      ] FrankaRobotModelTest.given_franka_semantic_model_not_initialized_when_get_pose_called_expect_exception
+[ERROR] [1723715665.422808388] [franka_model_semantic_component]: Franka interface does not exist! Did you assign the loaned state in the controller?
+[       OK ] FrankaRobotModelTest.given_franka_semantic_model_not_initialized_when_get_pose_called_expect_exception (0 ms)
+[ RUN      ] FrankaRobotModelTest.given_franka_semantic_model_not_initialized_when_get_body_jacobian_called_expect_exception
+[ERROR] [1723715665.422819149] [franka_model_semantic_component]: Franka interface does not exist! Did you assign the loaned state in the controller?
+[       OK ] FrankaRobotModelTest.given_franka_semantic_model_not_initialized_when_get_body_jacobian_called_expect_exception (0 ms)
+[ RUN      ] FrankaRobotModelTest.given_franka_semantic_model_not_initialized_when_get_zero_jacobian_called_expect_exception
+[ERROR] [1723715665.422829831] [franka_model_semantic_component]: Franka interface does not exist! Did you assign the loaned state in the controller?
+[       OK ] FrankaRobotModelTest.given_franka_semantic_model_not_initialized_when_get_zero_jacobian_called_expect_exception (0 ms)
+[----------] 10 tests from FrankaRobotModelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 10 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/zac/franka_ws/build/franka_semantic_components/test_results/franka_semantic_components/test_franka_robot_model.gtest.xml'
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_semantic_components/test_results/franka_semantic_components/test_franka_robot_model.gtest.xml'

@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_hardware':
+ - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/zac/franka_ws/build/franka_hardware/test_results/franka_hardware/cppcheck.xunit.xml src include
+
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_hardware/test_results/franka_hardware/cppcheck.xunit.xml'

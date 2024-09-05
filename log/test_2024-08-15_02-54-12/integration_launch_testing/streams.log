@@ -1,0 +1,97 @@
+[0.037s] Invoking command in '/home/zac/franka_ws/build/integration_launch_testing': CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_ign_ros2_control:/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.048s] UpdateCTestConfiguration  from :/home/zac/franka_ws/build/integration_launch_testing/CTestConfiguration.ini
+[0.048s] Parse Config file:/home/zac/franka_ws/build/integration_launch_testing/CTestConfiguration.ini
+[0.048s]    Site: CHARISMA-Predator-571
+[0.048s]    Build name: (empty)
+[0.049s]  Add coverage exclude regular expressions.
+[0.049s] Create new tag: 20240815-0954 - Experimental
+[0.049s] UpdateCTestConfiguration  from :/home/zac/franka_ws/build/integration_launch_testing/CTestConfiguration.ini
+[0.049s] Parse Config file:/home/zac/franka_ws/build/integration_launch_testing/CTestConfiguration.ini
+[0.049s] Test project /home/zac/franka_ws/build/integration_launch_testing
+[0.049s] Constructing a list of tests
+[0.050s] Done constructing a list of tests
+[0.050s] Updating test list for fixtures
+[0.050s] Added 0 tests to meet fixture requirements
+[0.050s] Checking test dependency graph...
+[0.050s] Checking test dependency graph end
+[0.051s] test 1
+[0.051s]     Start 1: copyright
+[0.051s] 
+[0.051s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/copyright.xunit.xml" "--package-name" "integration_launch_testing" "--output-file" "/home/zac/franka_ws/build/integration_launch_testing/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/copyright.xunit.xml" "package.xml"
+[0.051s] 1: Test timeout computed to be: 200
+[0.148s] 1: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/integration_launch_testing':
+[0.148s] 1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/copyright.xunit.xml package.xml
+[0.259s] 1: No repository roots and files found
+[0.259s] 1: No problems found, checked 0 files
+[0.273s] 1: -- run_test.py: return code 0
+[0.274s] 1: -- run_test.py: verify result file '/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/copyright.xunit.xml'
+[0.287s] 1/5 Test #1: copyright ........................   Passed    0.24 sec
+[0.287s] test 2
+[0.287s]     Start 2: lint_cmake
+[0.287s] 
+[0.287s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/lint_cmake.xunit.xml" "--package-name" "integration_launch_testing" "--output-file" "/home/zac/franka_ws/build/integration_launch_testing/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/lint_cmake.xunit.xml" "CMakeLists.txt"
+[0.288s] 2: Test timeout computed to be: 60
+[0.385s] 2: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/integration_launch_testing':
+[0.386s] 2:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/lint_cmake.xunit.xml CMakeLists.txt
+[0.476s] 2: 
+[0.476s] 2: No problems found
+[0.488s] 2: -- run_test.py: return code 0
+[0.489s] 2: -- run_test.py: verify result file '/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/lint_cmake.xunit.xml'
+[0.503s] 2/5 Test #2: lint_cmake .......................   Passed    0.22 sec
+[0.503s] test 3
+[0.503s]     Start 3: flake8
+[0.503s] 
+[0.503s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/flake8.xunit.xml" "--package-name" "integration_launch_testing" "--output-file" "/home/zac/franka_ws/build/integration_launch_testing/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/flake8.xunit.xml"
+[0.503s] 3: Test timeout computed to be: 60
+[0.574s] 3: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/integration_launch_testing':
+[0.574s] 3:  - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/flake8.xunit.xml
+[0.808s] 3: 
+[0.808s] 3: 2 files checked
+[0.808s] 3: No problems found
+[0.808s] 3: 
+[0.809s] 3: Checked files:
+[0.809s] 3: 
+[0.809s] 3: * ./test/test_franka_gripper_position.py
+[0.809s] 3: * ./test/test_move_to_start_example_controller.py
+[0.832s] 3: -- run_test.py: return code 0
+[0.832s] 3: -- run_test.py: verify result file '/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/flake8.xunit.xml'
+[0.841s] 3/5 Test #3: flake8 ...........................   Passed    0.34 sec
+[0.842s] test 4
+[0.842s]     Start 4: pep257
+[0.842s] 
+[0.842s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/pep257.xunit.xml" "--package-name" "integration_launch_testing" "--output-file" "/home/zac/franka_ws/build/integration_launch_testing/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/pep257.xunit.xml"
+[0.842s] 4: Test timeout computed to be: 60
+[0.913s] 4: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/integration_launch_testing':
+[0.914s] 4:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/pep257.xunit.xml
+[1.104s] 4: checking ./test/test_franka_gripper_position.py
+[1.104s] 4: checking ./test/test_move_to_start_example_controller.py
+[1.104s] 4: No problems found
+[1.126s] 4: -- run_test.py: return code 0
+[1.126s] 4: -- run_test.py: verify result file '/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/pep257.xunit.xml'
+[1.140s] 4/5 Test #4: pep257 ...........................   Passed    0.30 sec
+[1.140s] test 5
+[1.140s]     Start 5: xmllint
+[1.140s] 
+[1.140s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/xmllint.xunit.xml" "--package-name" "integration_launch_testing" "--output-file" "/home/zac/franka_ws/build/integration_launch_testing/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/xmllint.xunit.xml"
+[1.140s] 5: Test timeout computed to be: 60
+[1.207s] 5: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/integration_launch_testing':
+[1.207s] 5:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/xmllint.xunit.xml
+[1.458s] 5: File 'package.xml' is valid
+[1.458s] 5: 
+[1.458s] 5: No problems found
+[1.475s] 5: -- run_test.py: return code 0
+[1.476s] 5: -- run_test.py: verify result file '/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/xmllint.xunit.xml'
+[1.492s] 5/5 Test #5: xmllint ..........................   Passed    0.35 sec
+[1.493s] 
+[1.493s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 5
+[1.493s] 
+[1.493s] Label Time Summary:
+[1.493s] copyright     =   0.24 sec*proc (1 test)
+[1.493s] flake8        =   0.34 sec*proc (1 test)
+[1.493s] lint_cmake    =   0.22 sec*proc (1 test)
+[1.494s] linter        =   1.44 sec*proc (5 tests)
+[1.494s] pep257        =   0.30 sec*proc (1 test)
+[1.494s] xmllint       =   0.35 sec*proc (1 test)
+[1.494s] 
+[1.494s] Total Test time (real) =   1.45 sec
+[1.515s] Invoked command in '/home/zac/franka_ws/build/integration_launch_testing' returned '0': CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_ign_ros2_control:/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

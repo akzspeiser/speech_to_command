@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="6" failures="0" disabled="0" errors="0" time="0.06" timestamp="2024-08-15T02:54:28" name="AllTests">
+  <testsuite name="MoveToStartExampleControllerTest" tests="6" failures="0" disabled="0" errors="0" time="0.054" timestamp="2024-08-15T02:54:28">
+    <testcase name="controller_gains_not_set_failure" status="run" result="completed" time="0.015" timestamp="2024-08-15T02:54:28" classname="franka_example_controllers.MoveToStartExampleControllerTest" />
+    <testcase name="contoller_gain_empty" status="run" result="completed" time="0.009" timestamp="2024-08-15T02:54:28" classname="franka_example_controllers.MoveToStartExampleControllerTest" />
+    <testcase name="contoller_damping_gain_empty" status="run" result="completed" time="0.008" timestamp="2024-08-15T02:54:28" classname="franka_example_controllers.MoveToStartExampleControllerTest" />
+    <testcase name="correct_controller_gains_success" status="run" result="completed" time="0.007" timestamp="2024-08-15T02:54:28" classname="franka_example_controllers.MoveToStartExampleControllerTest" />
+    <testcase name="correct_setup_on_activate_expect_success" status="run" result="completed" time="0.009" timestamp="2024-08-15T02:54:28" classname="franka_example_controllers.MoveToStartExampleControllerTest" />
+    <testcase name="correct_setup_on_update_expect_ok" status="run" result="completed" time="0.006" timestamp="2024-08-15T02:54:28" classname="franka_example_controllers.MoveToStartExampleControllerTest" />
+  </testsuite>
+</testsuites>

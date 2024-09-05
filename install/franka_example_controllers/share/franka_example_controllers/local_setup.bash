@@ -1,0 +1,1 @@
+/home/zac/franka_ws/build/franka_example_controllers/ament_cmake_environment_hooks/local_setup.bash

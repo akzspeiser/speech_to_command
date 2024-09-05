@@ -1,0 +1,142 @@
+[0.066s] Invoking command in '/home/zac/franka_ws/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_ign_ros2_control:/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:/home/zac/franka_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake /home/zac/franka_ws/src/moveit2/moveit_ros/warehouse -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/moveit_ros_warehouse
+[0.215s] -- The C compiler identification is GNU 11.4.0
+[0.340s] -- The CXX compiler identification is GNU 11.4.0
+[0.357s] -- Detecting C compiler ABI info
+[0.505s] -- Detecting C compiler ABI info - done
+[0.519s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.520s] -- Detecting C compile features
+[0.520s] -- Detecting C compile features - done
+[0.527s] -- Detecting CXX compiler ABI info
+[0.694s] -- Detecting CXX compiler ABI info - done
+[0.712s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.712s] -- Detecting CXX compile features
+[0.717s] -- Detecting CXX compile features - done
+[0.718s] -- Found moveit_common: 2.5.5 (/home/zac/franka_ws/install/moveit_common/share/moveit_common/cmake)
+[0.731s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.094s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.607s] [0mmoveit_ros_warehouse: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[1.621s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.837s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.866s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.898s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.942s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.005s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.189s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.205s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.483s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.560s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.689s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.738s] -- Looking for pthread.h
+[2.931s] -- Looking for pthread.h - found
+[2.931s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.129s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.131s] -- Found Threads: TRUE  
+[3.302s] -- Found moveit_core: 2.5.5 (/home/zac/franka_ws/install/moveit_core/share/moveit_core/cmake)
+[3.470s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.646s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.699s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.715s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[3.784s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[4.103s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.341s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.237s] -- Found warehouse_ros: 2.0.4 (/opt/ros/humble/share/warehouse_ros/cmake)
+[5.253s] -- Found moveit_ros_planning: 2.5.5 (/home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[5.266s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[5.333s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[5.340s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[5.533s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[5.534s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[5.746s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[5.747s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[5.944s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[6.088s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.161s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.163s] -- Configured cppcheck include dirs: /home/zac/franka_ws/src/moveit2/moveit_ros/warehouse/include
+[6.163s] -- Configured cppcheck exclude dirs and/or files: 
+[6.166s] -- Added test 'lint_cmake' to check CMake code style
+[6.168s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.170s] -- Added test 'xmllint' to check XML markup files
+[6.175s] -- Configuring done
+[6.504s] -- Generating done
+[6.511s] -- Build files have been written to: /home/zac/franka_ws/build/moveit_ros_warehouse
+[6.547s] Invoked command in '/home/zac/franka_ws/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_ign_ros2_control:/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:/home/zac/franka_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake /home/zac/franka_ws/src/moveit2/moveit_ros/warehouse -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/moveit_ros_warehouse
+[6.552s] Invoking command in '/home/zac/franka_ws/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_ign_ros2_control:/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:/home/zac/franka_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --build /home/zac/franka_ws/build/moveit_ros_warehouse -- -j8 -l8
+[6.685s] [  5%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/moveit_message_storage.cpp.o[0m
+[20.326s] [ 10%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/warehouse_connector.cpp.o[0m
+[22.107s] [ 15%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/state_storage.cpp.o[0m
+[33.909s] [ 20%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/trajectory_constraints_storage.cpp.o[0m
+[46.226s] [ 25%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/constraints_storage.cpp.o[0m
+[59.594s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/planning_scene_world_storage.cpp.o[0m
+[71.456s] [ 35%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/planning_scene_storage.cpp.o[0m
+[93.668s] [ 40%] [32m[1mLinking CXX shared library libmoveit_warehouse.so[0m
+[95.154s] [ 40%] Built target moveit_warehouse
+[95.213s] [ 45%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_broadcast.dir/src/broadcast.cpp.o[0m
+[123.088s] [ 50%] [32m[1mLinking CXX executable moveit_warehouse_broadcast[0m
+[123.843s] [ 50%] Built target moveit_warehouse_broadcast
+[123.918s] [ 55%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_services.dir/src/warehouse_services.cpp.o[0m
+[141.786s] [ 60%] [32m[1mLinking CXX executable moveit_warehouse_services[0m
+[142.313s] [ 60%] Built target moveit_warehouse_services
+[142.363s] [ 65%] [32mBuilding CXX object CMakeFiles/moveit_init_demo_warehouse.dir/src/initialize_demo_db.cpp.o[0m
+[164.485s] [ 70%] [32m[1mLinking CXX executable moveit_init_demo_warehouse[0m
+[165.240s] [ 70%] Built target moveit_init_demo_warehouse
+[165.288s] [ 75%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_save_as_text.dir/src/save_as_text.cpp.o[0m
+[188.039s] [ 80%] [32m[1mLinking CXX executable moveit_warehouse_save_as_text[0m
+[188.761s] [ 80%] Built target moveit_warehouse_save_as_text
+[188.807s] [ 85%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_import_from_text.dir/src/import_from_text.cpp.o[0m
+[211.497s] [ 90%] [32m[1mLinking CXX executable moveit_warehouse_import_from_text[0m
+[212.167s] [ 90%] Built target moveit_warehouse_import_from_text
+[212.214s] [ 95%] [32mBuilding CXX object CMakeFiles/moveit_save_to_warehouse.dir/src/save_to_warehouse.cpp.o[0m
+[256.612s] [100%] [32m[1mLinking CXX executable moveit_save_to_warehouse[0m
+[257.507s] [100%] Built target moveit_save_to_warehouse
+[257.525s] Invoked command in '/home/zac/franka_ws/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_ign_ros2_control:/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:/home/zac/franka_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --build /home/zac/franka_ws/build/moveit_ros_warehouse -- -j8 -l8
+[257.658s] Invoking command in '/home/zac/franka_ws/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_ign_ros2_control:/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:/home/zac/franka_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --install /home/zac/franka_ws/build/moveit_ros_warehouse
+[257.674s] -- Install configuration: "Release"
+[257.674s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse
+[257.679s] -- Set runtime path of "/home/zac/franka_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse" to ""
+[257.679s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast
+[257.681s] -- Set runtime path of "/home/zac/franka_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast" to ""
+[257.681s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text
+[257.682s] -- Set runtime path of "/home/zac/franka_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text" to ""
+[257.684s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text
+[257.685s] -- Set runtime path of "/home/zac/franka_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text" to ""
+[257.685s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse
+[257.686s] -- Set runtime path of "/home/zac/franka_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse" to ""
+[257.686s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services
+[257.688s] -- Set runtime path of "/home/zac/franka_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services" to ""
+[257.689s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/include
+[257.689s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/include/moveit
+[257.689s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/include/moveit/warehouse
+[257.689s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_storage.h
+[257.689s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/include/moveit/warehouse/moveit_message_storage.h
+[257.690s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/include/moveit/warehouse/state_storage.h
+[257.690s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/include/moveit/warehouse/trajectory_constraints_storage.h
+[257.692s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/include/moveit/warehouse/warehouse_connector.h
+[257.692s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_world_storage.h
+[257.692s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/include/moveit/warehouse/constraints_storage.h
+[257.692s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/include/moveit_warehouse_export.h
+[257.693s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.5
+[257.696s] -- Set runtime path of "/home/zac/franka_ws/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.5" to ""
+[257.696s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so
+[257.696s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.sh
+[257.697s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.dsv
+[257.697s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/ament_index/resource_index/package_run_dependencies/moveit_ros_warehouse
+[257.699s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/ament_index/resource_index/parent_prefix_path/moveit_ros_warehouse
+[257.699s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.sh
+[257.699s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.dsv
+[257.700s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.sh
+[257.700s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.dsv
+[257.700s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.bash
+[257.701s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.sh
+[257.701s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.zsh
+[257.701s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.dsv
+[257.701s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.dsv
+[257.702s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/ament_index/resource_index/packages/moveit_ros_warehouse
+[257.702s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport.cmake
+[257.703s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport-release.cmake
+[257.703s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake
+[257.703s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_targets-extras.cmake
+[257.704s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_dependencies-extras.cmake
+[257.704s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake
+[257.704s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig-version.cmake
+[257.705s] -- Installing: /home/zac/franka_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.xml
+[257.717s] Invoked command in '/home/zac/franka_ws/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_ign_ros2_control:/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:/home/zac/franka_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --install /home/zac/franka_ws/build/moveit_ros_warehouse

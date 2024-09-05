@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="14" failures="0" disabled="0" errors="0" time="0" timestamp="2024-08-15T02:54:23" name="AllTests">
+  <testsuite name="FrankaRobotTests" tests="14" failures="0" disabled="0" errors="0" time="0" timestamp="2024-08-15T02:54:23">
+    <testcase name="whenInitializeTorqueInterfaceCalled_thenStartTorqueControlCalled" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:23" classname="franka_hardware.FrankaRobotTests" />
+    <testcase name="whenInitializeJointVelocityInterfaceCalled_thenStartJointVelocityControl" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:23" classname="franka_hardware.FrankaRobotTests" />
+    <testcase name="whenInitializeJointtPositionInterfaceCalled_thenStartJointPositionControl" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:23" classname="franka_hardware.FrankaRobotTests" />
+    <testcase name="whenInitializeCartesianVelocityInterfaceCalled_thenStartCartesianVelocityControl" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:23" classname="franka_hardware.FrankaRobotTests" />
+    <testcase name="whenInitializeCartesianPoseInterfaceCalled_thenStartCartesianPoseControl" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:23" classname="franka_hardware.FrankaRobotTests" />
+    <testcase name="givenCartesianVelocityControlIsStarted_whenReadOnceIsCalled_expectCorrectRobotState" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:23" classname="franka_hardware.FrankaRobotTests" />
+    <testcase name="givenCartesianPoseControlIsStarted_whenReadOnceIsCalled_expectCorrectRobotState" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:23" classname="franka_hardware.FrankaRobotTests" />
+    <testcase name="givenJointControlIsNotStarted_whenReadOnceIsCalled_expectCorrectRobotState" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:23" classname="franka_hardware.FrankaRobotTests" />
+    <testcase name="givenCartesianVelocityControlIsStarted_whenWriteOnceIsCalled_expectActiveControlWriteOnceCalled" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:23" classname="franka_hardware.FrankaRobotTests" />
+    <testcase name="givenCartesianPoseControlIsStart_whenWriteOnceIsCalled_expectActiveControlWriteOnceCalled" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:23" classname="franka_hardware.FrankaRobotTests" />
+    <testcase name="givenJointPositionControlIsControlIsStarted_whenWriteOnceIsCalled_expectActiveControlWriteOnceCalled" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:23" classname="franka_hardware.FrankaRobotTests" />
+    <testcase name="givenJointVelocityControlIsStarted_whenWriteOnceIsCalled_expectActiveControlWriteOnceCalled" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:23" classname="franka_hardware.FrankaRobotTests" />
+    <testcase name="givenEffortControlIsStarted_whenWriteOnceIsCalled_expectActiveControlWriteOnceCalled" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:23" classname="franka_hardware.FrankaRobotTests" />
+    <testcase name="givenControlIsNotStarted_whenWriteOnceIsCalled_expectRuntimeExceptionToBeThrown" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:23" classname="franka_hardware.FrankaRobotTests" />
+  </testsuite>
+</testsuites>

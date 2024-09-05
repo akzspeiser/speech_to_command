@@ -1,0 +1,84 @@
+[0.081s] Invoking command in '/home/zac/franka_ws/build/moveit_ros_control_interface': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_simple_controller_manager/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake /home/zac/franka_ws/src/moveit2/moveit_plugins/moveit_ros_control_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/moveit_ros_control_interface
+[0.113s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.634s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.679s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.830s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.843s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.859s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.906s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.952s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.136s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.140s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.540s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.740s] -- Found controller_manager_msgs: 2.42.0 (/opt/ros/humble/share/controller_manager_msgs/cmake)
+[1.822s] -- Found moveit_core: 2.5.5 (/home/zac/franka_ws/install/moveit_core/share/moveit_core/cmake)
+[1.860s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.937s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.957s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.985s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.172s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.349s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.974s] -- Found moveit_simple_controller_manager: 2.5.5 (/home/zac/franka_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake)
+[2.982s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[3.134s] -- Found moveit_common: 2.5.5 (/home/zac/franka_ws/install/moveit_common/share/moveit_common/cmake)
+[3.396s] [0mmoveit_ros_control_interface: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[3.408s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread 
+[3.454s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.519s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.519s] -- Configured cppcheck include dirs: /home/zac/franka_ws/src/moveit2/moveit_plugins/moveit_ros_control_interface/include
+[3.519s] -- Configured cppcheck exclude dirs and/or files: 
+[3.527s] -- Added test 'lint_cmake' to check CMake code style
+[3.529s] -- Added test 'xmllint' to check XML markup files
+[3.537s] -- Configuring done
+[3.904s] -- Generating done
+[3.914s] -- Build files have been written to: /home/zac/franka_ws/build/moveit_ros_control_interface
+[3.941s] Invoked command in '/home/zac/franka_ws/build/moveit_ros_control_interface' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_simple_controller_manager/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake /home/zac/franka_ws/src/moveit2/moveit_plugins/moveit_ros_control_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/moveit_ros_control_interface
+[3.942s] Invoking command in '/home/zac/franka_ws/build/moveit_ros_control_interface': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_simple_controller_manager/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --build /home/zac/franka_ws/build/moveit_ros_control_interface -- -j8 -l8
+[4.170s] [35m[1mConsolidate compiler generated dependencies of target moveit_ros_control_interface_trajectory_plugin[0m
+[4.177s] [35m[1mConsolidate compiler generated dependencies of target moveit_ros_control_interface_gripper_plugin[0m
+[4.190s] [35m[1mConsolidate compiler generated dependencies of target moveit_ros_control_interface_empty_plugin[0m
+[4.205s] [35m[1mConsolidate compiler generated dependencies of target moveit_ros_control_interface_plugin[0m
+[4.268s] [ 25%] Built target moveit_ros_control_interface_trajectory_plugin
+[4.310s] [ 50%] Built target moveit_ros_control_interface_gripper_plugin
+[4.342s] [ 75%] Built target moveit_ros_control_interface_empty_plugin
+[4.343s] [100%] Built target moveit_ros_control_interface_plugin
+[4.378s] Invoked command in '/home/zac/franka_ws/build/moveit_ros_control_interface' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_simple_controller_manager/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --build /home/zac/franka_ws/build/moveit_ros_control_interface -- -j8 -l8
+[4.594s] Invoking command in '/home/zac/franka_ws/build/moveit_ros_control_interface': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_simple_controller_manager/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --install /home/zac/franka_ws/build/moveit_ros_control_interface
+[4.617s] -- Install configuration: "Release"
+[4.618s] -- Execute custom install script
+[4.619s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/include/moveit_ros_control_interface/ControllerHandle.h
+[4.659s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface//moveit_core_plugins.xml
+[4.675s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface//moveit_ros_control_interface_plugins.xml
+[4.703s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/library_path.sh
+[4.726s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/library_path.dsv
+[4.748s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/ament_index/resource_index/package_run_dependencies/moveit_ros_control_interface
+[4.766s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/ament_index/resource_index/parent_prefix_path/moveit_ros_control_interface
+[4.803s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/ament_prefix_path.sh
+[4.823s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/ament_prefix_path.dsv
+[4.841s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/path.sh
+[4.859s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/path.dsv
+[4.879s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.bash
+[4.900s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.sh
+[4.919s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.zsh
+[4.940s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.dsv
+[4.959s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/package.dsv
+[4.982s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/ament_index/resource_index/packages/moveit_ros_control_interface
+[5.009s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_ros_control_interface
+[5.020s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/ament_index/resource_index/moveit_ros_control_interface__pluginlib__plugin/moveit_ros_control_interface
+[5.038s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/ConfigExtras.cmake
+[5.059s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/ament_cmake_export_targets-extras.cmake
+[5.080s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.109s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/moveit_ros_control_interfaceConfig.cmake
+[5.126s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/moveit_ros_control_interfaceConfig-version.cmake
+[5.142s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/package.xml
+[5.157s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_plugin.so.2.5.5
+[5.158s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_plugin.so
+[5.159s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_trajectory_plugin.so.2.5.5
+[5.160s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_trajectory_plugin.so
+[5.161s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_gripper_plugin.so.2.5.5
+[5.161s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_gripper_plugin.so
+[5.163s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_empty_plugin.so.2.5.5
+[5.163s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_empty_plugin.so
+[5.164s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/export_moveit_ros_control_interfaceExport.cmake
+[5.164s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/export_moveit_ros_control_interfaceExport-release.cmake
+[5.168s] Invoked command in '/home/zac/franka_ws/build/moveit_ros_control_interface' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_simple_controller_manager/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --install /home/zac/franka_ws/build/moveit_ros_control_interface

@@ -1,0 +1,10 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/integration_launch_testing':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/pep257.xunit.xml
+
+checking ./test/test_franka_gripper_position.py
+checking ./test/test_move_to_start_example_controller.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/pep257.xunit.xml'

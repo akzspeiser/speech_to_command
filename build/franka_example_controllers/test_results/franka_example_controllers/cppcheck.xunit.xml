@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="franka_example_controllers.cppcheck"
+  tests="29"
+  errors="0"
+  failures="0"
+  time="0.000"
+  skipped="29"
+>
+  <testcase
+    name="include/franka_example_controllers/cartesian_elbow_example_controller.hpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/franka_example_controllers/cartesian_orientation_example_controller.hpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/franka_example_controllers/cartesian_pose_example_controller.hpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/franka_example_controllers/cartesian_velocity_example_controller.hpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/franka_example_controllers/default_robot_behavior_utils.hpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/franka_example_controllers/elbow_example_controller.hpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/franka_example_controllers/gravity_compensation_example_controller.hpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/franka_example_controllers/joint_impedance_example_controller.hpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/franka_example_controllers/joint_impedance_with_ik_example_controller.hpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/franka_example_controllers/joint_position_example_controller.hpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/franka_example_controllers/joint_velocity_example_controller.hpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/franka_example_controllers/model_example_controller.hpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/franka_example_controllers/motion_generator.hpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/franka_example_controllers/move_to_start_example_controller.hpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/franka_example_controllers/robot_utils.hpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/franka_example_controllers/visibility_control.h"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/cartesian_elbow_example_controller.cpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/cartesian_orientation_example_controller.cpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/cartesian_pose_example_controller.cpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/cartesian_velocity_example_controller.cpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/elbow_example_controller.cpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/gravity_compensation_example_controller.cpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/joint_impedance_example_controller.cpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/joint_impedance_with_ik_example_controller.cpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/joint_position_example_controller.cpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/joint_velocity_example_controller.cpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/model_example_controller.cpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/motion_generator.cpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/move_to_start_example_controller.cpp"
+    classname="franka_example_controllers.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <system-err>Tests Skipped due to cppcheck 2.7 performance issues</system-err>
+</testsuite>

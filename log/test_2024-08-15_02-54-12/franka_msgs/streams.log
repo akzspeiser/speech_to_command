@@ -1,0 +1,64 @@
+[0.050s] Invoking command in '/home/zac/franka_ws/build/franka_msgs': CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_ign_ros2_control:/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_description LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_msgs/lib:/home/zac/franka_ws/install/joint_trajectory_controller/lib:/home/zac/franka_ws/install/integration_launch_testing/lib:/home/zac/franka_ws/install/franka_robot_state_broadcaster/lib:/home/zac/franka_ws/install/franka_example_controllers/lib:/home/zac/franka_ws/install/franka_semantic_components/lib:/home/zac/franka_ws/install/franka_ign_ros2_control/lib:/home/zac/franka_ws/install/franka_hardware/lib:/home/zac/franka_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.059s] UpdateCTestConfiguration  from :/home/zac/franka_ws/build/franka_msgs/CTestConfiguration.ini
+[0.059s] Parse Config file:/home/zac/franka_ws/build/franka_msgs/CTestConfiguration.ini
+[0.060s]    Site: CHARISMA-Predator-571
+[0.060s]    Build name: (empty)
+[0.062s]  Add coverage exclude regular expressions.
+[0.062s] Create new tag: 20240815-0954 - Experimental
+[0.062s] UpdateCTestConfiguration  from :/home/zac/franka_ws/build/franka_msgs/CTestConfiguration.ini
+[0.062s] Parse Config file:/home/zac/franka_ws/build/franka_msgs/CTestConfiguration.ini
+[0.062s] Test project /home/zac/franka_ws/build/franka_msgs
+[0.062s] Constructing a list of tests
+[0.063s] Done constructing a list of tests
+[0.063s] Updating test list for fixtures
+[0.063s] Added 0 tests to meet fixture requirements
+[0.063s] Checking test dependency graph...
+[0.063s] Checking test dependency graph end
+[0.063s] test 1
+[0.064s]     Start 1: copyright
+[0.064s] 
+[0.064s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_msgs/test_results/franka_msgs/copyright.xunit.xml" "--package-name" "franka_msgs" "--output-file" "/home/zac/franka_ws/build/franka_msgs/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/zac/franka_ws/build/franka_msgs/test_results/franka_msgs/copyright.xunit.xml"
+[0.064s] 1: Test timeout computed to be: 200
+[0.133s] 1: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_msgs':
+[0.133s] 1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/zac/franka_ws/build/franka_msgs/test_results/franka_msgs/copyright.xunit.xml
+[0.245s] 1: No repository roots and files found
+[0.245s] 1: No problems found, checked 0 files
+[0.258s] 1: -- run_test.py: return code 0
+[0.258s] 1: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_msgs/test_results/franka_msgs/copyright.xunit.xml'
+[0.270s] 1/3 Test #1: copyright ........................   Passed    0.21 sec
+[0.270s] test 2
+[0.270s]     Start 2: lint_cmake
+[0.270s] 
+[0.270s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_msgs/test_results/franka_msgs/lint_cmake.xunit.xml" "--package-name" "franka_msgs" "--output-file" "/home/zac/franka_ws/build/franka_msgs/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/zac/franka_ws/build/franka_msgs/test_results/franka_msgs/lint_cmake.xunit.xml"
+[0.270s] 2: Test timeout computed to be: 60
+[0.349s] 2: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_msgs':
+[0.349s] 2:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/zac/franka_ws/build/franka_msgs/test_results/franka_msgs/lint_cmake.xunit.xml
+[0.446s] 2: 
+[0.446s] 2: No problems found
+[0.459s] 2: -- run_test.py: return code 0
+[0.459s] 2: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_msgs/test_results/franka_msgs/lint_cmake.xunit.xml'
+[0.475s] 2/3 Test #2: lint_cmake .......................   Passed    0.21 sec
+[0.476s] test 3
+[0.476s]     Start 3: xmllint
+[0.476s] 
+[0.476s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_msgs/test_results/franka_msgs/xmllint.xunit.xml" "--package-name" "franka_msgs" "--output-file" "/home/zac/franka_ws/build/franka_msgs/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/zac/franka_ws/build/franka_msgs/test_results/franka_msgs/xmllint.xunit.xml"
+[0.476s] 3: Test timeout computed to be: 60
+[0.547s] 3: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_msgs':
+[0.547s] 3:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/zac/franka_ws/build/franka_msgs/test_results/franka_msgs/xmllint.xunit.xml
+[0.887s] 3: File 'package.xml' is valid
+[0.887s] 3: 
+[0.887s] 3: No problems found
+[0.900s] 3: -- run_test.py: return code 0
+[0.901s] 3: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_msgs/test_results/franka_msgs/xmllint.xunit.xml'
+[0.912s] 3/3 Test #3: xmllint ..........................   Passed    0.44 sec
+[0.912s] 
+[0.912s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 3
+[0.912s] 
+[0.912s] Label Time Summary:
+[0.912s] copyright     =   0.21 sec*proc (1 test)
+[0.912s] lint_cmake    =   0.21 sec*proc (1 test)
+[0.912s] linter        =   0.85 sec*proc (3 tests)
+[0.912s] xmllint       =   0.44 sec*proc (1 test)
+[0.912s] 
+[0.913s] Total Test time (real) =   0.85 sec
+[0.933s] Invoked command in '/home/zac/franka_ws/build/franka_msgs' returned '0': CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_ign_ros2_control:/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_description LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_msgs/lib:/home/zac/franka_ws/install/joint_trajectory_controller/lib:/home/zac/franka_ws/install/integration_launch_testing/lib:/home/zac/franka_ws/install/franka_robot_state_broadcaster/lib:/home/zac/franka_ws/install/franka_example_controllers/lib:/home/zac/franka_ws/install/franka_semantic_components/lib:/home/zac/franka_ws/install/franka_ign_ros2_control/lib:/home/zac/franka_ws/install/franka_hardware/lib:/home/zac/franka_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

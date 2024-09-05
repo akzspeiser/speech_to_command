@@ -1,0 +1,29 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/franka_semantic_components':
+ - /home/zac/franka_ws/build/franka_semantic_components/franka_semantic_component_interface_test --gtest_output=xml:/home/zac/franka_ws/build/franka_semantic_components/test_results/franka_semantic_components/franka_semantic_component_interface_test.gtest.xml
+
+Running main() from gmock_main.cc
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from SemanticComponentInterfaceTest
+[ RUN      ] SemanticComponentInterfaceTest.validate_default_names
+[       OK ] SemanticComponentInterfaceTest.validate_default_names (0 ms)
+[ RUN      ] SemanticComponentInterfaceTest.validate_command_interface_default_names
+[       OK ] SemanticComponentInterfaceTest.validate_command_interface_default_names (0 ms)
+[ RUN      ] SemanticComponentInterfaceTest.validate_custom_state_interface_names
+[       OK ] SemanticComponentInterfaceTest.validate_custom_state_interface_names (0 ms)
+[ RUN      ] SemanticComponentInterfaceTest.validate_custom_command_interface_names
+[       OK ] SemanticComponentInterfaceTest.validate_custom_command_interface_names (0 ms)
+[ RUN      ] SemanticComponentInterfaceTest.validate_state_interfaces
+[       OK ] SemanticComponentInterfaceTest.validate_state_interfaces (0 ms)
+[ RUN      ] SemanticComponentInterfaceTest.validate_command_interfaces
+[       OK ] SemanticComponentInterfaceTest.validate_command_interfaces (0 ms)
+[----------] 6 tests from SemanticComponentInterfaceTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 6 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/zac/franka_ws/build/franka_semantic_components/test_results/franka_semantic_components/franka_semantic_component_interface_test.gtest.xml'
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_semantic_components/test_results/franka_semantic_components/franka_semantic_component_interface_test.gtest.xml'

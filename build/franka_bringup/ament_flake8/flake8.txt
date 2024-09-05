@@ -1,0 +1,26 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_bringup':
+ - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/zac/franka_ws/build/franka_bringup/test_results/franka_bringup/flake8.xunit.xml
+
+
+13 files checked
+No problems found
+
+Checked files:
+
+* ./launch/joint_position_example_controller.launch.py
+* ./launch/model_example_controller.launch.py
+* ./launch/cartesian_velocity_example_controller.launch.py
+* ./launch/joint_impedance_example_controller.launch.py
+* ./launch/franka.launch.py
+* ./launch/elbow_example_controller.launch.py
+* ./launch/joint_velocity_example_controller.launch.py
+* ./launch/cartesian_orientation_example_controller.launch.py
+* ./launch/gravity_compensation_example_controller.launch.py
+* ./launch/cartesian_pose_example_controller.launch.py
+* ./launch/cartesian_elbow_example_controller.launch.py
+* ./launch/joint_impedance_with_ik_example_controller.launch.py
+* ./launch/move_to_start_example_controller.launch.py
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_bringup/test_results/franka_bringup/flake8.xunit.xml'

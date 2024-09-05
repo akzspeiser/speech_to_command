@@ -1,0 +1,32 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_semantic_components':
+ - /opt/ros/humble/bin/ament_clang_format --xunit-file /home/zac/franka_ws/build/franka_semantic_components/test_results/franka_semantic_components/clang_format.xunit.xml src include --config ../.clang-format
+
+No code style divergence in file 'src/franka_cartesian_pose_interface.cpp'
+
+No code style divergence in file 'src/franka_cartesian_velocity_interface.cpp'
+
+No code style divergence in file 'src/franka_robot_model.cpp'
+
+No code style divergence in file 'src/franka_robot_state.cpp'
+
+No code style divergence in file 'src/franka_semantic_component_interface.cpp'
+
+No code style divergence in file 'src/translation_utils.cpp'
+
+No code style divergence in file 'src/translation_utils.hpp'
+
+No code style divergence in file 'include/franka_semantic_components/franka_cartesian_pose_interface.hpp'
+
+No code style divergence in file 'include/franka_semantic_components/franka_cartesian_velocity_interface.hpp'
+
+No code style divergence in file 'include/franka_semantic_components/franka_robot_model.hpp'
+
+No code style divergence in file 'include/franka_semantic_components/franka_robot_state.hpp'
+
+No code style divergence in file 'include/franka_semantic_components/franka_semantic_component_interface.hpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_semantic_components/test_results/franka_semantic_components/clang_format.xunit.xml'

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="franka_semantic_components.cppcheck"
+  tests="12"
+  errors="0"
+  failures="0"
+  time="0.000"
+  skipped="12"
+>
+  <testcase
+    name="include/franka_semantic_components/franka_cartesian_pose_interface.hpp"
+    classname="franka_semantic_components.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/franka_semantic_components/franka_cartesian_velocity_interface.hpp"
+    classname="franka_semantic_components.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/franka_semantic_components/franka_robot_model.hpp"
+    classname="franka_semantic_components.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/franka_semantic_components/franka_robot_state.hpp"
+    classname="franka_semantic_components.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/franka_semantic_components/franka_semantic_component_interface.hpp"
+    classname="franka_semantic_components.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/franka_cartesian_pose_interface.cpp"
+    classname="franka_semantic_components.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/franka_cartesian_velocity_interface.cpp"
+    classname="franka_semantic_components.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/franka_robot_model.cpp"
+    classname="franka_semantic_components.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/franka_robot_state.cpp"
+    classname="franka_semantic_components.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/franka_semantic_component_interface.cpp"
+    classname="franka_semantic_components.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/translation_utils.cpp"
+    classname="franka_semantic_components.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/translation_utils.hpp"
+    classname="franka_semantic_components.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <system-err>Tests Skipped due to cppcheck 2.7 performance issues</system-err>
+</testsuite>

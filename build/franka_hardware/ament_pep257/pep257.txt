@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_hardware':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/zac/franka_ws/build/franka_hardware/test_results/franka_hardware/pep257.xunit.xml
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_hardware/test_results/franka_hardware/pep257.xunit.xml'

@@ -1,0 +1,33 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/joint_trajectory_controller':
+ - /home/zac/franka_ws/build/joint_trajectory_controller/test_trajectory --gtest_output=xml:/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_trajectory.gtest.xml
+
+Running main() from gmock_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from TestTrajectory
+[ RUN      ] TestTrajectory.initialize_trajectory
+[       OK ] TestTrajectory.initialize_trajectory (0 ms)
+[ RUN      ] TestTrajectory.sample_trajectory_positions
+[       OK ] TestTrajectory.sample_trajectory_positions (0 ms)
+[ RUN      ] TestTrajectory.interpolation_pos_vel
+[       OK ] TestTrajectory.interpolation_pos_vel (0 ms)
+[ RUN      ] TestTrajectory.interpolation_pos_vel_accel
+[       OK ] TestTrajectory.interpolation_pos_vel_accel (0 ms)
+[ RUN      ] TestTrajectory.sample_trajectory_velocity_with_interpolation
+[       OK ] TestTrajectory.sample_trajectory_velocity_with_interpolation (1 ms)
+[ RUN      ] TestTrajectory.sample_trajectory_velocity_with_interpolation_strange_without_vel
+[       OK ] TestTrajectory.sample_trajectory_velocity_with_interpolation_strange_without_vel (0 ms)
+[ RUN      ] TestTrajectory.sample_trajectory_acceleration_with_interpolation
+[       OK ] TestTrajectory.sample_trajectory_acceleration_with_interpolation (0 ms)
+[ RUN      ] TestTrajectory.skip_interpolation
+[       OK ] TestTrajectory.skip_interpolation (0 ms)
+[----------] 8 tests from TestTrajectory (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 8 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_trajectory.gtest.xml'
+-- run_test.py: verify result file '/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_trajectory.gtest.xml'

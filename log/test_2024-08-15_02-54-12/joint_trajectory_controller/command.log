@@ -1,0 +1,2 @@
+Invoking command in '/home/zac/franka_ws/build/joint_trajectory_controller': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+Invoked command in '/home/zac/franka_ws/build/joint_trajectory_controller' returned '8': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

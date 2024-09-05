@@ -1,0 +1,2 @@
+Invoking command in '/home/zac/franka_ws/build/franka_description': /usr/bin/cmake /home/zac/franka_ws/src/franka_description -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/franka_description
+Invoked command in '/home/zac/franka_ws/build/franka_description' returned '1': /usr/bin/cmake /home/zac/franka_ws/src/franka_description -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/franka_description

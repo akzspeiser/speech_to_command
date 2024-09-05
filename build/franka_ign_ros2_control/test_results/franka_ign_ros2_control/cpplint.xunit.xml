@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="franka_ign_ros2_control.cpplint"
+  tests="7"
+  failures="0"
+  errors="0"
+  time="0.478"
+>
+  <testcase
+    name="/home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include/ign_ros2_control/ign_ros2_control_plugin.hpp"
+    classname="franka_ign_ros2_control.cpplint"/>
+  <testcase
+    name="/home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include/ign_ros2_control/ign_system.hpp"
+    classname="franka_ign_ros2_control.cpplint"/>
+  <testcase
+    name="/home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include/ign_ros2_control/ign_system_interface.hpp"
+    classname="franka_ign_ros2_control.cpplint"/>
+  <testcase
+    name="/home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include/ign_ros2_control/model_kdl.h"
+    classname="franka_ign_ros2_control.cpplint"/>
+  <testcase
+    name="/home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/src/ign_ros2_control_plugin.cpp"
+    classname="franka_ign_ros2_control.cpplint"/>
+  <testcase
+    name="/home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/src/ign_system.cpp"
+    classname="franka_ign_ros2_control.cpplint"/>
+  <testcase
+    name="/home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/src/model_kdl.cpp"
+    classname="franka_ign_ros2_control.cpplint"/>
+  <system-out>Checked files:
+* /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include/ign_ros2_control/ign_ros2_control_plugin.hpp
+* /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include/ign_ros2_control/ign_system.hpp
+* /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include/ign_ros2_control/ign_system_interface.hpp
+* /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include/ign_ros2_control/model_kdl.h
+* /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/src/ign_ros2_control_plugin.cpp
+* /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/src/ign_system.cpp
+* /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/src/model_kdl.cpp</system-out>
+</testsuite>

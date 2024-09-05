@@ -1,0 +1,62 @@
+[0.022s] Invoking command in '/home/zac/franka_ws/build/franka_hardware': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zac/franka_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zac/franka_ws/build/franka_hardware -- -j8 -l8
+[0.147s] [ 11%] Built target gmock_main
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target franka_hardware[0m
+[0.158s] [ 27%] Built target gmock
+[0.245s] [ 61%] Built target franka_hardware
+[0.327s] [ 66%] [32mBuilding CXX object test/CMakeFiles/franka_hardware_test.dir/franka_hardware_interface_test.cpp.o[0m
+[0.342s] [ 72%] [32mBuilding CXX object test/CMakeFiles/franka_hardware_test.dir/franka_action_server_test.cpp.o[0m
+[0.360s] [ 77%] [32mBuilding CXX object test/CMakeFiles/franka_hardware_command_interface_test.dir/franka_hardware_cartesian_command_interface_test.cpp.o[0m
+[0.365s] [ 83%] [32mBuilding CXX object test/CMakeFiles/franka_hardware_robot_test.dir/franka_robot_test.cpp.o[0m
+[7.720s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:375[m[K,
+[7.721s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:47[m[K,
+[7.724s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-actions.h:51[m[K,
+[7.725s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h:59[m[K,
+[7.725s]                  from [01m[K/home/zac/franka_ws/src/franka_ros2/franka_hardware/test/franka_hardware_interface_test.cpp:15[m[K:
+[7.725s] [01m[K/home/zac/franka_ws/src/franka_ros2/franka_hardware/test/franka_hardware_interface_test.cpp:[m[K In member function ‘[01m[Kvirtual void FrankaHardwareInterfaceTest_given_that_the_robot_interfaces_are_set_when_call_export_state_interface_robot_model_interface_exists_Test::TestBody()[m[K’:
+[7.726s] [01m[K/home/zac/franka_ws/src/franka_ros2/franka_hardware/test/franka_hardware_interface_test.cpp:187:16:[m[K [01;35m[Kwarning: [m[Kdereferencing type-punned pointer will break strict-aliasing rules [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstrict-aliasing-Wstrict-aliasing]8;;[m[K]
+[7.726s]   187 |               *[01;35m[Kreinterpret_cast<double*>(&model_address)[m[K,
+[7.726s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.726s] [01m[K/home/zac/franka_ws/src/franka_ros2/franka_hardware/test/franka_hardware_interface_test.cpp:[m[K In member function ‘[01m[Kvirtual void FrankaHardwareInterfaceTest_given_that_the_robot_interfaces_are_set_when_call_export_state_interface_robot_state_interface_exists_Test::TestBody()[m[K’:
+[7.726s] [01m[K/home/zac/franka_ws/src/franka_ros2/franka_hardware/test/franka_hardware_interface_test.cpp:219:16:[m[K [01;35m[Kwarning: [m[Kdereferencing type-punned pointer will break strict-aliasing rules [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstrict-aliasing-Wstrict-aliasing]8;;[m[K]
+[7.726s]   219 |               *[01;35m[Kreinterpret_cast<double*>(&robot_state_address)[m[K,
+[7.727s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.057s] [ 88%] [32m[1mLinking CXX executable franka_hardware_robot_test[0m
+[22.563s] [ 88%] Built target franka_hardware_robot_test
+[26.075s] [ 94%] [32m[1mLinking CXX executable franka_hardware_command_interface_test[0m
+[26.476s] [ 94%] Built target franka_hardware_command_interface_test
+[37.264s] [100%] [32m[1mLinking CXX executable franka_hardware_test[0m
+[37.950s] [100%] Built target franka_hardware_test
+[37.966s] Invoked command in '/home/zac/franka_ws/build/franka_hardware' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zac/franka_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zac/franka_ws/build/franka_hardware -- -j8 -l8
+[38.030s] Invoking command in '/home/zac/franka_ws/build/franka_hardware': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zac/franka_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zac/franka_ws/build/franka_hardware
+[38.039s] -- Install configuration: "Release"
+[38.040s] -- Execute custom install script
+[38.040s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware//franka_hardware.xml
+[38.041s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/lib/libfranka_hardware.so
+[38.041s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/include/franka_hardware/franka_action_server.hpp
+[38.042s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/include/franka_hardware/franka_executor.hpp
+[38.042s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/include/franka_hardware/franka_hardware_interface.hpp
+[38.042s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/include/franka_hardware/franka_param_service_server.hpp
+[38.042s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/include/franka_hardware/model.hpp
+[38.042s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/include/franka_hardware/robot.hpp
+[38.043s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/environment/library_path.sh
+[38.043s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/environment/library_path.dsv
+[38.043s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/ament_index/resource_index/package_run_dependencies/franka_hardware
+[38.043s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/ament_index/resource_index/parent_prefix_path/franka_hardware
+[38.044s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/environment/ament_prefix_path.sh
+[38.044s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/environment/ament_prefix_path.dsv
+[38.044s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/environment/path.sh
+[38.045s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/environment/path.dsv
+[38.045s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/local_setup.bash
+[38.045s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/local_setup.sh
+[38.045s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/local_setup.zsh
+[38.046s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/local_setup.dsv
+[38.046s] -- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/package.dsv
+[38.058s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/ament_index/resource_index/packages/franka_hardware
+[38.059s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/franka_hardware
+[38.059s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.059s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[38.059s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.060s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig.cmake
+[38.060s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig-version.cmake
+[38.060s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/package.xml
+[38.064s] Invoked command in '/home/zac/franka_ws/build/franka_hardware' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zac/franka_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zac/franka_ws/build/franka_hardware

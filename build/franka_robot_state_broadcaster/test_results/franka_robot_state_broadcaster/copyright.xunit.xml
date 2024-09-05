@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="franka_robot_state_broadcaster.copyright"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="0.067"
+>
+  <testcase
+    name="include/franka_robot_state_broadcaster/franka_robot_state_broadcaster.hpp"
+    classname="franka_robot_state_broadcaster.copyright"/>
+  <testcase
+    name="src/franka_robot_state_broadcaster.cpp"
+    classname="franka_robot_state_broadcaster.copyright"/>
+  <system-out>Checked files:
+* include/franka_robot_state_broadcaster/franka_robot_state_broadcaster.hpp
+* src/franka_robot_state_broadcaster.cpp</system-out>
+</testsuite>

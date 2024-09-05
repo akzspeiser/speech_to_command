@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/integration_launch_testing':
+ - /opt/ros/humble/bin/ament_copyright --xunit-file /home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/copyright.xunit.xml package.xml
+
+No repository roots and files found
+No problems found, checked 0 files
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/integration_launch_testing/test_results/integration_launch_testing/copyright.xunit.xml'

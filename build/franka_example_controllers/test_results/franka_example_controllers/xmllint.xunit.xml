@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="franka_example_controllers.xmllint"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="0.188"
+>
+  <testcase
+    name="franka_example_controllers.xml"
+    classname="franka_example_controllers.xmllint"/>
+  <testcase
+    name="package.xml"
+    classname="franka_example_controllers.xmllint"/>
+  <system-out>Checked files:
+* franka_example_controllers.xml
+* package.xml</system-out>
+</testsuite>

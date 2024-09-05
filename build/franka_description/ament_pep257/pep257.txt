@@ -1,0 +1,11 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_description':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/zac/franka_ws/build/franka_description/test_results/franka_description/pep257.xunit.xml
+
+checking ./launch/visualize_franka.launch.py
+checking ./scripts/create_urdf.py
+checking ./test/urdf_tests.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_description/test_results/franka_description/pep257.xunit.xml'

@@ -1,0 +1,26 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/franka_fr3_moveit_config':
+ - /usr/bin/python3 -u -m pytest /home/zac/franka_ws/src/franka_ros2/franka_fr3_moveit_config/test/srdf_tests.py -o cache_dir=/home/zac/franka_ws/build/franka_fr3_moveit_config/ament_cmake_pytest/franka_fr3_moveit_config_srdf_tests/.cache --junit-xml=/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/franka_fr3_moveit_config_srdf_tests.xunit.xml --junit-prefix=franka_fr3_moveit_config
+
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: build/franka_fr3_moveit_config/ament_cmake_pytest/franka_fr3_moveit_config_srdf_tests/.cache
+rootdir: /home/zac/franka_ws
+plugins: launch-testing-ros-0.19.7, ament-flake8-0.12.11, ament-pep257-0.12.11, ament-lint-0.12.11, launch-testing-1.0.6, ament-copyright-0.12.11, ament-xmllint-0.12.11, cov-3.0.0, colcon-core-0.17.0
+collected 3 items
+
+../../src/franka_ros2/franka_fr3_moveit_config/test/srdf_tests.py ...    [100%]
+
+=============================== warnings summary ===============================
+../../../../../opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:558
+  Warning: invalid escape sequence '\$'
+
+../../../../../opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:559
+  Warning: invalid escape sequence '\s'
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+- generated xml file: /home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/franka_fr3_moveit_config_srdf_tests.xunit.xml -
+======================== 3 passed, 2 warnings in 0.11s =========================
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/franka_fr3_moveit_config_srdf_tests.xunit.xml'

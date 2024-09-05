@@ -1,0 +1,24 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_description':
+ - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/zac/franka_ws/build/franka_description/test_results/franka_description/flake8.xunit.xml
+
+                if HAND != False and EE != "none":
+                        ^
+1     E712 comparison to False should be 'if cond is not False:' or 'if cond:'
+
+./scripts/create_urdf.py:155:25: E712 comparison to False should be 'if cond is not False:' or 'if cond:'
+
+
+3 files checked
+1 errors
+
+'E'-type errors: 1
+
+Checked files:
+
+* ./launch/visualize_franka.launch.py
+* ./test/urdf_tests.py
+* ./scripts/create_urdf.py
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_description/test_results/franka_description/flake8.xunit.xml'

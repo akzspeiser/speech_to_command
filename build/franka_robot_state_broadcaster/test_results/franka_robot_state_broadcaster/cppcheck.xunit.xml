@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="franka_robot_state_broadcaster.cppcheck"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="0.000"
+  skipped="2"
+>
+  <testcase
+    name="include/franka_robot_state_broadcaster/franka_robot_state_broadcaster.hpp"
+    classname="franka_robot_state_broadcaster.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/franka_robot_state_broadcaster.cpp"
+    classname="franka_robot_state_broadcaster.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <system-err>Tests Skipped due to cppcheck 2.7 performance issues</system-err>
+</testsuite>

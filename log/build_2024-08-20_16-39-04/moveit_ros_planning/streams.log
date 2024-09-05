@@ -1,0 +1,195 @@
+[0.109s] Invoking command in '/home/zac/franka_ws/build/moveit_ros_planning': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake /home/zac/franka_ws/src/moveit2/moveit_ros/planning -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/moveit_ros_planning
+[0.409s] -- Found moveit_common: 2.5.5 (/home/zac/franka_ws/install/moveit_common/share/moveit_common/cmake)
+[0.409s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.527s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.726s] [0mmoveit_ros_planning: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.727s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[0.806s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.813s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.830s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.854s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.886s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.410s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.494s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.625s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.635s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.694s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.715s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.747s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.768s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.790s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.900s] -- Found message_filters: 4.3.4 (/opt/ros/humble/share/message_filters/cmake)
+[1.928s] -- Found srdfdom: 2.0.4 (/opt/ros/humble/share/srdfdom/cmake)
+[1.950s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[1.962s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.969s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.980s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.137s] -- Found tf2_eigen: 0.25.7 (/opt/ros/humble/share/tf2_eigen/cmake)
+[2.153s] -- Found moveit_core: 2.5.5 (/home/zac/franka_ws/install/moveit_core/share/moveit_core/cmake)
+[2.219s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.315s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.348s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.480s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.615s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.771s] -- Found moveit_ros_occupancy_map_monitor: 2.5.5 (/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake)
+[2.829s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.038s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.040s] -- Found ament_cmake_gmock: 1.3.10 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[3.043s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.049s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.142s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.182s] -- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[3.183s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.237s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.237s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.237s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.310s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.312s] -- Configured cppcheck include dirs: /home/zac/franka_ws/src/moveit2/moveit_ros/planning/rdf_loader/include;/home/zac/franka_ws/src/moveit2/moveit_ros/planning/kinematics_plugin_loader/include;/home/zac/franka_ws/src/moveit2/moveit_ros/planning/robot_model_loader/include;/home/zac/franka_ws/src/moveit2/moveit_ros/planning/constraint_sampler_manager_loader/include;/home/zac/franka_ws/src/moveit2/moveit_ros/planning/planning_pipeline/include;/home/zac/franka_ws/src/moveit2/moveit_ros/planning/planning_scene_monitor/include;/home/zac/franka_ws/src/moveit2/moveit_ros/planning/trajectory_execution_manager/include;/home/zac/franka_ws/src/moveit2/moveit_ros/planning/plan_execution/include;/home/zac/franka_ws/src/moveit2/moveit_ros/planning/collision_plugin_loader/include;/home/zac/franka_ws/src/moveit2/moveit_ros/planning/moveit_cpp/include
+[3.312s] -- Configured cppcheck exclude dirs and/or files: 
+[3.323s] -- Added test 'lint_cmake' to check CMake code style
+[3.334s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.339s] -- Added test 'xmllint' to check XML markup files
+[3.356s] -- Configuring done
+[4.397s] -- Generating done
+[4.426s] -- Build files have been written to: /home/zac/franka_ws/build/moveit_ros_planning
+[4.475s] Invoked command in '/home/zac/franka_ws/build/moveit_ros_planning' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake /home/zac/franka_ws/src/moveit2/moveit_ros/planning -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/moveit_ros_planning
+[4.476s] Invoking command in '/home/zac/franka_ws/build/moveit_ros_planning': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --build /home/zac/franka_ws/build/moveit_ros_planning -- -j8 -l8
+[4.694s] [35m[1mConsolidate compiler generated dependencies of target moveit_rdf_loader[0m
+[4.698s] [35m[1mConsolidate compiler generated dependencies of target moveit_list_request_adapter_plugins[0m
+[4.698s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[4.726s] [35m[1mConsolidate compiler generated dependencies of target moveit_collision_plugin_loader[0m
+[4.728s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[4.728s] [35m[1mConsolidate compiler generated dependencies of target moveit_planning_pipeline[0m
+[4.790s] [35m[1mConsolidate compiler generated dependencies of target moveit_default_planning_request_adapter_plugins[0m
+[4.897s] [  8%] Built target gmock_main
+[4.898s] [  8%] Built target gmock
+[4.917s] [ 12%] Built target moveit_rdf_loader
+[4.951s] [ 16%] Built target moveit_planning_pipeline
+[4.965s] [35m[1mConsolidate compiler generated dependencies of target moveit_kinematics_plugin_loader[0m
+[4.999s] [35m[1mConsolidate compiler generated dependencies of target moveit_constraint_sampler_manager_loader[0m
+[5.001s] [ 19%] Built target moveit_collision_plugin_loader
+[5.022s] [ 20%] [32m[1mLinking CXX executable moveit_list_request_adapter_plugins[0m
+[5.098s] [ 24%] Built target moveit_kinematics_plugin_loader
+[5.117s] [ 27%] Built target moveit_constraint_sampler_manager_loader
+[5.121s] [ 45%] Built target moveit_default_planning_request_adapter_plugins
+[5.141s] [35m[1mConsolidate compiler generated dependencies of target moveit_robot_model_loader[0m
+[5.226s] [ 48%] Built target moveit_robot_model_loader
+[5.252s] [35m[1mConsolidate compiler generated dependencies of target moveit_print_planning_model_info[0m
+[5.261s] [35m[1mConsolidate compiler generated dependencies of target moveit_planning_scene_monitor[0m
+[5.316s] [ 50%] [32m[1mLinking CXX executable moveit_print_planning_model_info[0m
+[5.443s] [ 59%] Built target moveit_planning_scene_monitor
+[5.471s] [35m[1mConsolidate compiler generated dependencies of target demo_scene[0m
+[5.494s] [35m[1mConsolidate compiler generated dependencies of target current_state_monitor_tests[0m
+[5.508s] [35m[1mConsolidate compiler generated dependencies of target moveit_print_planning_scene_info[0m
+[5.519s] [35m[1mConsolidate compiler generated dependencies of target moveit_visualize_robot_collision_volume[0m
+[5.523s] [35m[1mConsolidate compiler generated dependencies of target trajectory_monitor_tests[0m
+[5.529s] [35m[1mConsolidate compiler generated dependencies of target moveit_display_random_state[0m
+[5.551s] [ 61%] Built target moveit_list_request_adapter_plugins
+[5.616s] [35m[1mConsolidate compiler generated dependencies of target moveit_evaluate_collision_checking_speed[0m
+[5.624s] [ 62%] [32m[1mLinking CXX executable demo_scene[0m
+[5.694s] [ 66%] Built target current_state_monitor_tests
+[5.738s] [ 67%] [32m[1mLinking CXX executable moveit_display_random_state[0m
+[5.745s] [35m[1mConsolidate compiler generated dependencies of target moveit_publish_scene_from_text[0m
+[5.772s] [ 70%] Built target trajectory_monitor_tests
+[5.781s] [ 72%] [32m[1mLinking CXX executable moveit_visualize_robot_collision_volume[0m
+[5.804s] [ 74%] [32m[1mLinking CXX executable moveit_print_planning_scene_info[0m
+[5.824s] [35m[1mConsolidate compiler generated dependencies of target moveit_trajectory_execution_manager[0m
+[5.914s] [ 75%] [32m[1mLinking CXX executable moveit_evaluate_collision_checking_speed[0m
+[6.016s] [ 77%] [32m[1mLinking CXX executable moveit_publish_scene_from_text[0m
+[6.094s] [ 80%] Built target moveit_trajectory_execution_manager
+[6.188s] [35m[1mConsolidate compiler generated dependencies of target moveit_plan_execution[0m
+[6.212s] [ 82%] Built target moveit_print_planning_model_info
+[6.309s] [35m[1mConsolidate compiler generated dependencies of target moveit_cpp[0m
+[6.433s] [ 85%] Built target moveit_plan_execution
+[6.517s] [ 87%] Built target demo_scene
+[6.555s] [ 91%] Built target moveit_cpp
+[7.015s] [ 93%] Built target moveit_print_planning_scene_info
+[7.023s] [ 95%] Built target moveit_display_random_state
+[7.037s] [ 96%] Built target moveit_visualize_robot_collision_volume
+[7.118s] [ 98%] Built target moveit_evaluate_collision_checking_speed
+[7.142s] [100%] Built target moveit_publish_scene_from_text
+[7.162s] Invoked command in '/home/zac/franka_ws/build/moveit_ros_planning' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --build /home/zac/franka_ws/build/moveit_ros_planning -- -j8 -l8
+[7.251s] Invoking command in '/home/zac/franka_ws/build/moveit_ros_planning': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --install /home/zac/franka_ws/build/moveit_ros_planning
+[7.267s] -- Install configuration: "Release"
+[7.268s] -- Execute custom install script
+[7.268s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/include/moveit/rdf_loader/rdf_loader.h
+[7.287s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/include/moveit/rdf_loader/synchronized_string_parameter.h
+[7.306s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/gonzo.srdf
+[7.325s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/gonzo.urdf
+[7.343s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/kermit.srdf
+[7.362s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/kermit.urdf
+[7.382s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/robin.srdf.xacro
+[7.402s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/launch/test_rdf_integration.test.py
+[7.421s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/include/moveit/collision_plugin_loader/collision_plugin_loader.h
+[7.440s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/include/moveit/kinematics_plugin_loader/kinematics_plugin_loader.h
+[7.459s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/include/moveit/robot_model_loader/robot_model_loader.h
+[7.481s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/include/moveit/constraint_sampler_manager_loader/constraint_sampler_manager_loader.h
+[7.499s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h
+[7.517s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/include/moveit_planning_pipeline_export.h
+[7.530s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_list_request_adapter_plugins
+[7.544s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/lib/moveit_ros_planning/demo_scene
+[7.559s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/include/moveit/planning_scene_monitor/current_state_monitor.h
+[7.574s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/include/moveit/planning_scene_monitor/current_state_monitor_middleware_handle.hpp
+[7.588s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/include/moveit/planning_scene_monitor/planning_scene_monitor.h
+[7.601s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/include/moveit/planning_scene_monitor/trajectory_monitor.h
+[7.614s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/include/moveit/planning_scene_monitor/trajectory_monitor_middleware_handle.hpp
+[7.628s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/include/moveit_planning_scene_monitor_export.h
+[7.645s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_print_planning_model_info
+[7.663s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_print_planning_scene_info
+[7.676s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_display_random_state
+[7.689s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_visualize_robot_collision_volume
+[7.702s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_evaluate_collision_checking_speed
+[7.717s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_publish_scene_from_text
+[7.730s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h
+[7.743s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/include/moveit_trajectory_execution_manager_export.h
+[7.755s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/include/moveit/plan_execution/plan_execution.h
+[7.771s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/include/moveit/plan_execution/plan_representation.h
+[7.789s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/include/moveit/moveit_cpp/moveit_cpp.h
+[7.803s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/include/moveit/moveit_cpp/planning_component.h
+[7.819s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/environment/library_path.sh
+[7.835s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/environment/library_path.dsv
+[7.852s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning//planning_request_adapters_plugin_description.xml
+[7.869s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/ament_index/resource_index/package_run_dependencies/moveit_ros_planning
+[7.886s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/ament_index/resource_index/parent_prefix_path/moveit_ros_planning
+[7.900s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/environment/ament_prefix_path.sh
+[7.914s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/environment/ament_prefix_path.dsv
+[7.928s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/environment/path.sh
+[7.944s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/environment/path.dsv
+[7.961s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/local_setup.bash
+[7.978s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/local_setup.sh
+[7.995s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/local_setup.zsh
+[8.012s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/local_setup.dsv
+[8.030s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/package.dsv
+[8.047s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/ament_index/resource_index/packages/moveit_ros_planning
+[8.064s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_ros_planning
+[8.081s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake/ConfigExtras.cmake
+[8.099s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake/ament_cmake_export_targets-extras.cmake
+[8.117s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.134s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake
+[8.147s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake/moveit_ros_planningConfig-version.cmake
+[8.161s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/package.xml
+[8.177s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_rdf_loader.so.2.5.5
+[8.178s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_rdf_loader.so
+[8.179s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_kinematics_plugin_loader.so.2.5.5
+[8.180s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_kinematics_plugin_loader.so
+[8.181s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_robot_model_loader.so.2.5.5
+[8.181s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_robot_model_loader.so
+[8.183s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_constraint_sampler_manager_loader.so.2.5.5
+[8.183s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_constraint_sampler_manager_loader.so
+[8.184s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_planning_pipeline.so.2.5.5
+[8.185s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_planning_pipeline.so
+[8.186s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_trajectory_execution_manager.so.2.5.5
+[8.186s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_trajectory_execution_manager.so
+[8.188s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_plan_execution.so.2.5.5
+[8.189s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_plan_execution.so
+[8.190s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_planning_scene_monitor.so.2.5.5
+[8.191s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_planning_scene_monitor.so
+[8.192s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.so.2.5.5
+[8.193s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.so
+[8.194s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_default_planning_request_adapter_plugins.so.2.5.5
+[8.194s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_default_planning_request_adapter_plugins.so
+[8.196s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_cpp.so.2.5.5
+[8.196s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/lib/libmoveit_cpp.so
+[8.197s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake/export_moveit_ros_planningExport.cmake
+[8.197s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake/export_moveit_ros_planningExport-release.cmake
+[8.201s] Invoked command in '/home/zac/franka_ws/build/moveit_ros_planning' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --install /home/zac/franka_ws/build/moveit_ros_planning

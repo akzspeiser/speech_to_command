@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="6" failures="0" disabled="0" errors="0" time="0" timestamp="2024-08-15T02:54:25" name="AllTests">
+  <testsuite name="SemanticComponentInterfaceTest" tests="6" failures="0" disabled="0" errors="0" time="0" timestamp="2024-08-15T02:54:25">
+    <testcase name="validate_default_names" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.SemanticComponentInterfaceTest" />
+    <testcase name="validate_command_interface_default_names" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.SemanticComponentInterfaceTest" />
+    <testcase name="validate_custom_state_interface_names" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.SemanticComponentInterfaceTest" />
+    <testcase name="validate_custom_command_interface_names" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.SemanticComponentInterfaceTest" />
+    <testcase name="validate_state_interfaces" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.SemanticComponentInterfaceTest" />
+    <testcase name="validate_command_interfaces" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.SemanticComponentInterfaceTest" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="integration_launch_testing.flake8"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.125"
+>
+  <testcase
+    name="flake8"
+    classname="integration_launch_testing.flake8"/>
+  <system-out>Checked files:
+* ./test/test_franka_gripper_position.py
+* ./test/test_move_to_start_example_controller.py</system-out>
+</testsuite>

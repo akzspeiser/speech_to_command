@@ -1,0 +1,11 @@
+[31mCMake Error at CMakeLists.txt:29 (find_package):
+  Could not find a configuration file for package "Franka" that is compatible
+  with requested version "0.13.3".
+
+  The following configuration files were considered but not accepted:
+
+    /usr/lib/cmake/Franka/FrankaConfig.cmake, version: 0.13.2
+    /lib/cmake/Franka/FrankaConfig.cmake, version: 0.13.2
+
+
+[0m

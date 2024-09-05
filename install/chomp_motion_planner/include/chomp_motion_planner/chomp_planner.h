@@ -1,0 +1,1 @@
+/home/zac/franka_ws/src/moveit2/moveit_planners/chomp/chomp_motion_planner/include/chomp_motion_planner/chomp_planner.h

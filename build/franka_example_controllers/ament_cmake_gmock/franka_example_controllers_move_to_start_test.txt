@@ -1,0 +1,32 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/franka_example_controllers':
+ - /home/zac/franka_ws/build/franka_example_controllers/franka_example_controllers_move_to_start_test --gtest_output=xml:/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_move_to_start_test.gtest.xml
+
+Running main() from gmock_main.cc
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from MoveToStartExampleControllerTest
+[ RUN      ] MoveToStartExampleControllerTest.controller_gains_not_set_failure
+[FATAL] [1723715668.836307575] [test_move_to_start_example]: k_gains parameter not set
+[       OK ] MoveToStartExampleControllerTest.controller_gains_not_set_failure (15 ms)
+[ RUN      ] MoveToStartExampleControllerTest.contoller_gain_empty
+[FATAL] [1723715668.844903947] [test_move_to_start_example]: k_gains parameter not set
+[       OK ] MoveToStartExampleControllerTest.contoller_gain_empty (9 ms)
+[ RUN      ] MoveToStartExampleControllerTest.contoller_damping_gain_empty
+[FATAL] [1723715668.853383855] [test_move_to_start_example]: d_gains parameter not set
+[       OK ] MoveToStartExampleControllerTest.contoller_damping_gain_empty (8 ms)
+[ RUN      ] MoveToStartExampleControllerTest.correct_controller_gains_success
+[       OK ] MoveToStartExampleControllerTest.correct_controller_gains_success (7 ms)
+[ RUN      ] MoveToStartExampleControllerTest.correct_setup_on_activate_expect_success
+[       OK ] MoveToStartExampleControllerTest.correct_setup_on_activate_expect_success (9 ms)
+[ RUN      ] MoveToStartExampleControllerTest.correct_setup_on_update_expect_ok
+[       OK ] MoveToStartExampleControllerTest.correct_setup_on_update_expect_ok (6 ms)
+[----------] 6 tests from MoveToStartExampleControllerTest (54 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (60 ms total)
+[  PASSED  ] 6 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_move_to_start_test.gtest.xml'
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_move_to_start_test.gtest.xml'

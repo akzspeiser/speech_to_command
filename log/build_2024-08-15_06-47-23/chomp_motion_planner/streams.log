@@ -1,0 +1,89 @@
+[0.035s] Invoking command in '/home/zac/franka_ws/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_ign_ros2_control:/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:/home/zac/franka_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake /home/zac/franka_ws/src/moveit2/moveit_planners/chomp/chomp_motion_planner -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/chomp_motion_planner
+[0.160s] -- The C compiler identification is GNU 11.4.0
+[0.276s] -- The CXX compiler identification is GNU 11.4.0
+[0.288s] -- Detecting C compiler ABI info
+[0.431s] -- Detecting C compiler ABI info - done
+[0.448s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.449s] -- Detecting C compile features
+[0.450s] -- Detecting C compile features - done
+[0.456s] -- Detecting CXX compiler ABI info
+[0.627s] -- Detecting CXX compiler ABI info - done
+[0.644s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.645s] -- Detecting CXX compile features
+[0.646s] -- Detecting CXX compile features - done
+[0.648s] -- Found moveit_common: 2.5.5 (/home/zac/franka_ws/install/moveit_common/share/moveit_common/cmake)
+[0.660s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.999s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.423s] [0mchomp_motion_planner: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[1.425s] -- Found moveit_core: 2.5.5 (/home/zac/franka_ws/install/moveit_core/share/moveit_core/cmake)
+[1.940s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.164s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.360s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.392s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.427s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.471s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.533s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.719s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.735s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.024s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.093s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.202s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.248s] -- Found Threads: TRUE  
+[3.446s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.460s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[3.551s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[3.911s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.123s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.957s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.002s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.002s] -- Configured cppcheck include dirs: /home/zac/franka_ws/src/moveit2/moveit_planners/chomp/chomp_motion_planner/include
+[5.003s] -- Configured cppcheck exclude dirs and/or files: 
+[5.005s] -- Added test 'xmllint' to check XML markup files
+[5.010s] -- Configuring done
+[5.070s] -- Generating done
+[5.075s] -- Build files have been written to: /home/zac/franka_ws/build/chomp_motion_planner
+[5.098s] Invoked command in '/home/zac/franka_ws/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_ign_ros2_control:/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:/home/zac/franka_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake /home/zac/franka_ws/src/moveit2/moveit_planners/chomp/chomp_motion_planner -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/chomp_motion_planner
+[5.101s] Invoking command in '/home/zac/franka_ws/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_ign_ros2_control:/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:/home/zac/franka_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --build /home/zac/franka_ws/build/chomp_motion_planner -- -j8 -l8
+[5.197s] [ 16%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_cost.cpp.o[0m
+[29.087s] [ 33%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_planner.cpp.o[0m
+[49.255s] [ 50%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_optimizer.cpp.o[0m
+[87.865s] [ 66%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o[0m
+[100.634s] [ 83%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_parameters.cpp.o[0m
+[101.547s] [100%] [32m[1mLinking CXX shared library libchomp_motion_planner.so[0m
+[101.962s] [100%] Built target chomp_motion_planner
+[101.983s] Invoked command in '/home/zac/franka_ws/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_ign_ros2_control:/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:/home/zac/franka_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --build /home/zac/franka_ws/build/chomp_motion_planner -- -j8 -l8
+[102.057s] Invoking command in '/home/zac/franka_ws/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_ign_ros2_control:/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:/home/zac/franka_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --install /home/zac/franka_ws/build/chomp_motion_planner
+[102.069s] -- Install configuration: "Release"
+[102.069s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/lib/libchomp_motion_planner.so.2.5.5
+[102.071s] -- Set runtime path of "/home/zac/franka_ws/install/chomp_motion_planner/lib/libchomp_motion_planner.so.2.5.5" to ""
+[102.074s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/lib/libchomp_motion_planner.so
+[102.074s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/include
+[102.074s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/include/chomp_motion_planner
+[102.075s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_utils.h
+[102.075s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/include/chomp_motion_planner/multivariate_gaussian.h
+[102.075s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_planner.h
+[102.075s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_trajectory.h
+[102.075s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_cost.h
+[102.075s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_parameters.h
+[102.075s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_optimizer.h
+[102.076s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.sh
+[102.076s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.dsv
+[102.076s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/share/ament_index/resource_index/package_run_dependencies/chomp_motion_planner
+[102.076s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/share/ament_index/resource_index/parent_prefix_path/chomp_motion_planner
+[102.076s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.sh
+[102.076s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.dsv
+[102.076s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.sh
+[102.077s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.dsv
+[102.077s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.bash
+[102.077s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.sh
+[102.078s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.zsh
+[102.078s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.dsv
+[102.078s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/package.dsv
+[102.079s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/share/ament_index/resource_index/packages/chomp_motion_planner
+[102.079s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport.cmake
+[102.079s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport-release.cmake
+[102.080s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake/ament_cmake_export_targets-extras.cmake
+[102.080s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig.cmake
+[102.080s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig-version.cmake
+[102.080s] -- Installing: /home/zac/franka_ws/install/chomp_motion_planner/share/chomp_motion_planner/package.xml
+[102.084s] Invoked command in '/home/zac/franka_ws/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_ign_ros2_control:/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:/home/zac/franka_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --install /home/zac/franka_ws/build/chomp_motion_planner

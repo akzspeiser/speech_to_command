@@ -1,0 +1,45 @@
+[0.035s] Invoking command in '/home/zac/franka_ws/build/joint_trajectory_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zac/franka_ws/build/joint_trajectory_controller -- -j8 -l8
+[0.132s] [ 12%] Built target joint_trajectory_controller_parameters
+[0.140s] [ 25%] Built target gmock_main
+[0.149s] [ 43%] Built target gmock
+[0.265s] [ 56%] Built target test_load_joint_trajectory_controller
+[0.274s] [ 75%] Built target joint_trajectory_controller
+[0.373s] [ 87%] Built target test_trajectory_controller
+[0.374s] [100%] Built target test_trajectory
+[0.394s] Invoked command in '/home/zac/franka_ws/build/joint_trajectory_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zac/franka_ws/build/joint_trajectory_controller -- -j8 -l8
+[0.457s] Invoking command in '/home/zac/franka_ws/build/joint_trajectory_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zac/franka_ws/build/joint_trajectory_controller
+[0.466s] -- Install configuration: "Release"
+[0.467s] -- Execute custom install script
+[0.468s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/include/joint_trajectory_controller_parameters/joint_trajectory_controller_parameters.hpp
+[0.468s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/include/joint_trajectory_controller_parameters/validate_jtc_parameters.hpp
+[0.468s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/share/joint_trajectory_controller//joint_trajectory_plugin.xml
+[0.469s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/interpolation_methods.hpp
+[0.469s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp
+[0.470s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/tolerances.hpp
+[0.470s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/trajectory.hpp
+[0.470s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/validate_jtc_parameters.hpp
+[0.470s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/visibility_control.h
+[0.471s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.sh
+[0.471s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.dsv
+[0.472s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/share/ament_index/resource_index/package_run_dependencies/joint_trajectory_controller
+[0.472s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/share/ament_index/resource_index/parent_prefix_path/joint_trajectory_controller
+[0.472s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.sh
+[0.473s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.dsv
+[0.473s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.sh
+[0.474s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.dsv
+[0.474s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.bash
+[0.474s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.sh
+[0.475s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.zsh
+[0.475s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.dsv
+[0.475s] -- Symlinking: /home/zac/franka_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.dsv
+[0.489s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/share/ament_index/resource_index/packages/joint_trajectory_controller
+[0.489s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_trajectory_controller
+[0.489s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_targets-extras.cmake
+[0.492s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.492s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig.cmake
+[0.492s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig-version.cmake
+[0.493s] -- Up-to-date symlink: /home/zac/franka_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.xml
+[0.493s] -- Up-to-date: /home/zac/franka_ws/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so
+[0.493s] -- Up-to-date: /home/zac/franka_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport.cmake
+[0.493s] -- Up-to-date: /home/zac/franka_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport-release.cmake
+[0.498s] Invoked command in '/home/zac/franka_ws/build/joint_trajectory_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zac/franka_ws/build/joint_trajectory_controller

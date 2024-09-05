@@ -1,0 +1,26 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zac/franka_ws/build/moveit_plugins
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/zac/franka_ws/install/moveit_plugins/share/ament_index/resource_index/package_run_dependencies/moveit_plugins
+-- Symlinking: /home/zac/franka_ws/install/moveit_plugins/share/ament_index/resource_index/parent_prefix_path/moveit_plugins
+-- Symlinking: /home/zac/franka_ws/install/moveit_plugins/share/moveit_plugins/environment/ament_prefix_path.sh
+-- Symlinking: /home/zac/franka_ws/install/moveit_plugins/share/moveit_plugins/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zac/franka_ws/install/moveit_plugins/share/moveit_plugins/environment/path.sh
+-- Symlinking: /home/zac/franka_ws/install/moveit_plugins/share/moveit_plugins/environment/path.dsv
+-- Symlinking: /home/zac/franka_ws/install/moveit_plugins/share/moveit_plugins/local_setup.bash
+-- Symlinking: /home/zac/franka_ws/install/moveit_plugins/share/moveit_plugins/local_setup.sh
+-- Symlinking: /home/zac/franka_ws/install/moveit_plugins/share/moveit_plugins/local_setup.zsh
+-- Symlinking: /home/zac/franka_ws/install/moveit_plugins/share/moveit_plugins/local_setup.dsv
+-- Symlinking: /home/zac/franka_ws/install/moveit_plugins/share/moveit_plugins/package.dsv
+-- Symlinking: /home/zac/franka_ws/install/moveit_plugins/share/ament_index/resource_index/packages/moveit_plugins
+-- Symlinking: /home/zac/franka_ws/install/moveit_plugins/share/moveit_plugins/cmake/moveit_pluginsConfig.cmake
+-- Symlinking: /home/zac/franka_ws/install/moveit_plugins/share/moveit_plugins/cmake/moveit_pluginsConfig-version.cmake
+-- Symlinking: /home/zac/franka_ws/install/moveit_plugins/share/moveit_plugins/package.xml

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="franka_description.flake8"
+  tests="1"
+  errors="0"
+  failures="1"
+  time="0.153"
+>
+  <testcase
+    name="E712 (./scripts/create_urdf.py:155:25)"
+    classname="franka_description.flake8"
+  >
+      <failure message="comparison to False should be 'if cond is not False:' or 'if cond:':&#10;                if HAND != False and EE != &quot;none&quot;:&#10;"/>
+  </testcase>
+  <system-out>Checked files:
+* ./launch/visualize_franka.launch.py
+* ./test/urdf_tests.py
+* ./scripts/create_urdf.py</system-out>
+</testsuite>

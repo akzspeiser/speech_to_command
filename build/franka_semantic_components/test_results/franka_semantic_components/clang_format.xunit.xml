@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="franka_semantic_components.clang_format"
+  tests="12"
+  errors="0"
+  failures="0"
+  time="0.077"
+>
+  <testcase
+    name="include/franka_semantic_components/franka_cartesian_pose_interface.hpp"
+    classname="franka_semantic_components.clang_format"/>
+  <testcase
+    name="include/franka_semantic_components/franka_cartesian_velocity_interface.hpp"
+    classname="franka_semantic_components.clang_format"/>
+  <testcase
+    name="include/franka_semantic_components/franka_robot_model.hpp"
+    classname="franka_semantic_components.clang_format"/>
+  <testcase
+    name="include/franka_semantic_components/franka_robot_state.hpp"
+    classname="franka_semantic_components.clang_format"/>
+  <testcase
+    name="include/franka_semantic_components/franka_semantic_component_interface.hpp"
+    classname="franka_semantic_components.clang_format"/>
+  <testcase
+    name="src/franka_cartesian_pose_interface.cpp"
+    classname="franka_semantic_components.clang_format"/>
+  <testcase
+    name="src/franka_cartesian_velocity_interface.cpp"
+    classname="franka_semantic_components.clang_format"/>
+  <testcase
+    name="src/franka_robot_model.cpp"
+    classname="franka_semantic_components.clang_format"/>
+  <testcase
+    name="src/franka_robot_state.cpp"
+    classname="franka_semantic_components.clang_format"/>
+  <testcase
+    name="src/franka_semantic_component_interface.cpp"
+    classname="franka_semantic_components.clang_format"/>
+  <testcase
+    name="src/translation_utils.cpp"
+    classname="franka_semantic_components.clang_format"/>
+  <testcase
+    name="src/translation_utils.hpp"
+    classname="franka_semantic_components.clang_format"/>
+  <system-out>Checked files:
+* include/franka_semantic_components/franka_cartesian_pose_interface.hpp
+* include/franka_semantic_components/franka_cartesian_velocity_interface.hpp
+* include/franka_semantic_components/franka_robot_model.hpp
+* include/franka_semantic_components/franka_robot_state.hpp
+* include/franka_semantic_components/franka_semantic_component_interface.hpp
+* src/franka_cartesian_pose_interface.cpp
+* src/franka_cartesian_velocity_interface.cpp
+* src/franka_robot_model.cpp
+* src/franka_robot_state.cpp
+* src/franka_semantic_component_interface.cpp
+* src/translation_utils.cpp
+* src/translation_utils.hpp</system-out>
+</testsuite>

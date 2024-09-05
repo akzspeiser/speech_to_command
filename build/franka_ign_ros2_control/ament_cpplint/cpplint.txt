@@ -1,0 +1,26 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/cpplint.xunit.xml
+
+Using '--root=/home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include' argument
+
+Done processing /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include/ign_ros2_control/ign_ros2_control_plugin.hpp
+
+Done processing /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include/ign_ros2_control/ign_system.hpp
+
+Done processing /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include/ign_ros2_control/ign_system_interface.hpp
+
+Done processing /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include/ign_ros2_control/model_kdl.h
+
+Using '--root=/home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/src' argument
+
+Done processing /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/src/ign_ros2_control_plugin.cpp
+
+Done processing /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/src/ign_system.cpp
+
+Done processing /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/src/model_kdl.cpp
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/cpplint.xunit.xml'

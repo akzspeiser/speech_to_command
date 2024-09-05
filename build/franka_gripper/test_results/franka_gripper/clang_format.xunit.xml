@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="franka_gripper.clang_format"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="0.039"
+>
+  <testcase
+    name="include/franka_gripper/gripper_action_server.hpp"
+    classname="franka_gripper.clang_format"/>
+  <testcase
+    name="src/gripper_action_server.cpp"
+    classname="franka_gripper.clang_format"/>
+  <system-out>Checked files:
+* include/franka_gripper/gripper_action_server.hpp
+* src/gripper_action_server.cpp</system-out>
+</testsuite>

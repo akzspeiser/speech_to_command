@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="franka_robot_state_broadcaster.xmllint"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="0.008"
+>
+  <testcase
+    name="franka_robot_state_broadcaster.xml"
+    classname="franka_robot_state_broadcaster.xmllint"/>
+  <testcase
+    name="package.xml"
+    classname="franka_robot_state_broadcaster.xmllint"/>
+  <system-out>Checked files:
+* franka_robot_state_broadcaster.xml
+* package.xml</system-out>
+</testsuite>

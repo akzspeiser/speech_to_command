@@ -1,0 +1,1 @@
+Invoking command in '/home/zac/franka_ws/build/franka_msgs': /usr/bin/cmake /home/zac/franka_ws/src/franka_ros2/franka_msgs -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/franka_msgs

@@ -1,0 +1,28 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/franka_example_controllers':
+ - /home/zac/franka_ws/build/franka_example_controllers/franka_example_controllers_gravity_test --gtest_output=xml:/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_gravity_test.gtest.xml
+
+Running main() from gmock_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from TestGravityCompensationExample
+[ RUN      ] TestGravityCompensationExample.JointsParameterNotSet
+[  SKIPPED ] TestGravityCompensationExample.JointsParameterNotSet (0 ms)
+[ RUN      ] TestGravityCompensationExample.JointsParameterIsEmpty
+[  SKIPPED ] TestGravityCompensationExample.JointsParameterIsEmpty (0 ms)
+[ RUN      ] TestGravityCompensationExample.given_correct_number_of_joints_configure_returns_success
+[       OK ] TestGravityCompensationExample.given_correct_number_of_joints_configure_returns_success (18 ms)
+[ RUN      ] TestGravityCompensationExample.given_joints_and_interface_when_update_expect_zero_values
+[       OK ] TestGravityCompensationExample.given_joints_and_interface_when_update_expect_zero_values (10 ms)
+[----------] 4 tests from TestGravityCompensationExample (28 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (37 ms total)
+[  PASSED  ] 2 tests.
+[  SKIPPED ] 2 tests, listed below:
+[  SKIPPED ] TestGravityCompensationExample.JointsParameterNotSet
+[  SKIPPED ] TestGravityCompensationExample.JointsParameterIsEmpty
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_gravity_test.gtest.xml'
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_gravity_test.gtest.xml'

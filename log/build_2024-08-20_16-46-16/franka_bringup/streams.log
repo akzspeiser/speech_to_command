@@ -1,0 +1,46 @@
+[0.032s] Invoking command in '/home/zac/franka_ws/build/franka_bringup': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_robot_state_broadcaster/lib:/home/zac/franka_ws/install/franka_semantic_components/lib:/home/zac/franka_ws/install/franka_hardware/lib:/home/zac/franka_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zac/franka_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zac/franka_ws/build/franka_bringup -- -j8 -l8
+[0.066s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.257s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.269s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.378s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.386s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.387s] -- Added test 'lint_cmake' to check CMake code style
+[0.388s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.392s] -- Added test 'xmllint' to check XML markup files
+[0.395s] -- Configuring done
+[0.402s] -- Generating done
+[0.405s] -- Build files have been written to: /home/zac/franka_ws/build/franka_bringup
+[0.441s] Invoked command in '/home/zac/franka_ws/build/franka_bringup' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_robot_state_broadcaster/lib:/home/zac/franka_ws/install/franka_semantic_components/lib:/home/zac/franka_ws/install/franka_hardware/lib:/home/zac/franka_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zac/franka_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zac/franka_ws/build/franka_bringup -- -j8 -l8
+[0.479s] Invoking command in '/home/zac/franka_ws/build/franka_bringup': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_robot_state_broadcaster/lib:/home/zac/franka_ws/install/franka_semantic_components/lib:/home/zac/franka_ws/install/franka_hardware/lib:/home/zac/franka_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zac/franka_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zac/franka_ws/build/franka_bringup
+[0.492s] -- Install configuration: "Release"
+[0.493s] -- Execute custom install script
+[0.494s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/config/controllers.yaml
+[0.497s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/launch/cartesian_elbow_example_controller.launch.py
+[0.497s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/launch/cartesian_orientation_example_controller.launch.py
+[0.498s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/launch/cartesian_pose_example_controller.launch.py
+[0.498s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/launch/cartesian_velocity_example_controller.launch.py
+[0.499s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/launch/elbow_example_controller.launch.py
+[0.499s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/launch/franka.launch.py
+[0.503s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/launch/gravity_compensation_example_controller.launch.py
+[0.504s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/launch/joint_impedance_example_controller.launch.py
+[0.504s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/launch/joint_impedance_with_ik_example_controller.launch.py
+[0.504s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/launch/joint_position_example_controller.launch.py
+[0.506s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/launch/joint_velocity_example_controller.launch.py
+[0.507s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/launch/model_example_controller.launch.py
+[0.507s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/launch/move_to_start_example_controller.launch.py
+[0.507s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/ament_index/resource_index/package_run_dependencies/franka_bringup
+[0.508s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/ament_index/resource_index/parent_prefix_path/franka_bringup
+[0.508s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/environment/ament_prefix_path.sh
+[0.508s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/environment/ament_prefix_path.dsv
+[0.508s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/environment/path.sh
+[0.508s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/environment/path.dsv
+[0.509s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/local_setup.bash
+[0.509s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/local_setup.sh
+[0.509s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/local_setup.zsh
+[0.509s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/local_setup.dsv
+[0.509s] -- Symlinking: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/package.dsv
+[0.519s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/ament_index/resource_index/packages/franka_bringup
+[0.520s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/cmake/franka_bringupConfig.cmake
+[0.520s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/cmake/franka_bringupConfig-version.cmake
+[0.520s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_bringup/share/franka_bringup/package.xml
+[0.524s] Invoked command in '/home/zac/franka_ws/build/franka_bringup' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_robot_state_broadcaster/lib:/home/zac/franka_ws/install/franka_semantic_components/lib:/home/zac/franka_ws/install/franka_hardware/lib:/home/zac/franka_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zac/franka_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zac/franka_ws/build/franka_bringup

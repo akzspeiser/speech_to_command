@@ -1,0 +1,12 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_example_controllers':
+ - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/xmllint.xunit.xml
+
+File 'franka_example_controllers.xml' is valid
+
+File 'package.xml' is valid
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/xmllint.xunit.xml'

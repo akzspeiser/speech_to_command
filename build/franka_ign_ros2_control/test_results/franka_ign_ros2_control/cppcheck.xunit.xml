@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="franka_ign_ros2_control.cppcheck"
+  tests="7"
+  errors="0"
+  failures="0"
+  time="0.000"
+  skipped="7"
+>
+  <testcase
+    name="include/ign_ros2_control/ign_ros2_control_plugin.hpp"
+    classname="franka_ign_ros2_control.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/ign_ros2_control/ign_system.hpp"
+    classname="franka_ign_ros2_control.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/ign_ros2_control/ign_system_interface.hpp"
+    classname="franka_ign_ros2_control.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/ign_ros2_control/model_kdl.h"
+    classname="franka_ign_ros2_control.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/ign_ros2_control_plugin.cpp"
+    classname="franka_ign_ros2_control.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/ign_system.cpp"
+    classname="franka_ign_ros2_control.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/model_kdl.cpp"
+    classname="franka_ign_ros2_control.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <system-err>Tests Skipped due to cppcheck 2.7 performance issues</system-err>
+</testsuite>

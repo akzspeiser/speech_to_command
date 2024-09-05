@@ -1,0 +1,8 @@
+gmake[2]: *** [test/CMakeFiles/franka_hardware_robot_test.dir/build.make:76: test/CMakeFiles/franka_hardware_robot_test.dir/franka_robot_test.cpp.o] Interrupt
+gmake[2]: *** [test/CMakeFiles/franka_hardware_test.dir/build.make:90: test/CMakeFiles/franka_hardware_test.dir/franka_action_server_test.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:279: test/CMakeFiles/franka_hardware_robot_test.dir/all] Interrupt
+gmake[2]: *** [test/CMakeFiles/franka_hardware_test.dir/build.make:76: test/CMakeFiles/franka_hardware_test.dir/franka_hardware_interface_test.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:223: test/CMakeFiles/franka_hardware_test.dir/all] Interrupt
+gmake[2]: *** [test/CMakeFiles/franka_hardware_command_interface_test.dir/build.make:76: test/CMakeFiles/franka_hardware_command_interface_test.dir/franka_hardware_cartesian_command_interface_test.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:251: test/CMakeFiles/franka_hardware_command_interface_test.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

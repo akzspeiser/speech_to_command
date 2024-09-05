@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="franka_fr3_moveit_config.pep257"
+  tests="3"
+  errors="0"
+  failures="0"
+  time="0.026"
+>
+  <testcase
+    name="./launch/move_group.launch.py"
+    classname="franka_fr3_moveit_config.pep257"/>
+  <testcase
+    name="./launch/moveit.launch.py"
+    classname="franka_fr3_moveit_config.pep257"/>
+  <testcase
+    name="./test/srdf_tests.py"
+    classname="franka_fr3_moveit_config.pep257"/>
+  <system-out>Checked files:
+* ./launch/move_group.launch.py
+* ./launch/moveit.launch.py
+* ./test/srdf_tests.py</system-out>
+</testsuite>

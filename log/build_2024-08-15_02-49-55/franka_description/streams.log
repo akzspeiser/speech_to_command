@@ -1,0 +1,153 @@
+[0.022s] Invoking command in '/home/zac/franka_ws/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zac/franka_ws/src/franka_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/franka_description
+[0.036s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.186s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.668s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.694s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.698s] -- Added test 'lint_cmake' to check CMake code style
+[0.699s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.713s] -- Added test 'xmllint' to check XML markup files
+[0.714s] -- Configuring done
+[0.718s] -- Generating done
+[0.720s] -- Build files have been written to: /home/zac/franka_ws/build/franka_description
+[0.723s] Invoked command in '/home/zac/franka_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zac/franka_ws/src/franka_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/franka_description
+[0.725s] Invoking command in '/home/zac/franka_ws/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zac/franka_ws/build/franka_description -- -j8 -l8
+[0.768s] Invoked command in '/home/zac/franka_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zac/franka_ws/build/franka_description -- -j8 -l8
+[0.796s] Invoking command in '/home/zac/franka_ws/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zac/franka_ws/build/franka_description
+[0.804s] -- Install configuration: "Release"
+[0.804s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//launch
+[0.804s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//launch/visualize_franka.launch.py
+[0.804s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots
+[0.805s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fp3
+[0.805s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fp3/inertials.yaml
+[0.805s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fp3/joint_limits.yaml
+[0.805s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fp3/dynamics.yaml
+[0.805s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fp3/fp3.urdf.xacro
+[0.806s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fp3/kinematics.yaml
+[0.806s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fer
+[0.806s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fer/inertials.yaml
+[0.806s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fer/joint_limits.yaml
+[0.806s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fer/dynamics.yaml
+[0.806s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fer/kinematics.yaml
+[0.807s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fer/fer.urdf.xacro
+[0.807s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/common
+[0.807s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/common/franka_arm.ros2_control.xacro
+[0.807s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/common/utils.xacro
+[0.807s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/common/franka_arm.xacro
+[0.808s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/common/franka_robot.xacro
+[0.808s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fr3
+[0.808s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fr3/inertials.yaml
+[0.808s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fr3/joint_limits.yaml
+[0.808s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fr3/dynamics.yaml
+[0.808s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fr3/fr3.urdf.xacro
+[0.808s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fr3/kinematics.yaml
+[0.808s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors
+[0.809s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump
+[0.809s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/inertials.yaml
+[0.809s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump.urdf.xacro
+[0.809s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump_arguments.xacro
+[0.809s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/franka_hand
+[0.809s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/inertials.yaml
+[0.810s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand.urdf.xacro
+[0.810s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand_arguments.xacro
+[0.810s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/common
+[0.810s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/common/ee_with_one_link.xacro
+[0.810s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/common/franka_hand.xacro
+[0.810s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/common/utils.xacro
+[0.810s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes
+[0.810s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee
+[0.811s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump
+[0.811s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/collision
+[0.811s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/collision/cobot_pump.stl
+[0.811s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/visual
+[0.811s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/visual/cobot_pump.dae
+[0.812s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white
+[0.812s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/collision
+[0.813s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/collision/hand.stl
+[0.813s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual
+[0.813s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual/hand.dae
+[0.813s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual/finger.dae
+[0.814s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black
+[0.814s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/collision
+[0.814s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/collision/hand.stl
+[0.814s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual
+[0.814s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual/hand.dae
+[0.815s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual/finger.dae
+[0.815s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms
+[0.815s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3
+[0.815s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision
+[0.815s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link4.stl
+[0.815s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link2.stl
+[0.815s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link1.stl
+[0.816s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link0.stl
+[0.816s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link6.stl
+[0.816s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link5.stl
+[0.816s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link7.stl
+[0.816s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link3.stl
+[0.817s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual
+[0.817s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link1.dae
+[0.817s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link6.dae
+[0.817s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link7.dae
+[0.817s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link3.dae
+[0.818s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link0.dae
+[0.818s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link2.dae
+[0.818s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link4.dae
+[0.818s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link5.dae
+[0.819s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer
+[0.819s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision
+[0.819s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/hand.stl
+[0.819s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link4.stl
+[0.820s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link2.stl
+[0.820s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link1.stl
+[0.820s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link0.stl
+[0.820s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link6.stl
+[0.821s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link5.stl
+[0.821s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link7.stl
+[0.821s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link3.stl
+[0.822s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual
+[0.823s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link1.dae
+[0.823s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link6.dae
+[0.824s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/hand.dae
+[0.824s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link7.dae
+[0.824s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/finger.dae
+[0.825s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link3.dae
+[0.825s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link0.dae
+[0.825s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link2.dae
+[0.826s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link4.dae
+[0.826s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link5.dae
+[0.826s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3
+[0.826s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision
+[0.827s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link4.stl
+[0.827s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link2.stl
+[0.827s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link1.stl
+[0.827s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link0.stl
+[0.827s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link6.stl
+[0.827s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link5.stl
+[0.828s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link7.stl
+[0.828s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link3.stl
+[0.828s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual
+[0.828s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link1.dae
+[0.828s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link6.dae
+[0.829s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link7.dae
+[0.829s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link3.dae
+[0.829s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link0.dae
+[0.830s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link2.dae
+[0.830s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link4.dae
+[0.830s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link5.dae
+[0.831s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//rviz
+[0.831s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description//rviz/visualize_franka.rviz
+[0.831s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description
+[0.831s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description
+[0.831s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.sh
+[0.831s] -- Installing: /home/zac/franka_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.dsv
+[0.831s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description/environment/path.sh
+[0.831s] -- Installing: /home/zac/franka_ws/install/franka_description/share/franka_description/environment/path.dsv
+[0.831s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description/local_setup.bash
+[0.832s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description/local_setup.sh
+[0.832s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description/local_setup.zsh
+[0.832s] -- Installing: /home/zac/franka_ws/install/franka_description/share/franka_description/local_setup.dsv
+[0.832s] -- Installing: /home/zac/franka_ws/install/franka_description/share/franka_description/package.dsv
+[0.832s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/ament_index/resource_index/packages/franka_description
+[0.832s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake
+[0.832s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake
+[0.832s] -- Up-to-date: /home/zac/franka_ws/install/franka_description/share/franka_description/package.xml
+[0.833s] Invoked command in '/home/zac/franka_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zac/franka_ws/build/franka_description

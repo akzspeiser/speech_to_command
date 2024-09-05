@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="5" skipped="0" tests="5" time="0.775" timestamp="2024-08-15T02:54:13.683541" hostname="CHARISMA-Predator-571"><testcase classname="franka_description.src.franka_description.test.urdf_tests" name="test_load" time="0.003"><failure message="xml.parsers.expat.ExpatError: mismatched tag: line 52, column 2">def test_load():
+        """Test of hand parameter equal to none."""
+&gt;       urdf = xacro.process_file(
+            xacro_file_name,
+            mappings={
+                "arm_id": "fer",
+                "ee_id": "none",
+            },
+        ).toxml()
+
+../../src/franka_description/test/urdf_tests.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:1096: in process_file
+    doc = parse(None, input_file_name)
+/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:1022: in parse
+    return xml.dom.minidom.parse(inp)
+/usr/lib/python3.10/xml/dom/minidom.py:1990: in parse
+    return expatbuilder.parse(file)
+/usr/lib/python3.10/xml/dom/expatbuilder.py:913: in parse
+    result = builder.parseFile(file)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;xml.dom.expatbuilder.ExpatBuilderNS object at 0x7fe15360ccd0&gt;
+file = &lt;_io.TextIOWrapper name='/home/zac/franka_ws/install/franka_description/share/franka_description/robots/fer/fer.urdf.xacro' mode='r' encoding='UTF-8'&gt;
+
+    def parseFile(self, file):
+        """Parse a document from a file object, returning the document
+        node."""
+        parser = self.getParser()
+        first_buffer = True
+        try:
+            while 1:
+                buffer = file.read(16*1024)
+                if not buffer:
+                    break
+&gt;               parser.Parse(buffer, False)
+E               xml.parsers.expat.ExpatError: mismatched tag: line 52, column 2
+
+/usr/lib/python3.10/xml/dom/expatbuilder.py:207: ExpatError</failure></testcase><testcase classname="franka_description.src.franka_description.test.urdf_tests" name="test_load_with_gripper" time="0.002"><failure message="xml.parsers.expat.ExpatError: mismatched tag: line 52, column 2">def test_load_with_gripper():
+        """Test of hand parameter equal to a value."""
+&gt;       urdf = xacro.process_file(
+            xacro_file_name, mappings={"arm_id": "fer", "ee_id": "franka_hand"}
+        ).toxml()
+
+../../src/franka_description/test/urdf_tests.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:1096: in process_file
+    doc = parse(None, input_file_name)
+/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:1022: in parse
+    return xml.dom.minidom.parse(inp)
+/usr/lib/python3.10/xml/dom/minidom.py:1990: in parse
+    return expatbuilder.parse(file)
+/usr/lib/python3.10/xml/dom/expatbuilder.py:913: in parse
+    result = builder.parseFile(file)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;xml.dom.expatbuilder.ExpatBuilderNS object at 0x7fe1532ff7c0&gt;
+file = &lt;_io.TextIOWrapper name='/home/zac/franka_ws/install/franka_description/share/franka_description/robots/fer/fer.urdf.xacro' mode='r' encoding='UTF-8'&gt;
+
+    def parseFile(self, file):
+        """Parse a document from a file object, returning the document
+        node."""
+        parser = self.getParser()
+        first_buffer = True
+        try:
+            while 1:
+                buffer = file.read(16*1024)
+                if not buffer:
+                    break
+&gt;               parser.Parse(buffer, False)
+E               xml.parsers.expat.ExpatError: mismatched tag: line 52, column 2
+
+/usr/lib/python3.10/xml/dom/expatbuilder.py:207: ExpatError</failure></testcase><testcase classname="franka_description.src.franka_description.test.urdf_tests" name="test_check_interfaces" time="0.002"><failure message="xml.parsers.expat.ExpatError: mismatched tag: line 52, column 2">def test_check_interfaces():
+        """Test of the parameters for ros2_control hardware interface."""
+&gt;       urdf = xacro.process_file(
+            xacro_file_name, mappings={"ros2_control": "true"}
+        ).toxml()
+
+../../src/franka_description/test/urdf_tests.py:52: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:1096: in process_file
+    doc = parse(None, input_file_name)
+/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:1022: in parse
+    return xml.dom.minidom.parse(inp)
+/usr/lib/python3.10/xml/dom/minidom.py:1990: in parse
+    return expatbuilder.parse(file)
+/usr/lib/python3.10/xml/dom/expatbuilder.py:913: in parse
+    result = builder.parseFile(file)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;xml.dom.expatbuilder.ExpatBuilderNS object at 0x7fe153263b50&gt;
+file = &lt;_io.TextIOWrapper name='/home/zac/franka_ws/install/franka_description/share/franka_description/robots/fer/fer.urdf.xacro' mode='r' encoding='UTF-8'&gt;
+
+    def parseFile(self, file):
+        """Parse a document from a file object, returning the document
+        node."""
+        parser = self.getParser()
+        first_buffer = True
+        try:
+            while 1:
+                buffer = file.read(16*1024)
+                if not buffer:
+                    break
+&gt;               parser.Parse(buffer, False)
+E               xml.parsers.expat.ExpatError: mismatched tag: line 52, column 2
+
+/usr/lib/python3.10/xml/dom/expatbuilder.py:207: ExpatError</failure></testcase><testcase classname="franka_description.src.franka_description.test.urdf_tests" name="test_load_with_fake_hardware" time="0.002"><failure message="xml.parsers.expat.ExpatError: mismatched tag: line 52, column 2">def test_load_with_fake_hardware():
+        """Test of use_fake_hardware parameter for ros2_control hardware interface."""
+&gt;       urdf = xacro.process_file(
+            xacro_file_name, mappings={"ros2_control": "true", "use_fake_hardware": "true"}
+        ).toxml()
+
+../../src/franka_description/test/urdf_tests.py:64: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:1096: in process_file
+    doc = parse(None, input_file_name)
+/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:1022: in parse
+    return xml.dom.minidom.parse(inp)
+/usr/lib/python3.10/xml/dom/minidom.py:1990: in parse
+    return expatbuilder.parse(file)
+/usr/lib/python3.10/xml/dom/expatbuilder.py:913: in parse
+    result = builder.parseFile(file)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;xml.dom.expatbuilder.ExpatBuilderNS object at 0x7fe1532ffb50&gt;
+file = &lt;_io.TextIOWrapper name='/home/zac/franka_ws/install/franka_description/share/franka_description/robots/fer/fer.urdf.xacro' mode='r' encoding='UTF-8'&gt;
+
+    def parseFile(self, file):
+        """Parse a document from a file object, returning the document
+        node."""
+        parser = self.getParser()
+        first_buffer = True
+        try:
+            while 1:
+                buffer = file.read(16*1024)
+                if not buffer:
+                    break
+&gt;               parser.Parse(buffer, False)
+E               xml.parsers.expat.ExpatError: mismatched tag: line 52, column 2
+
+/usr/lib/python3.10/xml/dom/expatbuilder.py:207: ExpatError</failure></testcase><testcase classname="franka_description.src.franka_description.test.urdf_tests" name="test_load_with_robot_ip" time="0.002"><failure message="xml.parsers.expat.ExpatError: mismatched tag: line 52, column 2">def test_load_with_robot_ip():
+        """Test of robot_ip parameter for ros2_control hardware interface."""
+&gt;       urdf = xacro.process_file(
+            xacro_file_name,
+            mappings={"ros2_control": "true", "robot_ip": "franka_ip_address"},
+        ).toxml()
+
+../../src/franka_description/test/urdf_tests.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:1096: in process_file
+    doc = parse(None, input_file_name)
+/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:1022: in parse
+    return xml.dom.minidom.parse(inp)
+/usr/lib/python3.10/xml/dom/minidom.py:1990: in parse
+    return expatbuilder.parse(file)
+/usr/lib/python3.10/xml/dom/expatbuilder.py:913: in parse
+    result = builder.parseFile(file)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;xml.dom.expatbuilder.ExpatBuilderNS object at 0x7fe1532636a0&gt;
+file = &lt;_io.TextIOWrapper name='/home/zac/franka_ws/install/franka_description/share/franka_description/robots/fer/fer.urdf.xacro' mode='r' encoding='UTF-8'&gt;
+
+    def parseFile(self, file):
+        """Parse a document from a file object, returning the document
+        node."""
+        parser = self.getParser()
+        first_buffer = True
+        try:
+            while 1:
+                buffer = file.read(16*1024)
+                if not buffer:
+                    break
+&gt;               parser.Parse(buffer, False)
+E               xml.parsers.expat.ExpatError: mismatched tag: line 52, column 2
+
+/usr/lib/python3.10/xml/dom/expatbuilder.py:207: ExpatError</failure></testcase></testsuite></testsuites>

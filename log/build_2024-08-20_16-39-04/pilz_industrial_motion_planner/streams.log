@@ -1,0 +1,241 @@
+[0.106s] Invoking command in '/home/zac/franka_ws/build/pilz_industrial_motion_planner': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_resources_prbt_pg70_support:/home/zac/franka_ws/install/moveit_ros_planning_interface:/home/zac/franka_ws/install/moveit_resources_prbt_moveit_config:/home/zac/franka_ws/install/moveit_ros_move_group:/home/zac/franka_ws/install/moveit_ros_warehouse:/home/zac/franka_ws/install/moveit_planners_ompl:/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/pilz_industrial_motion_planner_testutils:/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/moveit_configs_utils:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_resources_prbt_pg70_support:/home/zac/franka_ws/install/moveit_ros_planning_interface:/home/zac/franka_ws/install/moveit_resources_prbt_moveit_config:/home/zac/franka_ws/install/moveit_ros_move_group:/home/zac/franka_ws/install/moveit_ros_warehouse:/home/zac/franka_ws/install/moveit_planners_ompl:/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/pilz_industrial_motion_planner_testutils:/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning_interface/lib:/home/zac/franka_ws/install/moveit_ros_move_group/lib:/home/zac/franka_ws/install/moveit_ros_warehouse/lib:/home/zac/franka_ws/install/moveit_planners_ompl/lib:/home/zac/franka_ws/install/moveit_kinematics/lib:/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/zac/franka_ws/install/moveit_simple_controller_manager/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zac/franka_ws/build/moveit_configs_utils:/home/zac/franka_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/zac/franka_ws/src/moveit2/moveit_planners/pilz_industrial_motion_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/pilz_industrial_motion_planner
+[0.128s] -- Found moveit_common: 2.5.5 (/home/zac/franka_ws/install/moveit_common/share/moveit_common/cmake)
+[0.129s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.336s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.477s] [0mpilz_industrial_motion_planner: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.477s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.481s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.544s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.551s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.565s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.590s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.622s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.713s] -- Found moveit_core: 2.5.5 (/home/zac/franka_ws/install/moveit_core/share/moveit_core/cmake)
+[0.745s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.806s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.871s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.876s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.158s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.240s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.275s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.359s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.509s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.961s] -- Found moveit_ros_move_group: 2.5.5 (/home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake)
+[1.969s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.017s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.041s] -- Found moveit_ros_planning_interface: 2.5.5 (/home/zac/franka_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[2.048s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.069s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.102s] -- Found tf2_eigen_kdl: 0.25.7 (/opt/ros/humble/share/tf2_eigen_kdl/cmake)
+[2.112s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[2.241s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.242s] -- Found ament_cmake_gmock: 1.3.10 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.243s] -- Found ros_testing: 0.4.0 (/opt/ros/humble/share/ros_testing/cmake)
+[2.243s] -- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[2.244s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.292s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.292s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.292s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.294s] -- Found moveit_resources_prbt_support: 2.5.5 (/home/zac/franka_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake)
+[2.295s] -- Found moveit_resources_prbt_moveit_config: 2.5.5 (/home/zac/franka_ws/install/moveit_resources_prbt_moveit_config/share/moveit_resources_prbt_moveit_config/cmake)
+[2.300s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[2.302s] -- Found pilz_industrial_motion_planner_testutils: 2.5.5 (/home/zac/franka_ws/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake)
+[2.330s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.389s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.396s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.492s] -- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[2.494s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.529s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.529s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.530s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.563s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.566s] -- Configured cppcheck include dirs: /home/zac/franka_ws/src/moveit2/moveit_planners/pilz_industrial_motion_planner/include
+[2.566s] -- Configured cppcheck exclude dirs and/or files: 
+[2.571s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.574s] -- Added test 'xmllint' to check XML markup files
+[2.580s] -- Configuring done
+[4.223s] -- Generating done
+[4.242s] -- Build files have been written to: /home/zac/franka_ws/build/pilz_industrial_motion_planner
+[4.301s] Invoked command in '/home/zac/franka_ws/build/pilz_industrial_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_resources_prbt_pg70_support:/home/zac/franka_ws/install/moveit_ros_planning_interface:/home/zac/franka_ws/install/moveit_resources_prbt_moveit_config:/home/zac/franka_ws/install/moveit_ros_move_group:/home/zac/franka_ws/install/moveit_ros_warehouse:/home/zac/franka_ws/install/moveit_planners_ompl:/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/pilz_industrial_motion_planner_testutils:/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/moveit_configs_utils:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_resources_prbt_pg70_support:/home/zac/franka_ws/install/moveit_ros_planning_interface:/home/zac/franka_ws/install/moveit_resources_prbt_moveit_config:/home/zac/franka_ws/install/moveit_ros_move_group:/home/zac/franka_ws/install/moveit_ros_warehouse:/home/zac/franka_ws/install/moveit_planners_ompl:/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/pilz_industrial_motion_planner_testutils:/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning_interface/lib:/home/zac/franka_ws/install/moveit_ros_move_group/lib:/home/zac/franka_ws/install/moveit_ros_warehouse/lib:/home/zac/franka_ws/install/moveit_planners_ompl/lib:/home/zac/franka_ws/install/moveit_kinematics/lib:/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/zac/franka_ws/install/moveit_simple_controller_manager/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zac/franka_ws/build/moveit_configs_utils:/home/zac/franka_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/zac/franka_ws/src/moveit2/moveit_planners/pilz_industrial_motion_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/pilz_industrial_motion_planner
+[4.320s] Invoking command in '/home/zac/franka_ws/build/pilz_industrial_motion_planner': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_resources_prbt_pg70_support:/home/zac/franka_ws/install/moveit_ros_planning_interface:/home/zac/franka_ws/install/moveit_resources_prbt_moveit_config:/home/zac/franka_ws/install/moveit_ros_move_group:/home/zac/franka_ws/install/moveit_ros_warehouse:/home/zac/franka_ws/install/moveit_planners_ompl:/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/pilz_industrial_motion_planner_testutils:/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/moveit_configs_utils:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_resources_prbt_pg70_support:/home/zac/franka_ws/install/moveit_ros_planning_interface:/home/zac/franka_ws/install/moveit_resources_prbt_moveit_config:/home/zac/franka_ws/install/moveit_ros_move_group:/home/zac/franka_ws/install/moveit_ros_warehouse:/home/zac/franka_ws/install/moveit_planners_ompl:/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/pilz_industrial_motion_planner_testutils:/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning_interface/lib:/home/zac/franka_ws/install/moveit_ros_move_group/lib:/home/zac/franka_ws/install/moveit_ros_warehouse/lib:/home/zac/franka_ws/install/moveit_planners_ompl/lib:/home/zac/franka_ws/install/moveit_kinematics/lib:/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/zac/franka_ws/install/moveit_simple_controller_manager/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zac/franka_ws/build/moveit_configs_utils:/home/zac/franka_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zac/franka_ws/build/pilz_industrial_motion_planner -- -j8 -l8
+[4.453s] [35m[1mConsolidate compiler generated dependencies of target planning_context_loader_base[0m
+[4.463s] [35m[1mConsolidate compiler generated dependencies of target joint_limits_common[0m
+[4.484s] [35m[1mConsolidate compiler generated dependencies of target trajectory_generation_common[0m
+[4.555s] [  2%] Built target planning_context_loader_base
+[4.608s] [ 10%] Built target joint_limits_common
+[4.614s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[4.652s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[4.692s] [ 14%] Built target gmock
+[4.711s] [ 16%] Built target gmock_main
+[4.719s] [ 21%] Built target trajectory_generation_common
+[4.754s] [35m[1mConsolidate compiler generated dependencies of target pilz_industrial_motion_planner[0m
+[4.754s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[4.778s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[4.811s] [ 24%] Built target gtest
+[4.848s] [35m[1mConsolidate compiler generated dependencies of target pilz_industrial_motion_planner_test_utils[0m
+[4.886s] [ 26%] Built target gtest_main
+[4.902s] [ 28%] Built target pilz_industrial_motion_planner
+[4.937s] [35m[1mConsolidate compiler generated dependencies of target planning_context_loader_circ[0m
+[4.951s] [35m[1mConsolidate compiler generated dependencies of target unittest_joint_limits_aggregator[0m
+[5.025s] [ 31%] Built target pilz_industrial_motion_planner_test_utils
+[5.062s] [ 32%] [32m[1mLinking CXX executable unittest_joint_limits_aggregator[0m
+[5.067s] [35m[1mConsolidate compiler generated dependencies of target unittest_joint_limits_container[0m
+[5.140s] [35m[1mConsolidate compiler generated dependencies of target unittest_joint_limit[0m
+[5.141s] [35m[1mConsolidate compiler generated dependencies of target unittest_joint_limits_validator[0m
+[5.156s] [ 37%] Built target planning_context_loader_circ
+[5.173s] [ 38%] [32m[1mLinking CXX executable unittest_joint_limits_container[0m
+[5.227s] [35m[1mConsolidate compiler generated dependencies of target planning_context_loader_lin[0m
+[5.280s] [ 39%] [32m[1mLinking CXX executable unittest_joint_limits_validator[0m
+[5.311s] [ 40%] [32m[1mLinking CXX executable unittest_joint_limit[0m
+[5.483s] [ 45%] Built target planning_context_loader_lin
+[5.548s] [35m[1mConsolidate compiler generated dependencies of target unittest_cartesian_limits_aggregator[0m
+[5.747s] [ 46%] [32m[1mLinking CXX executable unittest_cartesian_limits_aggregator[0m
+[6.075s] [ 48%] Built target unittest_joint_limits_container
+[6.141s] [35m[1mConsolidate compiler generated dependencies of target unittest_planning_context_loaders[0m
+[6.199s] [35m[1mConsolidate compiler generated dependencies of target planning_context_loader_ptp[0m
+[6.227s] [ 49%] Built target unittest_joint_limits_validator
+[6.252s] [ 50%] [32m[1mLinking CXX executable unittest_planning_context_loaders[0m
+[6.263s] [ 51%] Built target unittest_joint_limits_aggregator
+[6.270s] [35m[1mConsolidate compiler generated dependencies of target unittest_get_solver_tip_frame[0m
+[6.301s] [ 53%] Built target unittest_joint_limit
+[6.307s] [35m[1mConsolidate compiler generated dependencies of target unittest_velocity_profile_atrap[0m
+[6.316s] [ 57%] Built target planning_context_loader_ptp
+[6.360s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_generator[0m
+[6.363s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_functions[0m
+[6.367s] [ 59%] [32m[1mLinking CXX executable unittest_velocity_profile_atrap[0m
+[6.400s] [ 60%] [32m[1mLinking CXX executable unittest_get_solver_tip_frame[0m
+[6.476s] [ 61%] [32m[1mLinking CXX executable unittest_trajectory_functions[0m
+[6.525s] [ 62%] [32m[1mLinking CXX executable unittest_trajectory_generator[0m
+[6.605s] [ 63%] Built target unittest_cartesian_limits_aggregator
+[6.656s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_blender_transition_window[0m
+[6.822s] [ 65%] [32m[1mLinking CXX executable unittest_trajectory_blender_transition_window[0m
+[7.250s] [ 66%] Built target unittest_planning_context_loaders
+[7.290s] [35m[1mConsolidate compiler generated dependencies of target command_list_manager[0m
+[7.326s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_generator_common[0m
+[7.340s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_generator_circ[0m
+[7.340s] [ 67%] Built target unittest_trajectory_functions
+[7.415s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_generator_lin[0m
+[7.502s] [ 68%] [32m[1mLinking CXX executable unittest_trajectory_generator_common[0m
+[7.504s] [ 69%] [32m[1mLinking CXX executable unittest_trajectory_generator_circ[0m
+[7.524s] [ 72%] Built target unittest_trajectory_generator
+[7.529s] [ 75%] Built target command_list_manager
+[7.565s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_generator_ptp[0m
+[7.581s] [ 77%] [32m[1mLinking CXX executable unittest_trajectory_generator_lin[0m
+[7.610s] [35m[1mConsolidate compiler generated dependencies of target unittest_pilz_industrial_motion_planner[0m
+[7.770s] [ 78%] [32m[1mLinking CXX executable unittest_trajectory_generator_ptp[0m
+[7.773s] [ 79%] [32m[1mLinking CXX executable unittest_pilz_industrial_motion_planner[0m
+[8.075s] [ 81%] Built target unittest_trajectory_blender_transition_window
+[8.178s] [35m[1mConsolidate compiler generated dependencies of target unittest_planning_context[0m
+[8.326s] [ 83%] [32m[1mLinking CXX executable unittest_planning_context[0m
+[8.863s] [ 84%] Built target unittest_pilz_industrial_motion_planner
+[8.869s] [ 85%] Built target unittest_trajectory_generator_lin
+[8.893s] [ 86%] Built target unittest_trajectory_generator_circ
+[8.927s] [35m[1mConsolidate compiler generated dependencies of target sequence_capability[0m
+[8.942s] [35m[1mConsolidate compiler generated dependencies of target unittest_pilz_industrial_motion_planner_direct[0m
+[8.969s] [ 87%] Built target unittest_trajectory_generator_common
+[9.026s] [ 89%] [32m[1mLinking CXX executable unittest_pilz_industrial_motion_planner_direct[0m
+[9.042s] [ 90%] Built target unittest_trajectory_generator_ptp
+[9.059s] [ 93%] Built target sequence_capability
+[9.326s] [ 95%] Built target unittest_planning_context
+[9.672s] [ 96%] Built target unittest_pilz_industrial_motion_planner_direct
+[13.313s] [ 98%] Built target unittest_velocity_profile_atrap
+[13.618s] [100%] Built target unittest_get_solver_tip_frame
+[13.648s] Invoked command in '/home/zac/franka_ws/build/pilz_industrial_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_resources_prbt_pg70_support:/home/zac/franka_ws/install/moveit_ros_planning_interface:/home/zac/franka_ws/install/moveit_resources_prbt_moveit_config:/home/zac/franka_ws/install/moveit_ros_move_group:/home/zac/franka_ws/install/moveit_ros_warehouse:/home/zac/franka_ws/install/moveit_planners_ompl:/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/pilz_industrial_motion_planner_testutils:/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/moveit_configs_utils:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_resources_prbt_pg70_support:/home/zac/franka_ws/install/moveit_ros_planning_interface:/home/zac/franka_ws/install/moveit_resources_prbt_moveit_config:/home/zac/franka_ws/install/moveit_ros_move_group:/home/zac/franka_ws/install/moveit_ros_warehouse:/home/zac/franka_ws/install/moveit_planners_ompl:/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/pilz_industrial_motion_planner_testutils:/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning_interface/lib:/home/zac/franka_ws/install/moveit_ros_move_group/lib:/home/zac/franka_ws/install/moveit_ros_warehouse/lib:/home/zac/franka_ws/install/moveit_planners_ompl/lib:/home/zac/franka_ws/install/moveit_kinematics/lib:/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/zac/franka_ws/install/moveit_simple_controller_manager/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zac/franka_ws/build/moveit_configs_utils:/home/zac/franka_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zac/franka_ws/build/pilz_industrial_motion_planner -- -j8 -l8
+[13.864s] Invoking command in '/home/zac/franka_ws/build/pilz_industrial_motion_planner': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_resources_prbt_pg70_support:/home/zac/franka_ws/install/moveit_ros_planning_interface:/home/zac/franka_ws/install/moveit_resources_prbt_moveit_config:/home/zac/franka_ws/install/moveit_ros_move_group:/home/zac/franka_ws/install/moveit_ros_warehouse:/home/zac/franka_ws/install/moveit_planners_ompl:/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/pilz_industrial_motion_planner_testutils:/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/moveit_configs_utils:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_resources_prbt_pg70_support:/home/zac/franka_ws/install/moveit_ros_planning_interface:/home/zac/franka_ws/install/moveit_resources_prbt_moveit_config:/home/zac/franka_ws/install/moveit_ros_move_group:/home/zac/franka_ws/install/moveit_ros_warehouse:/home/zac/franka_ws/install/moveit_planners_ompl:/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/pilz_industrial_motion_planner_testutils:/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning_interface/lib:/home/zac/franka_ws/install/moveit_ros_move_group/lib:/home/zac/franka_ws/install/moveit_ros_warehouse/lib:/home/zac/franka_ws/install/moveit_planners_ompl/lib:/home/zac/franka_ws/install/moveit_kinematics/lib:/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/zac/franka_ws/install/moveit_simple_controller_manager/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zac/franka_ws/build/moveit_configs_utils:/home/zac/franka_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zac/franka_ws/build/pilz_industrial_motion_planner
+[13.881s] -- Install configuration: "Release"
+[13.882s] -- Execute custom install script
+[13.882s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/plugins/pilz_industrial_motion_planner_plugin_description.xml
+[13.903s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/plugins/sequence_capability_plugin_description.xml
+[13.925s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/plugins/planning_context_plugin_description.xml
+[13.948s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/joint_limits_copy/joint_limits.hpp
+[13.966s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/joint_limits_copy/joint_limits_rosparam.hpp
+[13.989s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/capability_names.h
+[14.009s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/cartesian_limit.h
+[14.028s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/cartesian_limits_aggregator.h
+[14.044s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/cartesian_trajectory.h
+[14.070s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/cartesian_trajectory_point.h
+[14.093s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/command_list_manager.h
+[14.112s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/joint_limits_aggregator.h
+[14.132s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/joint_limits_container.h
+[14.153s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/joint_limits_extension.h
+[14.173s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/joint_limits_interface_extension.h
+[14.195s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/joint_limits_validator.h
+[14.219s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/limits_container.h
+[14.244s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/move_group_sequence_action.h
+[14.267s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/move_group_sequence_service.h
+[14.288s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/path_circle_generator.h
+[14.319s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/pilz_industrial_motion_planner.h
+[14.340s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/plan_components_builder.h
+[14.361s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/planning_context_base.h
+[14.382s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/planning_context_circ.h
+[14.407s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/planning_context_lin.h
+[14.423s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/planning_context_loader.h
+[14.444s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/planning_context_loader_circ.h
+[14.465s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/planning_context_loader_lin.h
+[14.485s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/planning_context_loader_ptp.h
+[14.506s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/planning_context_ptp.h
+[14.528s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/planning_exceptions.h
+[14.547s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/tip_frame_getter.h
+[14.567s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_blend_request.h
+[14.588s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_blend_response.h
+[14.610s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_blender.h
+[14.631s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_blender_transition_window.h
+[14.648s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_functions.h
+[14.668s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_generation_exceptions.h
+[14.688s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_generator.h
+[14.709s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_generator_circ.h
+[14.730s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_generator_lin.h
+[14.751s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_generator_ptp.h
+[14.770s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/velocity_profile_atrap.h
+[14.790s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/environment/library_path.sh
+[14.810s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/environment/library_path.dsv
+[14.832s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_pilz_industrial_motion_planner_direct
+[14.853s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_velocity_profile_atrap
+[14.873s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_trajectory_generator
+[14.894s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_trajectory_functions
+[14.913s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_trajectory_blender_transition_window
+[14.933s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_trajectory_generator_common
+[14.953s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_trajectory_generator_circ
+[14.983s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_trajectory_generator_lin
+[15.005s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_trajectory_generator_ptp
+[15.030s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_pilz_industrial_motion_planner
+[15.056s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_joint_limit
+[15.080s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_joint_limits_aggregator
+[15.105s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_joint_limits_container
+[15.126s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_joint_limits_validator
+[15.145s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_cartesian_limits_aggregator
+[15.165s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_planning_context_loaders
+[15.186s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_planning_context
+[15.207s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_get_solver_tip_frame
+[15.227s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/config/unittest_cartesian_limits_aggregator.yaml
+[15.248s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/config/unittest_joint_limit_config.yaml
+[15.269s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/config/unittest_joint_limits_aggregator.yaml
+[15.287s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/config/unittest_trajectory_blender_transition_window.yaml
+[15.307s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/config/unittest_trajectory_functions.yaml
+[15.328s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/config/unittest_trajectory_generator_circ.yaml
+[15.347s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/config/unittest_trajectory_generator_common.yaml
+[15.369s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/config/unittest_trajectory_generator_lin.yaml
+[15.389s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/config/unittest_trajectory_generator_ptp.yaml
+[15.408s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/common_parameters.py
+[15.428s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_cartesian_limits_aggregator.test.py
+[15.449s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_joint_limit.test.py
+[15.470s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_joint_limits_aggregator.test.py
+[15.490s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_pilz_industrial_motion_planner.test.py
+[15.511s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_planning_context.test.py
+[15.532s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_planning_context_loaders.test.py
+[15.553s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_trajectory_blender_transition_window.test.py
+[15.574s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_trajectory_functions.test.py
+[15.599s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_trajectory_generator_circ.test.py
+[15.623s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_trajectory_generator_common.test.py
+[15.644s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_trajectory_generator_lin.test.py
+[15.666s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_trajectory_generator_ptp.test.py
+[15.685s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/test_data/concept_testdata.odp
+[15.706s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/test_data/concept_testdata.png
+[15.725s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/test_data/frankaemika_panda/testdata_sequence.xml
+[15.746s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/test_data/prbt/testdata_deprecated.xml
+[15.760s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/test_data/prbt/testdata_sequence.xml
+[15.776s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/test_data/prbt/testdata_with_gripper.xml
+[15.791s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/test_data/testpoints.py
+[15.812s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/ament_index/resource_index/package_run_dependencies/pilz_industrial_motion_planner
+[15.831s] -- Symlinking: /home/zac/franka_ws/install/pilz_industrial_motion_planner/share/ament_index/resource_index/parent_prefix_path/pilz_industrial_motion_planner
+[15.848s] Invoked command in '/home/zac/franka_ws/build/pilz_industrial_motion_planner' returned '-2': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_resources_prbt_pg70_support:/home/zac/franka_ws/install/moveit_ros_planning_interface:/home/zac/franka_ws/install/moveit_resources_prbt_moveit_config:/home/zac/franka_ws/install/moveit_ros_move_group:/home/zac/franka_ws/install/moveit_ros_warehouse:/home/zac/franka_ws/install/moveit_planners_ompl:/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/pilz_industrial_motion_planner_testutils:/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/moveit_configs_utils:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_resources_prbt_pg70_support:/home/zac/franka_ws/install/moveit_ros_planning_interface:/home/zac/franka_ws/install/moveit_resources_prbt_moveit_config:/home/zac/franka_ws/install/moveit_ros_move_group:/home/zac/franka_ws/install/moveit_ros_warehouse:/home/zac/franka_ws/install/moveit_planners_ompl:/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/pilz_industrial_motion_planner_testutils:/home/zac/franka_ws/install/moveit_simple_controller_manager:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_resources_prbt_support:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning_interface/lib:/home/zac/franka_ws/install/moveit_ros_move_group/lib:/home/zac/franka_ws/install/moveit_ros_warehouse/lib:/home/zac/franka_ws/install/moveit_planners_ompl/lib:/home/zac/franka_ws/install/moveit_kinematics/lib:/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/zac/franka_ws/install/moveit_simple_controller_manager/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zac/franka_ws/build/moveit_configs_utils:/home/zac/franka_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zac/franka_ws/build/pilz_industrial_motion_planner

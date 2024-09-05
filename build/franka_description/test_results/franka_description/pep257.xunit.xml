@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="franka_description.pep257"
+  tests="3"
+  errors="0"
+  failures="0"
+  time="0.062"
+>
+  <testcase
+    name="./launch/visualize_franka.launch.py"
+    classname="franka_description.pep257"/>
+  <testcase
+    name="./scripts/create_urdf.py"
+    classname="franka_description.pep257"/>
+  <testcase
+    name="./test/urdf_tests.py"
+    classname="franka_description.pep257"/>
+  <system-out>Checked files:
+* ./launch/visualize_franka.launch.py
+* ./scripts/create_urdf.py
+* ./test/urdf_tests.py</system-out>
+</testsuite>

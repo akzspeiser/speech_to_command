@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="6" failures="0" disabled="0" errors="0" time="0.109" timestamp="2024-08-15T02:54:27" name="AllTests">
+  <testsuite name="TestFrankaRobotStateBroadcaster" tests="6" failures="0" disabled="0" errors="0" time="0.109" timestamp="2024-08-15T02:54:27">
+    <testcase name="test_init_return_success" status="run" result="completed" time="0.048" timestamp="2024-08-15T02:54:27" classname="franka_robot_state_broadcaster.TestFrankaRobotStateBroadcaster" />
+    <testcase name="test_configure_return_success" status="run" result="completed" time="0.014" timestamp="2024-08-15T02:54:27" classname="franka_robot_state_broadcaster.TestFrankaRobotStateBroadcaster" />
+    <testcase name="test_activate_return_success" status="run" result="completed" time="0.012" timestamp="2024-08-15T02:54:27" classname="franka_robot_state_broadcaster.TestFrankaRobotStateBroadcaster" />
+    <testcase name="test_deactivate_return_success" status="run" result="completed" time="0.011" timestamp="2024-08-15T02:54:27" classname="franka_robot_state_broadcaster.TestFrankaRobotStateBroadcaster" />
+    <testcase name="test_update_without_franka_state_interface_returns_error" status="run" result="completed" time="0.013" timestamp="2024-08-15T02:54:27" classname="franka_robot_state_broadcaster.TestFrankaRobotStateBroadcaster" />
+    <testcase name="test_update_with_franka_state_returns_success" status="run" result="skipped" time="0.01" timestamp="2024-08-15T02:54:27" classname="franka_robot_state_broadcaster.TestFrankaRobotStateBroadcaster" />
+  </testsuite>
+</testsuites>

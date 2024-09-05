@@ -1,0 +1,335 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/franka_hardware/test':
+ - /home/zac/franka_ws/build/franka_hardware/test/franka_hardware_test --gtest_output=xml:/home/zac/franka_ws/build/franka_hardware/test_results/franka_hardware/franka_hardware_test.gtest.xml
+
+[==========] Running 47 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 23 tests from FrankaHardwareInterfaceTest
+[ RUN      ] FrankaHardwareInterfaceTest.when_on_init_called_expect_success
+[INFO] [1723715656.649224078] [service_server]: Service started
+[INFO] [1723715656.756911735] [action_server]: Action server started
+[       OK ] FrankaHardwareInterfaceTest.when_on_init_called_expect_success (134 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.given_that_the_robot_interfaces_set_when_read_called_return_ok
+[       OK ] FrankaHardwareInterfaceTest.given_that_the_robot_interfaces_set_when_read_called_return_ok (0 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.given_that_the_robot_interfaces_are_set_when_call_export_state_return_zero_values_and_correct_interface_names
+[INFO] [1723715656.777165058] [service_server]: Service started
+[INFO] [1723715656.882521624] [action_server]: Action server started
+[       OK ] FrankaHardwareInterfaceTest.given_that_the_robot_interfaces_are_set_when_call_export_state_return_zero_values_and_correct_interface_names (130 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.given_that_the_robot_interfaces_are_set_when_call_export_state_interface_robot_model_interface_exists
+[INFO] [1723715656.903568391] [service_server]: Service started
+[INFO] [1723715657.009374169] [action_server]: Action server started
+[       OK ] FrankaHardwareInterfaceTest.given_that_the_robot_interfaces_are_set_when_call_export_state_interface_robot_model_interface_exists (121 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.given_that_the_robot_interfaces_are_set_when_call_export_state_interface_robot_state_interface_exists
+[INFO] [1723715657.024779633] [service_server]: Service started
+[INFO] [1723715657.129753633] [action_server]: Action server started
+[       OK ] FrankaHardwareInterfaceTest.given_that_the_robot_interfaces_are_set_when_call_export_state_interface_robot_state_interface_exists (122 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.when_write_called_with_inifite_command_expect_error
+[INFO] [1723715657.149806749] [service_server]: Service started
+[INFO] [1723715657.255521975] [action_server]: Action server started
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: stopRobot()
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: initializeJointPositionInterface()
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: getModel()
+          Returns: NULL
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] FrankaHardwareInterfaceTest.when_write_called_with_inifite_command_expect_error (122 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.given_position_joint_command_interface_initialized_if_write_called_without_read_expect_write_once_not_to_called
+[INFO] [1723715657.270458679] [service_server]: Service started
+[INFO] [1723715657.375815361] [action_server]: Action server started
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: stopRobot()
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: initializeJointPositionInterface()
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] FrankaHardwareInterfaceTest.given_position_joint_command_interface_initialized_if_write_called_without_read_expect_write_once_not_to_called (128 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.when_on_activate_called_expect_success
+[INFO] [1723715657.390268035] [FrankaHardwareInterface]: Started
+[       OK ] FrankaHardwareInterfaceTest.when_on_activate_called_expect_success (0 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.when_on_deactivate_called_expect_success
+[INFO] [1723715657.390345041] [FrankaHardwareInterface]: trying to Stop...
+[INFO] [1723715657.390360645] [FrankaHardwareInterface]: Stopped
+[       OK ] FrankaHardwareInterfaceTest.when_on_deactivate_called_expect_success (0 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.given_param_service_server_setup_when_set_joint_stiffness_service_called_expect_robot_set_joint_stiffness_to_be_called
+[INFO] [1723715657.398503539] [service_server]: Service started
+[INFO] [1723715657.502946177] [action_server]: Action server started
+[INFO] [1723715657.506529890] [test_node]: created request
+[       OK ] FrankaHardwareInterfaceTest.given_param_service_server_setup_when_set_joint_stiffness_service_called_expect_robot_set_joint_stiffness_to_be_called (125 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.given_param_service_server_setup_when_set_joint_cartesian_service_called_expect_robot_set_joint_cartesian_to_be_called
+[INFO] [1723715657.523540732] [service_server]: Service started
+[INFO] [1723715657.628297171] [action_server]: Action server started
+[INFO] [1723715657.631881987] [test_node]: created request
+[       OK ] FrankaHardwareInterfaceTest.given_param_service_server_setup_when_set_joint_cartesian_service_called_expect_robot_set_joint_cartesian_to_be_called (134 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.given_param_service_server_setup_when_set_load_service_called_expect_robot_set_load_to_be_called
+[INFO] [1723715657.658370140] [service_server]: Service started
+[INFO] [1723715657.762700087] [action_server]: Action server started
+[INFO] [1723715657.767135165] [test_node]: created request
+[       OK ] FrankaHardwareInterfaceTest.given_param_service_server_setup_when_set_load_service_called_expect_robot_set_load_to_be_called (136 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.given_param_service_server_setup_when_set_tcp_frame_service_called_expect_robot_set_tcp_frame_to_be_called
+[INFO] [1723715657.795322573] [service_server]: Service started
+[INFO] [1723715657.898413861] [action_server]: Action server started
+[INFO] [1723715657.901264407] [test_node]: created request
+[       OK ] FrankaHardwareInterfaceTest.given_param_service_server_setup_when_set_tcp_frame_service_called_expect_robot_set_tcp_frame_to_be_called (123 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.given_param_service_server_setup_when_set_stiffness_frame_service_called_expect_robot_set_stiffness_frame_to_be_called
+[INFO] [1723715657.915090349] [service_server]: Service started
+[INFO] [1723715658.021266609] [action_server]: Action server started
+[INFO] [1723715658.024811621] [test_node]: created request
+[       OK ] FrankaHardwareInterfaceTest.given_param_service_server_setup_when_set_stiffness_frame_service_called_expect_robot_set_stiffness_frame_to_be_called (127 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.given_param_service_server_setup_when_set_force_torque_collision_behavior_service_called_expect_same_function_in_robot_class_to_be_called
+[INFO] [1723715658.041110850] [service_server]: Service started
+[INFO] [1723715658.144424648] [action_server]: Action server started
+[INFO] [1723715658.146667728] [test_node]: created request
+[       OK ] FrankaHardwareInterfaceTest.given_param_service_server_setup_when_set_force_torque_collision_behavior_service_called_expect_same_function_in_robot_class_to_be_called (118 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.given_param_service_server_setup_when_set_full_collision_behavior_service_called_expect_same_function_in_robot_class_to_be_called
+[INFO] [1723715658.157836333] [service_server]: Service started
+[INFO] [1723715658.266166304] [action_server]: Action server started
+[INFO] [1723715658.273347642] [test_node]: created request
+[       OK ] FrankaHardwareInterfaceTest.given_param_service_server_setup_when_set_full_collision_behavior_service_called_expect_same_function_in_robot_class_to_be_called (140 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.set_joint_stiffness_throws_error
+[INFO] [1723715658.302729947] [service_server]: Service started
+[INFO] [1723715658.411559594] [action_server]: Action server started
+[INFO] [1723715658.418534590] [test_node]: created request
+[ERROR] [1723715658.418996047] [service_server]: Network exception thrown during parameter setting 
+[       OK ] FrankaHardwareInterfaceTest.set_joint_stiffness_throws_error (146 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.set_cartesian_stiffness_throws_error
+[INFO] [1723715658.450218551] [service_server]: Service started
+[INFO] [1723715658.561342990] [action_server]: Action server started
+[INFO] [1723715658.570023939] [test_node]: created request
+[ERROR] [1723715658.570407526] [service_server]: Network exception thrown during parameter setting 
+[       OK ] FrankaHardwareInterfaceTest.set_cartesian_stiffness_throws_error (150 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.set_load_throws_error
+[INFO] [1723715658.599276910] [service_server]: Service started
+[INFO] [1723715658.708129397] [action_server]: Action server started
+[INFO] [1723715658.719120658] [test_node]: created request
+[ERROR] [1723715658.719527078] [service_server]: Network exception thrown during parameter setting 
+[       OK ] FrankaHardwareInterfaceTest.set_load_throws_error (148 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.set_EE_frame_throws_error
+[INFO] [1723715658.744923003] [service_server]: Service started
+[INFO] [1723715658.853628624] [action_server]: Action server started
+[INFO] [1723715658.860067370] [test_node]: created request
+[ERROR] [1723715658.860539882] [service_server]: Network exception thrown during parameter setting 
+[       OK ] FrankaHardwareInterfaceTest.set_EE_frame_throws_error (146 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.set_K_frame_throws_error
+[INFO] [1723715658.890958445] [service_server]: Service started
+[INFO] [1723715659.000240562] [action_server]: Action server started
+[INFO] [1723715659.007294839] [test_node]: created request
+[ERROR] [1723715659.007727668] [service_server]: Network exception thrown during parameter setting 
+[       OK ] FrankaHardwareInterfaceTest.set_K_frame_throws_error (147 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.set_force_torque_collision_behavior_throws_error
+[INFO] [1723715659.046300889] [service_server]: Service started
+[INFO] [1723715659.156174884] [action_server]: Action server started
+[INFO] [1723715659.164816557] [test_node]: created request
+[ERROR] [1723715659.165229799] [service_server]: Network exception thrown during parameter setting 
+[       OK ] FrankaHardwareInterfaceTest.set_force_torque_collision_behavior_throws_error (155 ms)
+[ RUN      ] FrankaHardwareInterfaceTest.set_full_collision_behavior_throws_error
+[INFO] [1723715659.193296544] [service_server]: Service started
+[INFO] [1723715659.305233716] [action_server]: Action server started
+[INFO] [1723715659.315564275] [test_node]: created request
+[ERROR] [1723715659.316011399] [service_server]: Network exception thrown during parameter setting 
+[       OK ] FrankaHardwareInterfaceTest.set_full_collision_behavior_throws_error (152 ms)
+[----------] 23 tests from FrankaHardwareInterfaceTest (2704 ms total)
+
+[----------] 21 tests from FrankaHardwareTests/FrankaHardwareInterfaceTest
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_for_stop_effort_interfaces_expect_ok/0
+[INFO] [1723715659.345309747] [service_server]: Service started
+[INFO] [1723715659.454992381] [action_server]: Action server started
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_for_stop_effort_interfaces_expect_ok/0 (133 ms)
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_for_stop_effort_interfaces_expect_ok/1
+[INFO] [1723715659.486259639] [service_server]: Service started
+[INFO] [1723715659.595339528] [action_server]: Action server started
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_for_stop_effort_interfaces_expect_ok/1 (141 ms)
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_for_stop_effort_interfaces_expect_ok/2
+[INFO] [1723715659.625227891] [service_server]: Service started
+[INFO] [1723715659.733471531] [action_server]: Action server started
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_for_stop_effort_interfaces_expect_ok/2 (138 ms)
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_start_interface_number_expect_throw/0
+[INFO] [1723715659.765426935] [service_server]: Service started
+[INFO] [1723715659.875769519] [action_server]: Action server started
+[FATAL] [1723715659.875976312] [FrankaHardwareInterface]: Invalid number of effort interfaces to start. Expected 7, given 1
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_start_interface_number_expect_throw/0 (144 ms)
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_start_interface_number_expect_throw/1
+[INFO] [1723715659.906803871] [service_server]: Service started
+[INFO] [1723715660.015498944] [action_server]: Action server started
+[FATAL] [1723715660.015661363] [FrankaHardwareInterface]: Invalid number of effort interfaces to start. Expected 7, given 1
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_start_interface_number_expect_throw/1 (141 ms)
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_start_interface_number_expect_throw/2
+[INFO] [1723715660.048380929] [service_server]: Service started
+[INFO] [1723715660.156998799] [action_server]: Action server started
+[FATAL] [1723715660.157128964] [FrankaHardwareInterface]: Invalid number of effort interfaces to start. Expected 7, given 1
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_start_interface_number_expect_throw/2 (138 ms)
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_for_start_effort_interfaces_expect_ok/0
+[INFO] [1723715660.188009062] [service_server]: Service started
+[INFO] [1723715660.299263802] [action_server]: Action server started
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_for_start_effort_interfaces_expect_ok/0 (146 ms)
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_for_start_effort_interfaces_expect_ok/1
+[INFO] [1723715660.329382312] [service_server]: Service started
+[INFO] [1723715660.438136552] [action_server]: Action server started
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_for_start_effort_interfaces_expect_ok/1 (134 ms)
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_for_start_effort_interfaces_expect_ok/2
+[INFO] [1723715660.468725979] [service_server]: Service started
+[INFO] [1723715660.577664833] [action_server]: Action server started
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_for_start_effort_interfaces_expect_ok/2 (142 ms)
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_stop_interface_number_expect_throw/0
+[INFO] [1723715660.606967227] [service_server]: Service started
+[INFO] [1723715660.716184566] [action_server]: Action server started
+[FATAL] [1723715660.716345515] [FrankaHardwareInterface]: Invalid number of effort interfaces to start. Expected 7, given 1
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_stop_interface_number_expect_throw/0 (137 ms)
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_stop_interface_number_expect_throw/1
+[INFO] [1723715660.748710630] [service_server]: Service started
+[INFO] [1723715660.859505203] [action_server]: Action server started
+[FATAL] [1723715660.859666621] [FrankaHardwareInterface]: Invalid number of effort interfaces to start. Expected 7, given 1
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_stop_interface_number_expect_throw/1 (142 ms)
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_stop_interface_number_expect_throw/2
+[INFO] [1723715660.892176798] [service_server]: Service started
+[INFO] [1723715661.001679211] [action_server]: Action server started
+[FATAL] [1723715661.001860708] [FrankaHardwareInterface]: Invalid number of effort interfaces to start. Expected 7, given 1
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_stop_interface_number_expect_throw/2 (143 ms)
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_write_called_expect_ok/0
+[INFO] [1723715661.031820752] [service_server]: Service started
+[INFO] [1723715661.140230472] [action_server]: Action server started
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: stopRobot()
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: initializeJointVelocityInterface()
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_write_called_expect_ok/0 (138 ms)
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_write_called_expect_ok/1
+[INFO] [1723715661.169754499] [service_server]: Service started
+[INFO] [1723715661.278952163] [action_server]: Action server started
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: stopRobot()
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: initializeTorqueInterface()
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_write_called_expect_ok/1 (138 ms)
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_write_called_expect_ok/2
+[INFO] [1723715661.309765101] [service_server]: Service started
+[INFO] [1723715661.421597056] [action_server]: Action server started
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: stopRobot()
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: initializeJointPositionInterface()
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: getModel()
+          Returns: NULL
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: readOnce()
+          Returns: {"O_T_EE": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "O_T_EE_d": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "F_T_NE": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "NE_T_EE": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "F_T_EE": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "EE_T_K": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "m_ee": 0, "F_x_Cee": [0,0,0], "I_ee": [0,0,0,0,0,0,0,0,0], "m_load": 0, "F_x_Cload": [0,0,0], "I_load": [0,0,0,0,0,0,0,0,0], "m_total": 0, "F_x_Ctotal": [0,0,0], "I_total": [0,0,0,0,0,0,0,0,0], "elbow": [0,0], "elbow_d": [0,0], "elbow_c": [0,0], "delbow_c": [0,0], "ddelbow_c": [0,0], "tau_J": [0,0,0,0,0,0,0], "tau_J_d": [0,0,0,0,0,0,0], "dtau_J": [0,0,0,0,0,0,0], "q": [0,0,0,0,0,0,0], "dq": [0,0,0,0,0,0,0], "q_d": [0,0,0,0,0,0,0], "dq_d": [0,0,0,0,0,0,0], "ddq_d": [0,0,0,0,0,0,0], "joint_contact": [0,0,0,0,0,0,0], "cartesian_contact": [0,0,0,0,0,0], "joint_collision": [0,0,0,0,0,0,0], "cartesian_collision": [0,0,0,0,0,0], "tau_ext_hat_filtered": [0,0,0,0,0,0,0], "O_F_ext_hat_K": [0,0,0,0,0,0], "K_F_ext_hat_K": [0,0,0,0,0,0], "O_dP_EE_d": [0,0,0,0,0,0], "O_ddP_O": [0,0,0], "O_T_EE_c": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "O_dP_EE_c": [0,0,0,0,0,0], "O_ddP_EE_c": [0,0,0,0,0,0], "theta": [0,0,0,0,0,0,0], "dtheta": [0,0,0,0,0,0,0], "current_errors": [], "last_motion_errors": [], "control_command_success_rate": 0, "robot_mode": "User stopped", "time": 0}
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.when_write_called_expect_ok/2 (146 ms)
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.given_start_effort_interface_prepared_when_perform_command_mode_switch_called_expect_ok/0
+[INFO] [1723715661.454525092] [service_server]: Service started
+[INFO] [1723715661.564021005] [action_server]: Action server started
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: stopRobot()
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.given_start_effort_interface_prepared_when_perform_command_mode_switch_called_expect_ok/0 (139 ms)
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.given_start_effort_interface_prepared_when_perform_command_mode_switch_called_expect_ok/1
+[INFO] [1723715661.591780676] [service_server]: Service started
+[INFO] [1723715661.702325202] [action_server]: Action server started
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: stopRobot()
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.given_start_effort_interface_prepared_when_perform_command_mode_switch_called_expect_ok/1 (143 ms)
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.given_start_effort_interface_prepared_when_perform_command_mode_switch_called_expect_ok/2
+[INFO] [1723715661.732385097] [service_server]: Service started
+[INFO] [1723715661.841692279] [action_server]: Action server started
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: stopRobot()
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.given_start_effort_interface_prepared_when_perform_command_mode_switch_called_expect_ok/2 (135 ms)
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.given_that_effort_control_started_perform_command_mode_switch_stop_expect_ok/0
+[INFO] [1723715661.871096069] [service_server]: Service started
+[INFO] [1723715661.983126873] [action_server]: Action server started
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: initializeJointVelocityInterface()
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.given_that_effort_control_started_perform_command_mode_switch_stop_expect_ok/0 (145 ms)
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.given_that_effort_control_started_perform_command_mode_switch_stop_expect_ok/1
+[INFO] [1723715662.017471947] [service_server]: Service started
+[INFO] [1723715662.126428406] [action_server]: Action server started
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: initializeTorqueInterface()
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.given_that_effort_control_started_perform_command_mode_switch_stop_expect_ok/1 (140 ms)
+[ RUN      ] FrankaHardwareTests/FrankaHardwareInterfaceTest.given_that_effort_control_started_perform_command_mode_switch_stop_expect_ok/2
+[INFO] [1723715662.156667582] [service_server]: Service started
+[INFO] [1723715662.264745751] [action_server]: Action server started
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: initializeJointPositionInterface()
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] FrankaHardwareTests/FrankaHardwareInterfaceTest.given_that_effort_control_started_perform_command_mode_switch_stop_expect_ok/2 (138 ms)
+[----------] 21 tests from FrankaHardwareTests/FrankaHardwareInterfaceTest (2943 ms total)
+
+[----------] 3 tests from FrankaActionServerTestsInstantiation/FrankaActionServerTests
+[ RUN      ] FrankaActionServerTestsInstantiation/FrankaActionServerTests.whenErrorRecoveryActionTriggered_thenErrorRecoveryServiceCallExecuted/0
+[INFO] [1723715662.295387863] [service_server]: Service started
+[INFO] [1723715662.405340747] [action_server]: Action server started
+[INFO] [1723715662.415467246] [action_server]: Automatic recovery succeeded
+[       OK ] FrankaActionServerTestsInstantiation/FrankaActionServerTests.whenErrorRecoveryActionTriggered_thenErrorRecoveryServiceCallExecuted/0 (158 ms)
+[ RUN      ] FrankaActionServerTestsInstantiation/FrankaActionServerTests.whenErrorRecoveryActionTriggered_thenErrorRecoveryServiceCallExecuted/1
+[INFO] [1723715662.450593755] [service_server]: Service started
+[INFO] [1723715662.559669176] [action_server]: Action server started
+[ERROR] [1723715662.562725912] [action_server]: Command exception thrown during automatic error recovery 
+[       OK ] FrankaActionServerTestsInstantiation/FrankaActionServerTests.whenErrorRecoveryActionTriggered_thenErrorRecoveryServiceCallExecuted/1 (131 ms)
+[ RUN      ] FrankaActionServerTestsInstantiation/FrankaActionServerTests.whenErrorRecoveryActionTriggered_thenErrorRecoveryServiceCallExecuted/2
+[INFO] [1723715662.576706021] [service_server]: Service started
+[INFO] [1723715662.685726490] [action_server]: Action server started
+[ERROR] [1723715662.695166553] [action_server]: Network exception thrown automatic error recovery 
+[       OK ] FrankaActionServerTestsInstantiation/FrankaActionServerTests.whenErrorRecoveryActionTriggered_thenErrorRecoveryServiceCallExecuted/2 (148 ms)
+[----------] 3 tests from FrankaActionServerTestsInstantiation/FrankaActionServerTests (437 ms total)
+
+[----------] Global test environment tear-down
+[==========] 47 tests from 3 test suites ran. (6084 ms total)
+[  PASSED  ] 47 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/zac/franka_ws/build/franka_hardware/test_results/franka_hardware/franka_hardware_test.gtest.xml'
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_hardware/test_results/franka_hardware/franka_hardware_test.gtest.xml'

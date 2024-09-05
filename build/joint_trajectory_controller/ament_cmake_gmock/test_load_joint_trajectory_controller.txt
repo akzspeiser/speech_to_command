@@ -1,0 +1,26 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/joint_trajectory_controller':
+ - /home/zac/franka_ws/build/joint_trajectory_controller/test_load_joint_trajectory_controller --gtest_output=xml:/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_load_joint_trajectory_controller.gtest.xml
+
+Running main() from gmock_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestLoadJointStateController
+[ RUN      ] TestLoadJointStateController.load_controller
+[INFO] [1723715658.109065708] [resource_manager]: Loading hardware 'TestActuatorHardware' 
+unknown file: Failure
+C++ exception with description "According to the loaded plugin descriptions the class test_actuator with base class type hardware_interface::ActuatorInterface does not exist. Declared types are  test_hardware_components/TestSingleJointActuator" thrown in the test body.
+[  FAILED  ] TestLoadJointStateController.load_controller (8 ms)
+[----------] 1 test from TestLoadJointStateController (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] TestLoadJointStateController.load_controller
+
+ 1 FAILED TEST
+
+
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_load_joint_trajectory_controller.gtest.xml'
+-- run_test.py: verify result file '/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_load_joint_trajectory_controller.gtest.xml'

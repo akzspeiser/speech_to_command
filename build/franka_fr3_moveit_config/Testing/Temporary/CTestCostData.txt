@@ -1,0 +1,7 @@
+franka_fr3_moveit_config_srdf_tests 1 0.664258
+copyright 1 0.299069
+flake8 1 0.330687
+lint_cmake 1 0.159965
+pep257 1 0.237416
+xmllint 1 0.310828
+---

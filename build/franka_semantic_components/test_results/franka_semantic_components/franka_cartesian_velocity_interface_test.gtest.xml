@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="8" failures="0" disabled="0" errors="0" time="0.001" timestamp="2024-08-15T02:54:25" name="AllTests">
+  <testsuite name="FrankaCartesianVelocityTest" tests="8" failures="0" disabled="0" errors="0" time="0.001" timestamp="2024-08-15T02:54:25">
+    <testcase name="given_correct_interfaces_set_velocity_with_elbow_command_expect_successful" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianVelocityTest" />
+    <testcase name="given_correct_interfaces_when_get_elbow_command_values_called_expect_successful" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianVelocityTest" />
+    <testcase name="given_elbow_is_not_activated_when_elbow_command_get_value_is_called_expect_throw" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianVelocityTest" />
+    <testcase name="given_elbow_and_cartesian_velocity_claimed_when_set_velocity_command_without_elbow_expect_failure" status="run" result="completed" time="0.001" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianVelocityTest" />
+    <testcase name="given_only_cartesian_velocity_claimed_without_elbow_when_set_velocity_command_cartesian_vel_expect_successful" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianVelocityTest" />
+    <testcase name="given_incorrect_command_interfaces_set_velocity_expect_unsuccesful" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianVelocityTest" />
+    <testcase name="given_correct_interface_when_initial_elbow_state_requested_expect_correct" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianVelocityTest" />
+    <testcase name="given_correct_interface_when_initial_elbow_state_requested_expect_throw" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianVelocityTest" />
+  </testsuite>
+</testsuites>

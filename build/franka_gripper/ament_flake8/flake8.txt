@@ -1,0 +1,16 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_gripper':
+ - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/zac/franka_ws/build/franka_gripper/test_results/franka_gripper/flake8.xunit.xml
+
+
+3 files checked
+No problems found
+
+Checked files:
+
+* ./launch/gripper.launch.py
+* ./franka_gripper/__init__.py
+* ./scripts/fake_gripper_state_publisher.py
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_gripper/test_results/franka_gripper/flake8.xunit.xml'

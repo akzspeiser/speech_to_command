@@ -1,0 +1,340 @@
+[0.036s] Invoking command in '/home/zac/franka_ws/build/franka_description': CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_description:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_ign_ros2_control:/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_msgs /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.049s] UpdateCTestConfiguration  from :/home/zac/franka_ws/build/franka_description/CTestConfiguration.ini
+[0.049s] Parse Config file:/home/zac/franka_ws/build/franka_description/CTestConfiguration.ini
+[0.049s]    Site: CHARISMA-Predator-571
+[0.049s]    Build name: (empty)
+[0.050s]  Add coverage exclude regular expressions.
+[0.050s] Create new tag: 20240815-0954 - Experimental
+[0.050s] UpdateCTestConfiguration  from :/home/zac/franka_ws/build/franka_description/CTestConfiguration.ini
+[0.050s] Parse Config file:/home/zac/franka_ws/build/franka_description/CTestConfiguration.ini
+[0.050s] Test project /home/zac/franka_ws/build/franka_description
+[0.051s] Constructing a list of tests
+[0.052s] Done constructing a list of tests
+[0.052s] Updating test list for fixtures
+[0.052s] Added 0 tests to meet fixture requirements
+[0.052s] Checking test dependency graph...
+[0.053s] Checking test dependency graph end
+[0.053s] test 1
+[0.053s]     Start 1: franka_description_urdf_tests
+[0.053s] 
+[0.053s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_description/test_results/franka_description/franka_description_urdf_tests.xunit.xml" "--package-name" "franka_description" "--output-file" "/home/zac/franka_ws/build/franka_description/ament_cmake_pytest/franka_description_urdf_tests.txt" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/zac/franka_ws/src/franka_description/test/urdf_tests.py" "-o" "cache_dir=/home/zac/franka_ws/build/franka_description/ament_cmake_pytest/franka_description_urdf_tests/.cache" "--junit-xml=/home/zac/franka_ws/build/franka_description/test_results/franka_description/franka_description_urdf_tests.xunit.xml" "--junit-prefix=franka_description"
+[0.053s] 1: Test timeout computed to be: 60
+[0.152s] 1: -- run_test.py: invoking following command in '/home/zac/franka_ws/build/franka_description':
+[0.152s] 1:  - /usr/bin/python3 -u -m pytest /home/zac/franka_ws/src/franka_description/test/urdf_tests.py -o cache_dir=/home/zac/franka_ws/build/franka_description/ament_cmake_pytest/franka_description_urdf_tests/.cache --junit-xml=/home/zac/franka_ws/build/franka_description/test_results/franka_description/franka_description_urdf_tests.xunit.xml --junit-prefix=franka_description
+[0.523s] 1: ============================= test session starts ==============================
+[0.523s] 1: platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.531s] 1: cachedir: build/franka_description/ament_cmake_pytest/franka_description_urdf_tests/.cache
+[0.531s] 1: rootdir: /home/zac/franka_ws
+[0.531s] 1: plugins: launch-testing-ros-0.19.7, ament-flake8-0.12.11, ament-pep257-0.12.11, ament-lint-0.12.11, launch-testing-1.0.6, ament-copyright-0.12.11, ament-xmllint-0.12.11, cov-3.0.0, colcon-core-0.17.0
+[0.563s] 1: collected 5 items
+[0.563s] 1: 
+[1.293s] 1: ../../src/franka_description/test/urdf_tests.py FFFFF                    [100%]
+[1.293s] 1: 
+[1.293s] 1: =================================== FAILURES ===================================
+[1.293s] 1: __________________________________ test_load ___________________________________
+[1.294s] 1: 
+[1.294s] 1:     def test_load():
+[1.294s] 1:         """Test of hand parameter equal to none."""
+[1.294s] 1: >       urdf = xacro.process_file(
+[1.294s] 1:             xacro_file_name,
+[1.294s] 1:             mappings={
+[1.295s] 1:                 "arm_id": "fer",
+[1.295s] 1:                 "ee_id": "none",
+[1.295s] 1:             },
+[1.295s] 1:         ).toxml()
+[1.295s] 1: 
+[1.295s] 1: ../../src/franka_description/test/urdf_tests.py:32: 
+[1.295s] 1: _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1.295s] 1: /opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:1096: in process_file
+[1.296s] 1:     doc = parse(None, input_file_name)
+[1.296s] 1: /opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:1022: in parse
+[1.296s] 1:     return xml.dom.minidom.parse(inp)
+[1.296s] 1: /usr/lib/python3.10/xml/dom/minidom.py:1990: in parse
+[1.296s] 1:     return expatbuilder.parse(file)
+[1.296s] 1: /usr/lib/python3.10/xml/dom/expatbuilder.py:913: in parse
+[1.296s] 1:     result = builder.parseFile(file)
+[1.296s] 1: _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1.296s] 1: 
+[1.299s] 1: self = <xml.dom.expatbuilder.ExpatBuilderNS object at 0x7fe15360ccd0>
+[1.299s] 1: file = <_io.TextIOWrapper name='/home/zac/franka_ws/install/franka_description/share/franka_description/robots/fer/fer.urdf.xacro' mode='r' encoding='UTF-8'>
+[1.299s] 1: 
+[1.299s] 1:     def parseFile(self, file):
+[1.300s] 1:         """Parse a document from a file object, returning the document
+[1.300s] 1:         node."""
+[1.300s] 1:         parser = self.getParser()
+[1.300s] 1:         first_buffer = True
+[1.300s] 1:         try:
+[1.300s] 1:             while 1:
+[1.300s] 1:                 buffer = file.read(16*1024)
+[1.301s] 1:                 if not buffer:
+[1.301s] 1:                     break
+[1.301s] 1: >               parser.Parse(buffer, False)
+[1.301s] 1: E               xml.parsers.expat.ExpatError: mismatched tag: line 52, column 2
+[1.301s] 1: 
+[1.301s] 1: /usr/lib/python3.10/xml/dom/expatbuilder.py:207: ExpatError
+[1.301s] 1: ____________________________ test_load_with_gripper ____________________________
+[1.301s] 1: 
+[1.301s] 1:     def test_load_with_gripper():
+[1.302s] 1:         """Test of hand parameter equal to a value."""
+[1.302s] 1: >       urdf = xacro.process_file(
+[1.302s] 1:             xacro_file_name, mappings={"arm_id": "fer", "ee_id": "franka_hand"}
+[1.302s] 1:         ).toxml()
+[1.302s] 1: 
+[1.302s] 1: ../../src/franka_description/test/urdf_tests.py:44: 
+[1.302s] 1: _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1.302s] 1: /opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:1096: in process_file
+[1.303s] 1:     doc = parse(None, input_file_name)
+[1.303s] 1: /opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:1022: in parse
+[1.303s] 1:     return xml.dom.minidom.parse(inp)
+[1.303s] 1: /usr/lib/python3.10/xml/dom/minidom.py:1990: in parse
+[1.303s] 1:     return expatbuilder.parse(file)
+[1.303s] 1: /usr/lib/python3.10/xml/dom/expatbuilder.py:913: in parse
+[1.303s] 1:     result = builder.parseFile(file)
+[1.303s] 1: _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1.303s] 1: 
+[1.304s] 1: self = <xml.dom.expatbuilder.ExpatBuilderNS object at 0x7fe1532ff7c0>
+[1.304s] 1: file = <_io.TextIOWrapper name='/home/zac/franka_ws/install/franka_description/share/franka_description/robots/fer/fer.urdf.xacro' mode='r' encoding='UTF-8'>
+[1.304s] 1: 
+[1.304s] 1:     def parseFile(self, file):
+[1.304s] 1:         """Parse a document from a file object, returning the document
+[1.304s] 1:         node."""
+[1.304s] 1:         parser = self.getParser()
+[1.304s] 1:         first_buffer = True
+[1.304s] 1:         try:
+[1.305s] 1:             while 1:
+[1.305s] 1:                 buffer = file.read(16*1024)
+[1.305s] 1:                 if not buffer:
+[1.305s] 1:                     break
+[1.305s] 1: >               parser.Parse(buffer, False)
+[1.305s] 1: E               xml.parsers.expat.ExpatError: mismatched tag: line 52, column 2
+[1.305s] 1: 
+[1.305s] 1: /usr/lib/python3.10/xml/dom/expatbuilder.py:207: ExpatError
+[1.305s] 1: ____________________________ test_check_interfaces _____________________________
+[1.306s] 1: 
+[1.306s] 1:     def test_check_interfaces():
+[1.306s] 1:         """Test of the parameters for ros2_control hardware interface."""
+[1.306s] 1: >       urdf = xacro.process_file(
+[1.306s] 1:             xacro_file_name, mappings={"ros2_control": "true"}
+[1.306s] 1:         ).toxml()
+[1.306s] 1: 
+[1.306s] 1: ../../src/franka_description/test/urdf_tests.py:52: 
+[1.306s] 1: _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1.307s] 1: /opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:1096: in process_file
+[1.307s] 1:     doc = parse(None, input_file_name)
+[1.307s] 1: /opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:1022: in parse
+[1.307s] 1:     return xml.dom.minidom.parse(inp)
+[1.307s] 1: /usr/lib/python3.10/xml/dom/minidom.py:1990: in parse
+[1.307s] 1:     return expatbuilder.parse(file)
+[1.307s] 1: /usr/lib/python3.10/xml/dom/expatbuilder.py:913: in parse
+[1.307s] 1:     result = builder.parseFile(file)
+[1.307s] 1: _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1.307s] 1: 
+[1.307s] 1: self = <xml.dom.expatbuilder.ExpatBuilderNS object at 0x7fe153263b50>
+[1.307s] 1: file = <_io.TextIOWrapper name='/home/zac/franka_ws/install/franka_description/share/franka_description/robots/fer/fer.urdf.xacro' mode='r' encoding='UTF-8'>
+[1.307s] 1: 
+[1.307s] 1:     def parseFile(self, file):
+[1.308s] 1:         """Parse a document from a file object, returning the document
+[1.308s] 1:         node."""
+[1.308s] 1:         parser = self.getParser()
+[1.308s] 1:         first_buffer = True
+[1.308s] 1:         try:
+[1.308s] 1:             while 1:
+[1.308s] 1:                 buffer = file.read(16*1024)
+[1.308s] 1:                 if not buffer:
+[1.308s] 1:                     break
+[1.308s] 1: >               parser.Parse(buffer, False)
+[1.308s] 1: E               xml.parsers.expat.ExpatError: mismatched tag: line 52, column 2
+[1.308s] 1: 
+[1.308s] 1: /usr/lib/python3.10/xml/dom/expatbuilder.py:207: ExpatError
+[1.308s] 1: _________________________ test_load_with_fake_hardware _________________________
+[1.308s] 1: 
+[1.309s] 1:     def test_load_with_fake_hardware():
+[1.309s] 1:         """Test of use_fake_hardware parameter for ros2_control hardware interface."""
+[1.309s] 1: >       urdf = xacro.process_file(
+[1.309s] 1:             xacro_file_name, mappings={"ros2_control": "true", "use_fake_hardware": "true"}
+[1.309s] 1:         ).toxml()
+[1.309s] 1: 
+[1.309s] 1: ../../src/franka_description/test/urdf_tests.py:64: 
+[1.309s] 1: _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1.309s] 1: /opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:1096: in process_file
+[1.309s] 1:     doc = parse(None, input_file_name)
+[1.309s] 1: /opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:1022: in parse
+[1.310s] 1:     return xml.dom.minidom.parse(inp)
+[1.310s] 1: /usr/lib/python3.10/xml/dom/minidom.py:1990: in parse
+[1.310s] 1:     return expatbuilder.parse(file)
+[1.310s] 1: /usr/lib/python3.10/xml/dom/expatbuilder.py:913: in parse
+[1.310s] 1:     result = builder.parseFile(file)
+[1.310s] 1: _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1.310s] 1: 
+[1.310s] 1: self = <xml.dom.expatbuilder.ExpatBuilderNS object at 0x7fe1532ffb50>
+[1.310s] 1: file = <_io.TextIOWrapper name='/home/zac/franka_ws/install/franka_description/share/franka_description/robots/fer/fer.urdf.xacro' mode='r' encoding='UTF-8'>
+[1.311s] 1: 
+[1.311s] 1:     def parseFile(self, file):
+[1.311s] 1:         """Parse a document from a file object, returning the document
+[1.311s] 1:         node."""
+[1.311s] 1:         parser = self.getParser()
+[1.311s] 1:         first_buffer = True
+[1.311s] 1:         try:
+[1.311s] 1:             while 1:
+[1.311s] 1:                 buffer = file.read(16*1024)
+[1.311s] 1:                 if not buffer:
+[1.311s] 1:                     break
+[1.312s] 1: >               parser.Parse(buffer, False)
+[1.312s] 1: E               xml.parsers.expat.ExpatError: mismatched tag: line 52, column 2
+[1.312s] 1: 
+[1.312s] 1: /usr/lib/python3.10/xml/dom/expatbuilder.py:207: ExpatError
+[1.312s] 1: ___________________________ test_load_with_robot_ip ____________________________
+[1.312s] 1: 
+[1.312s] 1:     def test_load_with_robot_ip():
+[1.312s] 1:         """Test of robot_ip parameter for ros2_control hardware interface."""
+[1.312s] 1: >       urdf = xacro.process_file(
+[1.313s] 1:             xacro_file_name,
+[1.313s] 1:             mappings={"ros2_control": "true", "robot_ip": "franka_ip_address"},
+[1.313s] 1:         ).toxml()
+[1.313s] 1: 
+[1.313s] 1: ../../src/franka_description/test/urdf_tests.py:72: 
+[1.313s] 1: _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1.313s] 1: /opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:1096: in process_file
+[1.313s] 1:     doc = parse(None, input_file_name)
+[1.313s] 1: /opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:1022: in parse
+[1.313s] 1:     return xml.dom.minidom.parse(inp)
+[1.314s] 1: /usr/lib/python3.10/xml/dom/minidom.py:1990: in parse
+[1.314s] 1:     return expatbuilder.parse(file)
+[1.314s] 1: /usr/lib/python3.10/xml/dom/expatbuilder.py:913: in parse
+[1.314s] 1:     result = builder.parseFile(file)
+[1.314s] 1: _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1.314s] 1: 
+[1.314s] 1: self = <xml.dom.expatbuilder.ExpatBuilderNS object at 0x7fe1532636a0>
+[1.314s] 1: file = <_io.TextIOWrapper name='/home/zac/franka_ws/install/franka_description/share/franka_description/robots/fer/fer.urdf.xacro' mode='r' encoding='UTF-8'>
+[1.315s] 1: 
+[1.315s] 1:     def parseFile(self, file):
+[1.315s] 1:         """Parse a document from a file object, returning the document
+[1.315s] 1:         node."""
+[1.315s] 1:         parser = self.getParser()
+[1.315s] 1:         first_buffer = True
+[1.315s] 1:         try:
+[1.315s] 1:             while 1:
+[1.316s] 1:                 buffer = file.read(16*1024)
+[1.316s] 1:                 if not buffer:
+[1.316s] 1:                     break
+[1.316s] 1: >               parser.Parse(buffer, False)
+[1.316s] 1: E               xml.parsers.expat.ExpatError: mismatched tag: line 52, column 2
+[1.316s] 1: 
+[1.316s] 1: /usr/lib/python3.10/xml/dom/expatbuilder.py:207: ExpatError
+[1.316s] 1: =============================== warnings summary ===============================
+[1.317s] 1: ../../../../../opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:558
+[1.317s] 1:   Warning: invalid escape sequence '\$'
+[1.317s] 1: 
+[1.317s] 1: ../../../../../opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:559
+[1.317s] 1:   Warning: invalid escape sequence '\s'
+[1.317s] 1: 
+[1.317s] 1: -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[1.317s] 1: - generated xml file: /home/zac/franka_ws/build/franka_description/test_results/franka_description/franka_description_urdf_tests.xunit.xml -
+[1.318s] 1: =========================== short test summary info ============================
+[1.318s] 1: FAILED ../../src/franka_description/test/urdf_tests.py::test_load - xml.parse...
+[1.318s] 1: FAILED ../../src/franka_description/test/urdf_tests.py::test_load_with_gripper
+[1.318s] 1: FAILED ../../src/franka_description/test/urdf_tests.py::test_check_interfaces
+[1.318s] 1: FAILED ../../src/franka_description/test/urdf_tests.py::test_load_with_fake_hardware
+[1.318s] 1: FAILED ../../src/franka_description/test/urdf_tests.py::test_load_with_robot_ip
+[1.318s] 1: ======================== 5 failed, 2 warnings in 0.77s =========================
+[1.373s] 1: -- run_test.py: return code 1
+[1.373s] 1: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_description/test_results/franka_description/franka_description_urdf_tests.xunit.xml'
+[1.390s] 1/6 Test #1: franka_description_urdf_tests ....***Failed    1.34 sec
+[1.390s] test 2
+[1.391s]     Start 2: copyright
+[1.391s] 
+[1.391s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_description/test_results/franka_description/copyright.xunit.xml" "--package-name" "franka_description" "--output-file" "/home/zac/franka_ws/build/franka_description/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/zac/franka_ws/build/franka_description/test_results/franka_description/copyright.xunit.xml"
+[1.391s] 2: Test timeout computed to be: 200
+[1.471s] 2: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_description':
+[1.472s] 2:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/zac/franka_ws/build/franka_description/test_results/franka_description/copyright.xunit.xml
+[1.901s] 2: No problems found, checked 5 files
+[1.918s] 2: -- run_test.py: return code 0
+[1.919s] 2: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_description/test_results/franka_description/copyright.xunit.xml'
+[1.934s] 2/6 Test #2: copyright ........................   Passed    0.54 sec
+[1.935s] test 3
+[1.935s]     Start 3: flake8
+[1.935s] 
+[1.935s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_description/test_results/franka_description/flake8.xunit.xml" "--package-name" "franka_description" "--output-file" "/home/zac/franka_ws/build/franka_description/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/zac/franka_ws/build/franka_description/test_results/franka_description/flake8.xunit.xml"
+[1.935s] 3: Test timeout computed to be: 60
+[2.002s] 3: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_description':
+[2.002s] 3:  - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/zac/franka_ws/build/franka_description/test_results/franka_description/flake8.xunit.xml
+[2.261s] 3:                 if HAND != False and EE != "none":
+[2.261s] 3:                         ^
+[2.262s] 3: 1     E712 comparison to False should be 'if cond is not False:' or 'if cond:'
+[2.262s] 3: 
+[2.262s] 3: ./scripts/create_urdf.py:155:25: E712 comparison to False should be 'if cond is not False:' or 'if cond:'
+[2.262s] 3: 
+[2.262s] 3: 
+[2.262s] 3: 3 files checked
+[2.262s] 3: 1 errors
+[2.262s] 3: 
+[2.262s] 3: 'E'-type errors: 1
+[2.263s] 3: 
+[2.263s] 3: Checked files:
+[2.263s] 3: 
+[2.263s] 3: * ./launch/visualize_franka.launch.py
+[2.263s] 3: * ./test/urdf_tests.py
+[2.263s] 3: * ./scripts/create_urdf.py
+[2.294s] 3: -- run_test.py: return code 1
+[2.295s] 3: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_description/test_results/franka_description/flake8.xunit.xml'
+[2.305s] 3/6 Test #3: flake8 ...........................***Failed    0.37 sec
+[2.305s] test 4
+[2.306s]     Start 4: lint_cmake
+[2.306s] 
+[2.306s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_description/test_results/franka_description/lint_cmake.xunit.xml" "--package-name" "franka_description" "--output-file" "/home/zac/franka_ws/build/franka_description/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/zac/franka_ws/build/franka_description/test_results/franka_description/lint_cmake.xunit.xml"
+[2.306s] 4: Test timeout computed to be: 60
+[2.392s] 4: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_description':
+[2.393s] 4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/zac/franka_ws/build/franka_description/test_results/franka_description/lint_cmake.xunit.xml
+[2.472s] 4: 
+[2.472s] 4: No problems found
+[2.485s] 4: -- run_test.py: return code 0
+[2.485s] 4: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_description/test_results/franka_description/lint_cmake.xunit.xml'
+[2.502s] 4/6 Test #4: lint_cmake .......................   Passed    0.20 sec
+[2.503s] test 5
+[2.503s]     Start 5: pep257
+[2.503s] 
+[2.503s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_description/test_results/franka_description/pep257.xunit.xml" "--package-name" "franka_description" "--output-file" "/home/zac/franka_ws/build/franka_description/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/zac/franka_ws/build/franka_description/test_results/franka_description/pep257.xunit.xml"
+[2.503s] 5: Test timeout computed to be: 60
+[2.579s] 5: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_description':
+[2.580s] 5:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/zac/franka_ws/build/franka_description/test_results/franka_description/pep257.xunit.xml
+[2.776s] 5: checking ./launch/visualize_franka.launch.py
+[2.776s] 5: checking ./scripts/create_urdf.py
+[2.776s] 5: checking ./test/urdf_tests.py
+[2.776s] 5: No problems found
+[2.802s] 5: -- run_test.py: return code 0
+[2.802s] 5: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_description/test_results/franka_description/pep257.xunit.xml'
+[2.814s] 5/6 Test #5: pep257 ...........................   Passed    0.31 sec
+[2.814s] test 6
+[2.814s]     Start 6: xmllint
+[2.814s] 
+[2.814s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_description/test_results/franka_description/xmllint.xunit.xml" "--package-name" "franka_description" "--output-file" "/home/zac/franka_ws/build/franka_description/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/zac/franka_ws/build/franka_description/test_results/franka_description/xmllint.xunit.xml"
+[2.814s] 6: Test timeout computed to be: 60
+[2.887s] 6: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_description':
+[2.887s] 6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/zac/franka_ws/build/franka_description/test_results/franka_description/xmllint.xunit.xml
+[3.138s] 6: File 'package.xml' is valid
+[3.138s] 6: 
+[3.138s] 6: No problems found
+[3.149s] 6: -- run_test.py: return code 0
+[3.149s] 6: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_description/test_results/franka_description/xmllint.xunit.xml'
+[3.159s] 6/6 Test #6: xmllint ..........................   Passed    0.35 sec
+[3.160s] 
+[3.160s] 67% tests passed[0;0m, [0;31m2 tests failed[0;0m out of 6
+[3.160s] 
+[3.160s] Label Time Summary:
+[3.160s] copyright     =   0.54 sec*proc (1 test)
+[3.160s] flake8        =   0.37 sec*proc (1 test)
+[3.160s] lint_cmake    =   0.20 sec*proc (1 test)
+[3.160s] linter        =   1.77 sec*proc (5 tests)
+[3.161s] pep257        =   0.31 sec*proc (1 test)
+[3.161s] pytest        =   1.34 sec*proc (1 test)
+[3.161s] xmllint       =   0.35 sec*proc (1 test)
+[3.161s] 
+[3.161s] Total Test time (real) =   3.11 sec
+[3.161s] 
+[3.161s] The following tests FAILED:
+[3.161s] 	[0;31m  1 - franka_description_urdf_tests (Failed)[0;0m
+[3.161s] 	[0;31m  3 - flake8 (Failed)[0;0m
+[3.179s] Errors while running CTest
+[3.180s] Output from these tests are in: /home/zac/franka_ws/build/franka_description/Testing/Temporary/LastTest.log
+[3.180s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[3.182s] Invoked command in '/home/zac/franka_ws/build/franka_description' returned '8': CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_description:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_ign_ros2_control:/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_msgs /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

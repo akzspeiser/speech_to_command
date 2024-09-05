@@ -1,0 +1,3 @@
+gmake[2]: *** [robot_model/CMakeFiles/test_robot_model.dir/build.make:76: robot_model/CMakeFiles/test_robot_model.dir/test/test.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:1624: robot_model/CMakeFiles/test_robot_model.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

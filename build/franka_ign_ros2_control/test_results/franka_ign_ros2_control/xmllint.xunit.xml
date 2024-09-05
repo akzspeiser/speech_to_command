@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="franka_ign_ros2_control.xmllint"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="0.007"
+>
+  <testcase
+    name="ign_hardware_plugins.xml"
+    classname="franka_ign_ros2_control.xmllint"/>
+  <testcase
+    name="package.xml"
+    classname="franka_ign_ros2_control.xmllint"/>
+  <system-out>Checked files:
+* ign_hardware_plugins.xml
+* package.xml</system-out>
+</testsuite>

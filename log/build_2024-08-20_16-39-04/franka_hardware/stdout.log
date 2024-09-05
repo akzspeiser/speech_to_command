@@ -1,0 +1,37 @@
+[ 11%] Built target gmock_main
+[ 27%] Built target gmock
+[ 61%] Built target franka_hardware
+[ 72%] Built target franka_hardware_robot_test
+[ 83%] Built target franka_hardware_command_interface_test
+[100%] Built target franka_hardware_test
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware//franka_hardware.xml
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/lib/libfranka_hardware.so
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/include/franka_hardware/franka_action_server.hpp
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/include/franka_hardware/franka_executor.hpp
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/include/franka_hardware/franka_hardware_interface.hpp
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/include/franka_hardware/franka_param_service_server.hpp
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/include/franka_hardware/model.hpp
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/include/franka_hardware/robot.hpp
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/environment/library_path.sh
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/environment/library_path.dsv
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/ament_index/resource_index/package_run_dependencies/franka_hardware
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/ament_index/resource_index/parent_prefix_path/franka_hardware
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/environment/ament_prefix_path.sh
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/environment/path.sh
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/environment/path.dsv
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/local_setup.bash
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/local_setup.sh
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/local_setup.zsh
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/local_setup.dsv
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/package.dsv
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/ament_index/resource_index/packages/franka_hardware
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/franka_hardware
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig.cmake
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig-version.cmake
+-- Symlinking: /home/zac/franka_ws/install/franka_hardware/share/franka_hardware/package.xml

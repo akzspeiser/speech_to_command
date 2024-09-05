@@ -1,0 +1,16 @@
+/home/zac/franka_ws/build/franka_msgs/rosidl_adapter/franka_msgs:action/ErrorRecovery.idl
+/home/zac/franka_ws/build/franka_msgs/rosidl_adapter/franka_msgs:action/Grasp.idl
+/home/zac/franka_ws/build/franka_msgs/rosidl_adapter/franka_msgs:action/Homing.idl
+/home/zac/franka_ws/build/franka_msgs/rosidl_adapter/franka_msgs:action/Move.idl
+/home/zac/franka_ws/build/franka_msgs/rosidl_adapter/franka_msgs:msg/CollisionIndicators.idl
+/home/zac/franka_ws/build/franka_msgs/rosidl_adapter/franka_msgs:msg/Elbow.idl
+/home/zac/franka_ws/build/franka_msgs/rosidl_adapter/franka_msgs:msg/Errors.idl
+/home/zac/franka_ws/build/franka_msgs/rosidl_adapter/franka_msgs:msg/GraspEpsilon.idl
+/home/zac/franka_ws/build/franka_msgs/rosidl_adapter/franka_msgs:msg/FrankaRobotState.idl
+/home/zac/franka_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetCartesianStiffness.idl
+/home/zac/franka_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetTCPFrame.idl
+/home/zac/franka_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetForceTorqueCollisionBehavior.idl
+/home/zac/franka_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetFullCollisionBehavior.idl
+/home/zac/franka_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetJointStiffness.idl
+/home/zac/franka_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetStiffnessFrame.idl
+/home/zac/franka_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetLoad.idl

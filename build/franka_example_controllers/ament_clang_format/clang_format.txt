@@ -1,0 +1,66 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_example_controllers':
+ - /opt/ros/humble/bin/ament_clang_format --xunit-file /home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/clang_format.xunit.xml src include --config ../.clang-format
+
+No code style divergence in file 'src/cartesian_elbow_example_controller.cpp'
+
+No code style divergence in file 'src/cartesian_orientation_example_controller.cpp'
+
+No code style divergence in file 'src/cartesian_pose_example_controller.cpp'
+
+No code style divergence in file 'src/cartesian_velocity_example_controller.cpp'
+
+No code style divergence in file 'src/elbow_example_controller.cpp'
+
+No code style divergence in file 'src/gravity_compensation_example_controller.cpp'
+
+No code style divergence in file 'src/joint_impedance_example_controller.cpp'
+
+No code style divergence in file 'src/joint_impedance_with_ik_example_controller.cpp'
+
+No code style divergence in file 'src/joint_position_example_controller.cpp'
+
+No code style divergence in file 'src/joint_velocity_example_controller.cpp'
+
+No code style divergence in file 'src/model_example_controller.cpp'
+
+No code style divergence in file 'src/motion_generator.cpp'
+
+No code style divergence in file 'src/move_to_start_example_controller.cpp'
+
+No code style divergence in file 'include/franka_example_controllers/cartesian_elbow_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/cartesian_orientation_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/cartesian_pose_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/cartesian_velocity_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/default_robot_behavior_utils.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/elbow_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/gravity_compensation_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/joint_impedance_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/joint_impedance_with_ik_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/joint_position_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/joint_velocity_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/model_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/motion_generator.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/move_to_start_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/robot_utils.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/visibility_control.h'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/clang_format.xunit.xml'

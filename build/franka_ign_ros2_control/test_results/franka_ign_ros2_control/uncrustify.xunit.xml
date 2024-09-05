@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="franka_ign_ros2_control.uncrustify"
+  tests="7"
+  failures="0"
+  errors="0"
+  time="0.079"
+>
+  <testcase
+    name="include/ign_ros2_control/ign_ros2_control_plugin.hpp"
+    classname="franka_ign_ros2_control.uncrustify"/>
+  <testcase
+    name="include/ign_ros2_control/ign_system.hpp"
+    classname="franka_ign_ros2_control.uncrustify"/>
+  <testcase
+    name="include/ign_ros2_control/ign_system_interface.hpp"
+    classname="franka_ign_ros2_control.uncrustify"/>
+  <testcase
+    name="include/ign_ros2_control/model_kdl.h"
+    classname="franka_ign_ros2_control.uncrustify"/>
+  <testcase
+    name="src/ign_ros2_control_plugin.cpp"
+    classname="franka_ign_ros2_control.uncrustify"/>
+  <testcase
+    name="src/ign_system.cpp"
+    classname="franka_ign_ros2_control.uncrustify"/>
+  <testcase
+    name="src/model_kdl.cpp"
+    classname="franka_ign_ros2_control.uncrustify"/>
+  <system-out>Checked files:
+* include/ign_ros2_control/ign_ros2_control_plugin.hpp
+* include/ign_ros2_control/ign_system.hpp
+* include/ign_ros2_control/ign_system_interface.hpp
+* include/ign_ros2_control/model_kdl.h
+* src/ign_ros2_control_plugin.cpp
+* src/ign_system.cpp
+* src/model_kdl.cpp</system-out>
+</testsuite>

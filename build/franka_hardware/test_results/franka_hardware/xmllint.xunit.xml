@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="franka_hardware.xmllint"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="0.143"
+>
+  <testcase
+    name="franka_hardware.xml"
+    classname="franka_hardware.xmllint"/>
+  <testcase
+    name="package.xml"
+    classname="franka_hardware.xmllint"/>
+  <system-out>Checked files:
+* franka_hardware.xml
+* package.xml</system-out>
+</testsuite>

@@ -1,0 +1,114 @@
+[0.099s] Invoking command in '/home/zac/franka_ws/build/moveit_ros_perception': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake /home/zac/franka_ws/src/moveit2/moveit_ros/perception -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/moveit_ros_perception
+[0.308s] -- Found moveit_common: 2.5.5 (/home/zac/franka_ws/install/moveit_common/share/moveit_common/cmake)
+[0.308s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.508s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.725s] [0mmoveit_ros_perception: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.899s] -- Checking for module 'glut'
+[0.905s] --   No package 'glut' found
+[0.908s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.981s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.988s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.002s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.027s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.059s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.211s] -- Found moveit_core: 2.5.5 (/home/zac/franka_ws/install/moveit_core/share/moveit_core/cmake)
+[1.247s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.331s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.423s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.424s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.902s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.063s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.116s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.234s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.355s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.922s] -- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)
+[2.931s] -- Found moveit_ros_occupancy_map_monitor: 2.5.5 (/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake)
+[2.990s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[3.096s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.139s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.140s] -- Configured cppcheck include dirs: /home/zac/franka_ws/src/moveit2/moveit_ros/perception/depth_image_octomap_updater/include;/home/zac/franka_ws/src/moveit2/moveit_ros/perception/lazy_free_space_updater/include;/home/zac/franka_ws/src/moveit2/moveit_ros/perception/mesh_filter/include;/home/zac/franka_ws/src/moveit2/moveit_ros/perception/point_containment_filter/include;/home/zac/franka_ws/src/moveit2/moveit_ros/perception/pointcloud_octomap_updater/include;/home/zac/franka_ws/src/moveit2/moveit_ros/perception/semantic_world/include
+[3.140s] -- Configured cppcheck exclude dirs and/or files: 
+[3.160s] -- Added test 'lint_cmake' to check CMake code style
+[3.160s] -- Added test 'xmllint' to check XML markup files
+[3.170s] -- Configuring done
+[3.739s] -- Generating done
+[3.750s] -- Build files have been written to: /home/zac/franka_ws/build/moveit_ros_perception
+[3.786s] Invoked command in '/home/zac/franka_ws/build/moveit_ros_perception' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake /home/zac/franka_ws/src/moveit2/moveit_ros/perception -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/moveit_ros_perception
+[3.787s] Invoking command in '/home/zac/franka_ws/build/moveit_ros_perception': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --build /home/zac/franka_ws/build/moveit_ros_perception -- -j8 -l8
+[3.931s] [35m[1mConsolidate compiler generated dependencies of target moveit_point_containment_filter[0m
+[3.931s] [35m[1mConsolidate compiler generated dependencies of target moveit_lazy_free_space_updater[0m
+[3.948s] [35m[1mConsolidate compiler generated dependencies of target moveit_mesh_filter[0m
+[3.951s] [35m[1mConsolidate compiler generated dependencies of target moveit_semantic_world[0m
+[4.015s] [ 10%] Built target moveit_lazy_free_space_updater
+[4.035s] [ 20%] Built target moveit_point_containment_filter
+[4.091s] [35m[1mConsolidate compiler generated dependencies of target moveit_pointcloud_octomap_updater_core[0m
+[4.234s] [ 50%] Built target moveit_mesh_filter
+[4.238s] [ 60%] Built target moveit_semantic_world
+[4.313s] [35m[1mConsolidate compiler generated dependencies of target moveit_depth_image_octomap_updater_core[0m
+[4.377s] [ 70%] Built target moveit_pointcloud_octomap_updater_core
+[4.433s] [35m[1mConsolidate compiler generated dependencies of target moveit_pointcloud_octomap_updater[0m
+[4.557s] [ 80%] Built target moveit_depth_image_octomap_updater_core
+[4.585s] [ 90%] Built target moveit_pointcloud_octomap_updater
+[4.591s] [35m[1mConsolidate compiler generated dependencies of target moveit_depth_image_octomap_updater[0m
+[4.857s] [100%] Built target moveit_depth_image_octomap_updater
+[4.917s] Invoked command in '/home/zac/franka_ws/build/moveit_ros_perception' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --build /home/zac/franka_ws/build/moveit_ros_perception -- -j8 -l8
+[5.095s] Invoking command in '/home/zac/franka_ws/build/moveit_ros_perception': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --install /home/zac/franka_ws/build/moveit_ros_perception
+[5.135s] -- Install configuration: "Release"
+[5.135s] -- Execute custom install script
+[5.149s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/include/moveit/lazy_free_space_updater/lazy_free_space_updater.h
+[5.212s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/include/moveit/point_containment_filter/shape_mask.h
+[5.312s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/include/moveit/pointcloud_octomap_updater/pointcloud_octomap_updater.h
+[5.375s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/include/moveit/mesh_filter/depth_self_filter_nodelet.h
+[5.416s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/include/moveit/mesh_filter/filter_job.h
+[5.451s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/include/moveit/mesh_filter/gl_mesh.h
+[5.505s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/include/moveit/mesh_filter/gl_renderer.h
+[5.576s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/include/moveit/mesh_filter/mesh_filter.h
+[5.611s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/include/moveit/mesh_filter/mesh_filter_base.h
+[5.669s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/include/moveit/mesh_filter/sensor_model.h
+[5.728s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/include/moveit/mesh_filter/stereo_camera_model.h
+[5.827s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/include/moveit/mesh_filter/transform_provider.h
+[5.876s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/include/moveit_mesh_filter_export.h
+[5.952s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/include/moveit/depth_image_octomap_updater/depth_image_octomap_updater.h
+[6.066s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/include/moveit/semantic_world/semantic_world.h
+[6.128s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception/environment/library_path.sh
+[6.173s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception/environment/library_path.dsv
+[6.213s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception//pointcloud_octomap_updater_plugin_description.xml
+[6.269s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception//depth_image_octomap_updater_plugin_description.xml
+[6.295s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/ament_index/resource_index/package_run_dependencies/moveit_ros_perception
+[6.331s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/ament_index/resource_index/parent_prefix_path/moveit_ros_perception
+[6.350s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception/environment/ament_prefix_path.sh
+[6.378s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception/environment/ament_prefix_path.dsv
+[6.402s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception/environment/path.sh
+[6.438s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception/environment/path.dsv
+[6.463s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception/local_setup.bash
+[6.490s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception/local_setup.sh
+[6.528s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception/local_setup.zsh
+[6.548s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception/local_setup.dsv
+[6.570s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception/package.dsv
+[6.594s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/ament_index/resource_index/packages/moveit_ros_perception
+[6.620s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/ament_index/resource_index/moveit_ros_occupancy_map_monitor__pluginlib__plugin/moveit_ros_perception
+[6.637s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception/cmake/ConfigExtras.cmake
+[6.668s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception/cmake/ament_cmake_export_targets-extras.cmake
+[6.680s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.701s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception/cmake/moveit_ros_perceptionConfig.cmake
+[6.719s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception/cmake/moveit_ros_perceptionConfig-version.cmake
+[6.734s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception/package.xml
+[6.751s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_perception/lib/libmoveit_depth_image_octomap_updater.so.2.5.5
+[6.751s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_perception/lib/libmoveit_depth_image_octomap_updater.so
+[6.753s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_perception/lib/libmoveit_depth_image_octomap_updater_core.so.2.5.5
+[6.754s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_perception/lib/libmoveit_depth_image_octomap_updater_core.so
+[6.755s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_perception/lib/libmoveit_lazy_free_space_updater.so.2.5.5
+[6.755s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_perception/lib/libmoveit_lazy_free_space_updater.so
+[6.756s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_perception/lib/libmoveit_mesh_filter.so.2.5.5
+[6.757s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_perception/lib/libmoveit_mesh_filter.so
+[6.759s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_perception/lib/libmoveit_point_containment_filter.so.2.5.5
+[6.759s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_perception/lib/libmoveit_point_containment_filter.so
+[6.760s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_perception/lib/libmoveit_pointcloud_octomap_updater.so.2.5.5
+[6.761s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_perception/lib/libmoveit_pointcloud_octomap_updater.so
+[6.762s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_perception/lib/libmoveit_pointcloud_octomap_updater_core.so.2.5.5
+[6.763s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_perception/lib/libmoveit_pointcloud_octomap_updater_core.so
+[6.764s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_perception/lib/libmoveit_semantic_world.so.2.5.5
+[6.764s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_perception/lib/libmoveit_semantic_world.so
+[6.765s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception/cmake/export_moveit_ros_perceptionExport.cmake
+[6.765s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_perception/share/moveit_ros_perception/cmake/export_moveit_ros_perceptionExport-release.cmake
+[6.768s] Invoked command in '/home/zac/franka_ws/build/moveit_ros_perception' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --install /home/zac/franka_ws/build/moveit_ros_perception

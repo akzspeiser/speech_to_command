@@ -1,0 +1,101 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/franka_hardware/test':
+ - /home/zac/franka_ws/build/franka_hardware/test/franka_hardware_command_interface_test --gtest_output=xml:/home/zac/franka_ws/build/franka_hardware/test_results/franka_hardware/franka_hardware_command_interface_test.gtest.xml
+
+Running main() from gmock_main.cc
+[==========] Running 22 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 10 tests from FrankaCartesianCommandInterfaceTest
+[ RUN      ] FrankaCartesianCommandInterfaceTest.cartesian_command_interface_number_is_setup_correctly
+[       OK ] FrankaCartesianCommandInterfaceTest.cartesian_command_interface_number_is_setup_correctly (0 ms)
+[ RUN      ] FrankaCartesianCommandInterfaceTest.given_read_is_not_called_when_write_is_called_expect_robot_writeOnce_is_not_called
+[       OK ] FrankaCartesianCommandInterfaceTest.given_read_is_not_called_when_write_is_called_expect_robot_writeOnce_is_not_called (1 ms)
+[ RUN      ] FrankaCartesianCommandInterfaceTest.given_cartesian_velocity_and_elbow_set_when_read_and_write_called_expect_success
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: getModel()
+          Returns: NULL
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] FrankaCartesianCommandInterfaceTest.given_cartesian_velocity_and_elbow_set_when_read_and_write_called_expect_success (0 ms)
+[ RUN      ] FrankaCartesianCommandInterfaceTest.given_cartesian_velocity_and_elbow_set_and_elbow_has_infinite_values_when_write_called_expect_error
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: getModel()
+          Returns: NULL
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] FrankaCartesianCommandInterfaceTest.given_cartesian_velocity_and_elbow_set_and_elbow_has_infinite_values_when_write_called_expect_error (0 ms)
+[ RUN      ] FrankaCartesianCommandInterfaceTest.given_cartesian_velocity_is_claimed_when_perform_mode_switch_is_called_expect_success
+[       OK ] FrankaCartesianCommandInterfaceTest.given_cartesian_velocity_is_claimed_when_perform_mode_switch_is_called_expect_success (0 ms)
+[ RUN      ] FrankaCartesianCommandInterfaceTest.given_only_elbow_command_is_claimed_without_cartesian_velocity_when_perform_mode_switch_is_called_expect_error
+[FATAL] [1723715662.950260247] [FrankaHardwareInterface]: Elbow cannot be commanded without cartesian velocity or pose interface
+[       OK ] FrankaCartesianCommandInterfaceTest.given_only_elbow_command_is_claimed_without_cartesian_velocity_when_perform_mode_switch_is_called_expect_error (0 ms)
+[ RUN      ] FrankaCartesianCommandInterfaceTest.given_cartesian_pose_interface_is_ready_when_write_called_without_read_robot_write_once_will_not_be_called
+[       OK ] FrankaCartesianCommandInterfaceTest.given_cartesian_pose_interface_is_ready_when_write_called_without_read_robot_write_once_will_not_be_called (0 ms)
+[ RUN      ] FrankaCartesianCommandInterfaceTest.given_cartesian_pose_interface_is_ready_when_write_called_with_read_robot_write_once_will_be_called
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: getModel()
+          Returns: NULL
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] FrankaCartesianCommandInterfaceTest.given_cartesian_pose_interface_is_ready_when_write_called_with_read_robot_write_once_will_be_called (0 ms)
+[ RUN      ] FrankaCartesianCommandInterfaceTest.given_cartesian_pose_and_elbow_set_and_elbow_has_infinite_values_when_write_called_expect_error
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: getModel()
+          Returns: NULL
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] FrankaCartesianCommandInterfaceTest.given_cartesian_pose_and_elbow_set_and_elbow_has_infinite_values_when_write_called_expect_error (0 ms)
+[ RUN      ] FrankaCartesianCommandInterfaceTest.given_cartesian_pose_interface_is_ready_with_elbow_when_read_and_write_called_expect_correct_elbow_and_cartesian_pose
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: getModel()
+          Returns: NULL
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] FrankaCartesianCommandInterfaceTest.given_cartesian_pose_interface_is_ready_with_elbow_when_read_and_write_called_expect_correct_elbow_and_cartesian_pose (0 ms)
+[----------] 10 tests from FrankaCartesianCommandInterfaceTest (1 ms total)
+
+[----------] 12 tests from FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest
+[ RUN      ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.given_correct_number_of_start_cartesian_command_interface_when_prepare_command_mode_interface_is_called_expect_success/0
+[       OK ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.given_correct_number_of_start_cartesian_command_interface_when_prepare_command_mode_interface_is_called_expect_success/0 (0 ms)
+[ RUN      ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.given_correct_number_of_start_cartesian_command_interface_when_prepare_command_mode_interface_is_called_expect_success/1
+[       OK ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.given_correct_number_of_start_cartesian_command_interface_when_prepare_command_mode_interface_is_called_expect_success/1 (0 ms)
+[ RUN      ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.given_correct_number_of_start_cartesian_command_interface_when_prepare_command_mode_interface_is_called_expect_success/2
+[       OK ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.given_correct_number_of_start_cartesian_command_interface_when_prepare_command_mode_interface_is_called_expect_success/2 (0 ms)
+[ RUN      ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.given_correct_number_of_start_cartesian_command_and_elbow_command_interface_when_prepare_command_mode_interface_is_called_expect_success/0
+[       OK ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.given_correct_number_of_start_cartesian_command_and_elbow_command_interface_when_prepare_command_mode_interface_is_called_expect_success/0 (0 ms)
+[ RUN      ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.given_correct_number_of_start_cartesian_command_and_elbow_command_interface_when_prepare_command_mode_interface_is_called_expect_success/1
+[       OK ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.given_correct_number_of_start_cartesian_command_and_elbow_command_interface_when_prepare_command_mode_interface_is_called_expect_success/1 (0 ms)
+[ RUN      ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.given_correct_number_of_start_cartesian_command_and_elbow_command_interface_when_prepare_command_mode_interface_is_called_expect_success/2
+[       OK ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.given_correct_number_of_start_cartesian_command_and_elbow_command_interface_when_prepare_command_mode_interface_is_called_expect_success/2 (0 ms)
+[ RUN      ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_start_interface_number_expect_throw/0
+[FATAL] [1723715662.950743808] [FrankaHardwareInterface]: Invalid number of cartesian_velocity interfaces to start. Expected 6, given 1
+[       OK ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_start_interface_number_expect_throw/0 (0 ms)
+[ RUN      ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_start_interface_number_expect_throw/1
+[FATAL] [1723715662.950850056] [FrankaHardwareInterface]: Invalid number of cartesian_pose interfaces to start. Expected 16, given 1
+[       OK ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_start_interface_number_expect_throw/1 (0 ms)
+[ RUN      ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_start_interface_number_expect_throw/2
+[FATAL] [1723715662.950893410] [FrankaHardwareInterface]: Invalid number of elbow_command interfaces to start. Expected 2, given 1
+[       OK ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_start_interface_number_expect_throw/2 (0 ms)
+[ RUN      ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_stop_interface_number_expect_throw/0
+[FATAL] [1723715662.950941606] [FrankaHardwareInterface]: Invalid number of cartesian_velocity interfaces to stop. Expected 6, given 1
+[       OK ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_stop_interface_number_expect_throw/0 (0 ms)
+[ RUN      ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_stop_interface_number_expect_throw/1
+[FATAL] [1723715662.950990199] [FrankaHardwareInterface]: Invalid number of cartesian_pose interfaces to stop. Expected 16, given 1
+[       OK ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_stop_interface_number_expect_throw/1 (1 ms)
+[ RUN      ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_stop_interface_number_expect_throw/2
+[FATAL] [1723715662.951033228] [FrankaHardwareInterface]: Invalid number of elbow_command interfaces to stop. Expected 2, given 1
+[       OK ] FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest.when_prepare_command_mode_interface_is_called_with_invalid_stop_interface_number_expect_throw/2 (0 ms)
+[----------] 12 tests from FrankaCartesianCommandTest/FrankaCartesianCommandInterfaceTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 22 tests from 2 test suites ran. (2 ms total)
+[  PASSED  ] 22 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/zac/franka_ws/build/franka_hardware/test_results/franka_hardware/franka_hardware_command_interface_test.gtest.xml'
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_hardware/test_results/franka_hardware/franka_hardware_command_interface_test.gtest.xml'

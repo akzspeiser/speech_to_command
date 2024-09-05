@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="franka_gripper.copyright"
+  tests="3"
+  errors="0"
+  failures="0"
+  time="0.137"
+>
+  <testcase
+    name="include/franka_gripper/gripper_action_server.hpp"
+    classname="franka_gripper.copyright"/>
+  <testcase
+    name="launch/gripper.launch.py"
+    classname="franka_gripper.copyright"/>
+  <testcase
+    name="src/gripper_action_server.cpp"
+    classname="franka_gripper.copyright"/>
+  <system-out>Checked files:
+* include/franka_gripper/gripper_action_server.hpp
+* launch/gripper.launch.py
+* src/gripper_action_server.cpp</system-out>
+</testsuite>

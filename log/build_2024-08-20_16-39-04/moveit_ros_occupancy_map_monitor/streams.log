@@ -1,0 +1,44 @@
+[0.100s] Invoking command in '/home/zac/franka_ws/build/moveit_ros_occupancy_map_monitor': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --build /home/zac/franka_ws/build/moveit_ros_occupancy_map_monitor -- -j8 -l8
+[0.278s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.286s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.302s] [35m[1mConsolidate compiler generated dependencies of target moveit_ros_occupancy_map_monitor[0m
+[0.392s] [ 30%] Built target gmock_main
+[0.392s] [ 38%] Built target gmock
+[0.460s] [ 69%] Built target moveit_ros_occupancy_map_monitor
+[0.489s] [35m[1mConsolidate compiler generated dependencies of target moveit_ros_occupancy_map_server[0m
+[0.502s] [35m[1mConsolidate compiler generated dependencies of target occupancy_map_monitor_tests[0m
+[0.602s] [ 84%] [32m[1mLinking CXX executable moveit_ros_occupancy_map_server[0m
+[0.607s] [ 92%] Built target occupancy_map_monitor_tests
+[1.332s] [100%] Built target moveit_ros_occupancy_map_server
+[1.388s] Invoked command in '/home/zac/franka_ws/build/moveit_ros_occupancy_map_monitor' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --build /home/zac/franka_ws/build/moveit_ros_occupancy_map_monitor -- -j8 -l8
+[1.542s] Invoking command in '/home/zac/franka_ws/build/moveit_ros_occupancy_map_monitor': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --install /home/zac/franka_ws/build/moveit_ros_occupancy_map_monitor
+[1.990s] -- Install configuration: "Release"
+[1.991s] -- Execute custom install script
+[1.991s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib/moveit_ros_occupancy_map_monitor/moveit_ros_occupancy_map_server
+[1.991s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_monitor.h
+[1.991s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_monitor_middleware_handle.hpp
+[1.991s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_updater.h
+[1.991s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/library_path.sh
+[1.992s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/library_path.dsv
+[1.992s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/ament_index/resource_index/package_run_dependencies/moveit_ros_occupancy_map_monitor
+[1.992s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/ament_index/resource_index/parent_prefix_path/moveit_ros_occupancy_map_monitor
+[1.992s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/ament_prefix_path.sh
+[1.992s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/ament_prefix_path.dsv
+[1.992s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/path.sh
+[1.993s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/path.dsv
+[2.004s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.bash
+[2.059s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.sh
+[2.094s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.zsh
+[2.130s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.dsv
+[2.173s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/package.dsv
+[2.194s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/ament_index/resource_index/packages/moveit_ros_occupancy_map_monitor
+[2.216s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/ament_cmake_export_targets-extras.cmake
+[2.237s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.268s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/moveit_ros_occupancy_map_monitorConfig.cmake
+[2.305s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/moveit_ros_occupancy_map_monitorConfig-version.cmake
+[2.335s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/package.xml
+[2.375s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib/libmoveit_ros_occupancy_map_monitor.so.2.5.5
+[2.376s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib/libmoveit_ros_occupancy_map_monitor.so
+[2.378s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/export_moveit_ros_occupancy_map_monitorExport.cmake
+[2.378s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/export_moveit_ros_occupancy_map_monitorExport-release.cmake
+[2.397s] Invoked command in '/home/zac/franka_ws/build/moveit_ros_occupancy_map_monitor' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --install /home/zac/franka_ws/build/moveit_ros_occupancy_map_monitor

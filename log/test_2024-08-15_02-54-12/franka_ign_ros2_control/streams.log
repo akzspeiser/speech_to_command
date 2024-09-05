@@ -1,0 +1,133 @@
+[0.038s] Invoking command in '/home/zac/franka_ws/build/franka_ign_ros2_control': CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_ign_ros2_control:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_description LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_ign_ros2_control/lib:/home/zac/franka_ws/install/franka_hardware/lib:/home/zac/franka_ws/install/franka_msgs/lib:/home/zac/franka_ws/install/joint_trajectory_controller/lib:/home/zac/franka_ws/install/integration_launch_testing/lib:/home/zac/franka_ws/install/franka_robot_state_broadcaster/lib:/home/zac/franka_ws/install/franka_example_controllers/lib:/home/zac/franka_ws/install/franka_semantic_components/lib:/home/zac/franka_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.048s] UpdateCTestConfiguration  from :/home/zac/franka_ws/build/franka_ign_ros2_control/CTestConfiguration.ini
+[0.048s] Parse Config file:/home/zac/franka_ws/build/franka_ign_ros2_control/CTestConfiguration.ini
+[0.048s]    Site: CHARISMA-Predator-571
+[0.048s]    Build name: (empty)
+[0.048s]  Add coverage exclude regular expressions.
+[0.048s] Create new tag: 20240815-0954 - Experimental
+[0.048s] UpdateCTestConfiguration  from :/home/zac/franka_ws/build/franka_ign_ros2_control/CTestConfiguration.ini
+[0.048s] Parse Config file:/home/zac/franka_ws/build/franka_ign_ros2_control/CTestConfiguration.ini
+[0.048s] Test project /home/zac/franka_ws/build/franka_ign_ros2_control
+[0.048s] Constructing a list of tests
+[0.048s] Done constructing a list of tests
+[0.049s] Updating test list for fixtures
+[0.049s] Added 0 tests to meet fixture requirements
+[0.049s] Checking test dependency graph...
+[0.049s] Checking test dependency graph end
+[0.049s] test 1
+[0.049s]     Start 1: copyright
+[0.049s] 
+[0.049s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/copyright.xunit.xml" "--package-name" "franka_ign_ros2_control" "--output-file" "/home/zac/franka_ws/build/franka_ign_ros2_control/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/copyright.xunit.xml"
+[0.049s] 1: Test timeout computed to be: 200
+[0.113s] 1: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control':
+[0.113s] 1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/copyright.xunit.xml
+[0.594s] 1: No problems found, checked 7 files
+[0.609s] 1: -- run_test.py: return code 0
+[0.609s] 1: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/copyright.xunit.xml'
+[0.619s] 1/6 Test #1: copyright ........................   Passed    0.57 sec
+[0.619s] test 2
+[0.619s]     Start 2: cppcheck
+[0.619s] 
+[0.619s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/cppcheck.xunit.xml" "--package-name" "franka_ign_ros2_control" "--output-file" "/home/zac/franka_ws/build/franka_ign_ros2_control/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/cppcheck.xunit.xml" "--include_dirs" "/home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include"
+[0.619s] 2: Test timeout computed to be: 300
+[0.689s] 2: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control':
+[0.689s] 2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/cppcheck.xunit.xml --include_dirs /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include
+[0.772s] 2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[0.784s] 2: -- run_test.py: return code 0
+[0.784s] 2: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/cppcheck.xunit.xml'
+[0.795s] 2/6 Test #2: cppcheck .........................   Passed    0.18 sec
+[0.795s] test 3
+[0.795s]     Start 3: cpplint
+[0.795s] 
+[0.795s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/cpplint.xunit.xml" "--package-name" "franka_ign_ros2_control" "--output-file" "/home/zac/franka_ws/build/franka_ign_ros2_control/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/cpplint.xunit.xml"
+[0.795s] 3: Test timeout computed to be: 120
+[0.864s] 3: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control':
+[0.864s] 3:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/cpplint.xunit.xml
+[1.428s] 3: Using '--root=/home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include' argument
+[1.428s] 3: 
+[1.428s] 3: Done processing /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include/ign_ros2_control/ign_ros2_control_plugin.hpp
+[1.428s] 3: 
+[1.428s] 3: Done processing /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include/ign_ros2_control/ign_system.hpp
+[1.429s] 3: 
+[1.429s] 3: Done processing /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include/ign_ros2_control/ign_system_interface.hpp
+[1.429s] 3: 
+[1.429s] 3: Done processing /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include/ign_ros2_control/model_kdl.h
+[1.429s] 3: 
+[1.429s] 3: Using '--root=/home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/src' argument
+[1.429s] 3: 
+[1.429s] 3: Done processing /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/src/ign_ros2_control_plugin.cpp
+[1.430s] 3: 
+[1.430s] 3: Done processing /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/src/ign_system.cpp
+[1.430s] 3: 
+[1.430s] 3: Done processing /home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/src/model_kdl.cpp
+[1.430s] 3: 
+[1.430s] 3: No problems found
+[1.441s] 3: -- run_test.py: return code 0
+[1.442s] 3: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/cpplint.xunit.xml'
+[1.452s] 3/6 Test #3: cpplint ..........................   Passed    0.66 sec
+[1.452s] test 4
+[1.452s]     Start 4: lint_cmake
+[1.452s] 
+[1.452s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/lint_cmake.xunit.xml" "--package-name" "franka_ign_ros2_control" "--output-file" "/home/zac/franka_ws/build/franka_ign_ros2_control/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/lint_cmake.xunit.xml"
+[1.452s] 4: Test timeout computed to be: 60
+[1.520s] 4: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control':
+[1.520s] 4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/lint_cmake.xunit.xml
+[1.592s] 4: 
+[1.592s] 4: No problems found
+[1.603s] 4: -- run_test.py: return code 0
+[1.603s] 4: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/lint_cmake.xunit.xml'
+[1.613s] 4/6 Test #4: lint_cmake .......................   Passed    0.16 sec
+[1.613s] test 5
+[1.613s]     Start 5: uncrustify
+[1.613s] 
+[1.614s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/uncrustify.xunit.xml" "--package-name" "franka_ign_ros2_control" "--output-file" "/home/zac/franka_ws/build/franka_ign_ros2_control/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/uncrustify.xunit.xml"
+[1.614s] 5: Test timeout computed to be: 60
+[1.677s] 5: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control':
+[1.677s] 5:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/uncrustify.xunit.xml
+[1.836s] 5: No code style divergence in file 'include/ign_ros2_control/ign_ros2_control_plugin.hpp'
+[1.836s] 5: 
+[1.836s] 5: No code style divergence in file 'include/ign_ros2_control/ign_system.hpp'
+[1.837s] 5: 
+[1.837s] 5: No code style divergence in file 'include/ign_ros2_control/ign_system_interface.hpp'
+[1.837s] 5: 
+[1.837s] 5: No code style divergence in file 'include/ign_ros2_control/model_kdl.h'
+[1.837s] 5: 
+[1.837s] 5: No code style divergence in file 'src/ign_ros2_control_plugin.cpp'
+[1.837s] 5: 
+[1.838s] 5: No code style divergence in file 'src/ign_system.cpp'
+[1.838s] 5: 
+[1.838s] 5: No code style divergence in file 'src/model_kdl.cpp'
+[1.838s] 5: 
+[1.838s] 5: No problems found
+[1.848s] 5: -- run_test.py: return code 0
+[1.848s] 5: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/uncrustify.xunit.xml'
+[1.858s] 5/6 Test #5: uncrustify .......................   Passed    0.24 sec
+[1.859s] test 6
+[1.859s]     Start 6: xmllint
+[1.859s] 
+[1.859s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/xmllint.xunit.xml" "--package-name" "franka_ign_ros2_control" "--output-file" "/home/zac/franka_ws/build/franka_ign_ros2_control/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/xmllint.xunit.xml"
+[1.859s] 6: Test timeout computed to be: 60
+[1.921s] 6: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control':
+[1.921s] 6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/xmllint.xunit.xml
+[1.996s] 6: File 'ign_hardware_plugins.xml' is valid
+[1.996s] 6: 
+[1.996s] 6: File 'package.xml' is valid
+[1.996s] 6: 
+[1.996s] 6: No problems found
+[2.007s] 6: -- run_test.py: return code 0
+[2.007s] 6: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/xmllint.xunit.xml'
+[2.016s] 6/6 Test #6: xmllint ..........................   Passed    0.16 sec
+[2.016s] 
+[2.016s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[2.016s] 
+[2.016s] Label Time Summary:
+[2.016s] copyright     =   0.57 sec*proc (1 test)
+[2.016s] cppcheck      =   0.18 sec*proc (1 test)
+[2.016s] cpplint       =   0.66 sec*proc (1 test)
+[2.016s] lint_cmake    =   0.16 sec*proc (1 test)
+[2.016s] linter        =   1.97 sec*proc (6 tests)
+[2.017s] uncrustify    =   0.24 sec*proc (1 test)
+[2.017s] xmllint       =   0.16 sec*proc (1 test)
+[2.017s] 
+[2.017s] Total Test time (real) =   1.97 sec
+[2.041s] Invoked command in '/home/zac/franka_ws/build/franka_ign_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_ign_ros2_control:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_description LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_ign_ros2_control/lib:/home/zac/franka_ws/install/franka_hardware/lib:/home/zac/franka_ws/install/franka_msgs/lib:/home/zac/franka_ws/install/joint_trajectory_controller/lib:/home/zac/franka_ws/install/integration_launch_testing/lib:/home/zac/franka_ws/install/franka_robot_state_broadcaster/lib:/home/zac/franka_ws/install/franka_example_controllers/lib:/home/zac/franka_ws/install/franka_semantic_components/lib:/home/zac/franka_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

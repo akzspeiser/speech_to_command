@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0" disabled="0" errors="0" time="0.132" timestamp="2024-08-15T02:54:25" name="AllTests">
+  <testsuite name="FrankaRobotStateTest" tests="4" failures="0" disabled="0" errors="0" time="0.132" timestamp="2024-08-15T02:54:25">
+    <testcase name="validate_state_names_and_size" status="run" result="completed" time="0.034" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaRobotStateTest" />
+    <testcase name="robot_state_ptr_uncasted_correctly" status="run" result="completed" time="0.033" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaRobotStateTest" />
+    <testcase name="givenFrankaSemanticStateInitialized_whenMessageReturnedExpectsCorrectValues" status="run" result="completed" time="0.033" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaRobotStateTest" />
+    <testcase name="givenInitializedRobotStateMsg_thenCorrectFrameIDs" status="run" result="completed" time="0.032" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaRobotStateTest" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_gripper':
+ - /opt/ros/humble/bin/ament_copyright --xunit-file /home/zac/franka_ws/build/franka_gripper/test_results/franka_gripper/copyright.xunit.xml launch src include package.xml
+
+No problems found, checked 3 files
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_gripper/test_results/franka_gripper/copyright.xunit.xml'

@@ -1,0 +1,4 @@
+[0.023s] Invoking command in '/home/zac/franka_ws/build/franka_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zac/franka_ws/src/franka_ros2/franka_msgs -DCMAKE_BUILD_TYPE=Release --parallel-s 8 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/franka_msgs
+[0.032s] [0mCMake Error: Unknown argument --parallel-s[0m
+[0.033s] [0mCMake Error: Run 'cmake --help' for all supported options.[0m
+[0.038s] Invoked command in '/home/zac/franka_ws/build/franka_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zac/franka_ws/src/franka_ros2/franka_msgs -DCMAKE_BUILD_TYPE=Release --parallel-s 8 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/franka_msgs

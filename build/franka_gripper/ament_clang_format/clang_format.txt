@@ -1,0 +1,12 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_gripper':
+ - /opt/ros/humble/bin/ament_clang_format --xunit-file /home/zac/franka_ws/build/franka_gripper/test_results/franka_gripper/clang_format.xunit.xml src include --config ../.clang-format
+
+No code style divergence in file 'src/gripper_action_server.cpp'
+
+No code style divergence in file 'include/franka_gripper/gripper_action_server.hpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_gripper/test_results/franka_gripper/clang_format.xunit.xml'

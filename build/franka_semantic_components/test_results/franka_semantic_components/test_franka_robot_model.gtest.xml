@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="10" failures="0" disabled="0" errors="0" time="0" timestamp="2024-08-15T02:54:25" name="AllTests">
+  <testsuite name="FrankaRobotModelTest" tests="10" failures="0" disabled="0" errors="0" time="0" timestamp="2024-08-15T02:54:25">
+    <testcase name="given_franka_semantic_model_initialized_when_get_coriolis_expect_one" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaRobotModelTest" />
+    <testcase name="validate_state_names_and_size" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaRobotModelTest" />
+    <testcase name="given_franka_semantic_model_initialized_when_get_gravity_expect_one" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaRobotModelTest" />
+    <testcase name="given_franka_semantic_model_initialized_when_get_pose_expect_one" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaRobotModelTest" />
+    <testcase name="given_franka_semantic_model_initialized_when_get_mass_expect_correct" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaRobotModelTest" />
+    <testcase name="given_franka_semantic_model_not_initialized_expect_exception" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaRobotModelTest" />
+    <testcase name="given_franka_semantic_model_not_initialized_when_get_gravity_called_expect_exception" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaRobotModelTest" />
+    <testcase name="given_franka_semantic_model_not_initialized_when_get_pose_called_expect_exception" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaRobotModelTest" />
+    <testcase name="given_franka_semantic_model_not_initialized_when_get_body_jacobian_called_expect_exception" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaRobotModelTest" />
+    <testcase name="given_franka_semantic_model_not_initialized_when_get_zero_jacobian_called_expect_exception" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaRobotModelTest" />
+  </testsuite>
+</testsuites>

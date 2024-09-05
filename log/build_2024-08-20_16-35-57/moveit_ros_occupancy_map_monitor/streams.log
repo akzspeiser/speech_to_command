@@ -1,0 +1,32 @@
+[0.084s] Invoking command in '/home/zac/franka_ws/build/moveit_ros_occupancy_map_monitor': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake /home/zac/franka_ws/src/moveit2/moveit_ros/occupancy_map_monitor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor
+[0.147s] -- Found moveit_common: 2.5.5 (/home/zac/franka_ws/install/moveit_common/share/moveit_common/cmake)
+[0.147s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.527s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.813s] [0mmoveit_ros_occupancy_map_monitor: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.813s] -- Found moveit_core: 2.5.5 (/home/zac/franka_ws/install/moveit_core/share/moveit_core/cmake)
+[0.882s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.994s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.131s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.145s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.174s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.222s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.263s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.449s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.457s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.913s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.080s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.128s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.245s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.410s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.194s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.235s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.242s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.245s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.299s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.300s] -- Configured cppcheck include dirs: /home/zac/franka_ws/src/moveit2/moveit_ros/occupancy_map_monitor/include
+[3.301s] -- Configured cppcheck exclude dirs and/or files: 
+[3.303s] -- Added test 'lint_cmake' to check CMake code style
+[3.315s] -- Added test 'xmllint' to check XML markup files
+[3.319s] -- Configuring done
+[3.563s] -- Generating done
+[3.571s] -- Build files have been written to: /home/zac/franka_ws/build/moveit_ros_occupancy_map_monitor

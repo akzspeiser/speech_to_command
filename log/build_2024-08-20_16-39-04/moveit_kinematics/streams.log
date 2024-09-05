@@ -1,0 +1,151 @@
+[0.092s] Invoking command in '/home/zac/franka_ws/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_configs_utils:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zac/franka_ws/build/moveit_configs_utils:/home/zac/franka_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/zac/franka_ws/src/moveit2/moveit_kinematics -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/moveit_kinematics
+[0.115s] -- Found moveit_common: 2.5.5 (/home/zac/franka_ws/install/moveit_common/share/moveit_common/cmake)
+[0.115s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.488s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.737s] [0mmoveit_kinematics: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.739s] -- Found tf2_kdl: 0.25.7 (/opt/ros/humble/share/tf2_kdl/cmake)
+[0.825s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.831s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.845s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.868s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.901s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.999s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.005s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.131s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.135s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.467s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.830s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[1.841s] -- Found random_numbers: 2.0.1 (/opt/ros/humble/share/random_numbers/cmake)
+[1.857s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.937s] -- Found moveit_core: 2.5.5 (/home/zac/franka_ws/install/moveit_core/share/moveit_core/cmake)
+[1.993s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.088s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.115s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.164s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.286s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.770s] -- Found moveit_ros_planning: 2.5.5 (/home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[2.780s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.849s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options system 
+[2.990s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.992s] -- Found ros_testing: 0.4.0 (/opt/ros/humble/share/ros_testing/cmake)
+[2.993s] -- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[2.998s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.051s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.051s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.051s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.055s] -- Found moveit_resources_fanuc_description: 2.0.7 (/opt/ros/humble/share/moveit_resources_fanuc_description/cmake)
+[3.056s] -- Found moveit_resources_fanuc_moveit_config: 2.0.7 (/opt/ros/humble/share/moveit_resources_fanuc_moveit_config/cmake)
+[3.058s] -- Found moveit_resources_panda_description: 2.0.7 (/opt/ros/humble/share/moveit_resources_panda_description/cmake)
+[3.059s] -- Found moveit_resources_panda_moveit_config: 2.0.7 (/opt/ros/humble/share/moveit_resources_panda_moveit_config/cmake)
+[3.060s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.092s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.104s] -- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[3.104s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.157s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.157s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.158s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.360s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.361s] -- Configured cppcheck include dirs: /home/zac/franka_ws/src/moveit2/moveit_kinematics/kdl_kinematics_plugin/include;/home/zac/franka_ws/src/moveit2/moveit_kinematics/lma_kinematics_plugin/include;/home/zac/franka_ws/src/moveit2/moveit_kinematics/srv_kinematics_plugin/include;/home/zac/franka_ws/src/moveit2/moveit_kinematics/cached_ik_kinematics_plugin/include
+[3.361s] -- Configured cppcheck exclude dirs and/or files: 
+[3.383s] -- Added test 'lint_cmake' to check CMake code style
+[3.423s] -- Configuring done
+[3.883s] -- Generating done
+[3.893s] -- Build files have been written to: /home/zac/franka_ws/build/moveit_kinematics
+[3.925s] Invoked command in '/home/zac/franka_ws/build/moveit_kinematics' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_configs_utils:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zac/franka_ws/build/moveit_configs_utils:/home/zac/franka_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/zac/franka_ws/src/moveit2/moveit_kinematics -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/moveit_kinematics
+[3.928s] Invoking command in '/home/zac/franka_ws/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_configs_utils:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zac/franka_ws/build/moveit_configs_utils:/home/zac/franka_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zac/franka_ws/build/moveit_kinematics -- -j8 -l8
+[4.102s] [35m[1mConsolidate compiler generated dependencies of target moveit_lma_kinematics_plugin[0m
+[4.105s] [35m[1mConsolidate compiler generated dependencies of target moveit_cached_ik_kinematics_base[0m
+[4.111s] [35m[1mConsolidate compiler generated dependencies of target moveit_srv_kinematics_plugin[0m
+[4.130s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[4.147s] [35m[1mConsolidate compiler generated dependencies of target moveit_kdl_kinematics_plugin[0m
+[4.151s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[4.226s] [ 10%] Built target gtest_main
+[4.266s] [ 21%] Built target gtest
+[4.287s] [ 31%] Built target moveit_lma_kinematics_plugin
+[4.294s] [35m[1mConsolidate compiler generated dependencies of target benchmark_ik[0m
+[4.342s] [ 42%] Built target moveit_cached_ik_kinematics_base
+[4.366s] [ 52%] Built target moveit_srv_kinematics_plugin
+[4.440s] [ 68%] Built target moveit_kdl_kinematics_plugin
+[4.500s] [35m[1mConsolidate compiler generated dependencies of target moveit_cached_ik_kinematics_plugin[0m
+[4.526s] [35m[1mConsolidate compiler generated dependencies of target test_kinematics_plugin[0m
+[4.595s] [ 73%] [32m[1mLinking CXX executable benchmark_ik[0m
+[4.638s] [ 84%] Built target moveit_cached_ik_kinematics_plugin
+[4.649s] [ 89%] [32m[1mLinking CXX executable test_kinematics_plugin[0m
+[6.364s] [ 94%] Built target benchmark_ik
+[6.426s] [100%] Built target test_kinematics_plugin
+[6.460s] Invoked command in '/home/zac/franka_ws/build/moveit_kinematics' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_configs_utils:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zac/franka_ws/build/moveit_configs_utils:/home/zac/franka_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zac/franka_ws/build/moveit_kinematics -- -j8 -l8
+[6.584s] Invoking command in '/home/zac/franka_ws/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_configs_utils:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zac/franka_ws/build/moveit_configs_utils:/home/zac/franka_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zac/franka_ws/build/moveit_kinematics
+[6.610s] -- Install configuration: "Release"
+[6.610s] -- Execute custom install script
+[6.611s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics//kdl_kinematics_plugin_description.xml
+[6.624s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics//lma_kinematics_plugin_description.xml
+[6.644s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics//srv_kinematics_plugin_description.xml
+[6.662s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics//cached_ik_kinematics_plugin_description.xml
+[6.680s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin-inl.h
+[6.701s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin.h
+[6.723s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/detail/GreedyKCenters.h
+[6.747s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/detail/NearestNeighbors.h
+[6.763s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/detail/NearestNeighborsGNAT.h
+[6.777s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/launch/measure_ik_call_cost.launch
+[6.791s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/lib/moveit_kinematics/auto_create_ikfast_moveit_plugin.sh
+[6.809s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/lib/moveit_kinematics/create_ikfast_moveit_plugin.py
+[6.827s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/lib/moveit_kinematics/round_collada_numbers.py
+[6.840s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/CMakeLists.txt
+[6.854s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast.h
+[6.870s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast61_moveit_plugin_template.cpp
+[6.884s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/include/moveit/kdl_kinematics_plugin/chainiksolver_vel_mimic_svd.hpp
+[6.899s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/include/moveit/kdl_kinematics_plugin/joint_mimic.hpp
+[6.915s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/include/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.h
+[6.928s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/include/moveit/lma_kinematics_plugin/lma_kinematics_plugin.h
+[6.943s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/include/moveit/srv_kinematics_plugin/srv_kinematics_plugin.h
+[6.957s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-kdl-singular-test.yaml
+[6.970s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-kdl-test.yaml
+[6.983s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-lma-singular-test.yaml
+[6.997s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-lma-test.yaml
+[7.010s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/config/panda-kdl-singular-test.yaml
+[7.024s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/config/panda-kdl-test.yaml
+[7.037s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/config/panda-lma-singular-test.yaml
+[7.051s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/config/panda-lma-test.yaml
+[7.065s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-kdl-singular.test.py
+[7.078s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-kdl.test.py
+[7.091s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-lma-singular.test.py
+[7.105s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-lma.test.py
+[7.119s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/launch/panda-kdl-singular.test.py
+[7.132s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/launch/panda-kdl.test.py
+[7.146s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/launch/panda-lma-singular.test.py
+[7.159s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/launch/panda-lma.test.py
+[7.172s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/lib/moveit_kinematics/benchmark_ik
+[7.187s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/lib/moveit_kinematics/test_kinematics_plugin
+[7.203s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/environment/library_path.sh
+[7.221s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/environment/library_path.dsv
+[7.236s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/ament_index/resource_index/package_run_dependencies/moveit_kinematics
+[7.250s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/ament_index/resource_index/parent_prefix_path/moveit_kinematics
+[7.263s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/environment/ament_prefix_path.sh
+[7.279s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/environment/ament_prefix_path.dsv
+[7.293s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/environment/path.sh
+[7.310s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/environment/path.dsv
+[7.325s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/local_setup.bash
+[7.339s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/local_setup.sh
+[7.351s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/local_setup.zsh
+[7.363s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/local_setup.dsv
+[7.376s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/package.dsv
+[7.389s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/ament_index/resource_index/packages/moveit_kinematics
+[7.405s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_kinematics
+[7.419s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/ConfigExtras.cmake
+[7.432s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/ament_cmake_export_targets-extras.cmake
+[7.445s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.458s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsConfig.cmake
+[7.471s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsConfig-version.cmake
+[7.484s] -- Symlinking: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/package.xml
+[7.507s] -- Up-to-date: /home/zac/franka_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so.2.5.5
+[7.508s] -- Up-to-date: /home/zac/franka_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so
+[7.509s] -- Up-to-date: /home/zac/franka_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so.2.5.5
+[7.510s] -- Up-to-date: /home/zac/franka_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so
+[7.511s] -- Up-to-date: /home/zac/franka_ws/install/moveit_kinematics/lib/libmoveit_kdl_kinematics_plugin.so
+[7.512s] -- Up-to-date: /home/zac/franka_ws/install/moveit_kinematics/lib/libmoveit_lma_kinematics_plugin.so.2.5.5
+[7.513s] -- Up-to-date: /home/zac/franka_ws/install/moveit_kinematics/lib/libmoveit_lma_kinematics_plugin.so
+[7.514s] -- Up-to-date: /home/zac/franka_ws/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so.2.5.5
+[7.514s] -- Up-to-date: /home/zac/franka_ws/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so
+[7.515s] -- Up-to-date: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/export_moveit_kinematicsExport.cmake
+[7.515s] -- Up-to-date: /home/zac/franka_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/export_moveit_kinematicsExport-release.cmake
+[7.519s] Invoked command in '/home/zac/franka_ws/build/moveit_kinematics' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_configs_utils:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zac/franka_ws/build/moveit_configs_utils:/home/zac/franka_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zac/franka_ws/build/moveit_kinematics

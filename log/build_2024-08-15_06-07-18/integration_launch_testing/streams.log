@@ -1,0 +1,26 @@
+[0.459s] Invoking command in '/home/zac/franka_ws/build/integration_launch_testing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zac/franka_ws/build/integration_launch_testing -- -j8 -l8
+[0.580s] Invoked command in '/home/zac/franka_ws/build/integration_launch_testing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zac/franka_ws/build/integration_launch_testing -- -j8 -l8
+[0.664s] Invoking command in '/home/zac/franka_ws/build/integration_launch_testing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zac/franka_ws/build/integration_launch_testing
+[0.687s] -- Install configuration: "Release"
+[0.691s] -- Execute custom install script
+[0.693s] -- Up-to-date symlink: /home/zac/franka_ws/install/integration_launch_testing/share/integration_launch_testing/test/test_franka_gripper_position.py
+[0.693s] -- Up-to-date symlink: /home/zac/franka_ws/install/integration_launch_testing/share/integration_launch_testing/test/test_move_to_start_example_controller.py
+[0.694s] -- Up-to-date symlink: /home/zac/franka_ws/install/integration_launch_testing/share/integration_launch_testing/environment/library_path.sh
+[0.695s] -- Up-to-date symlink: /home/zac/franka_ws/install/integration_launch_testing/share/integration_launch_testing/environment/library_path.dsv
+[0.695s] -- Up-to-date symlink: /home/zac/franka_ws/install/integration_launch_testing/share/ament_index/resource_index/package_run_dependencies/integration_launch_testing
+[0.696s] -- Up-to-date symlink: /home/zac/franka_ws/install/integration_launch_testing/share/ament_index/resource_index/parent_prefix_path/integration_launch_testing
+[0.696s] -- Up-to-date symlink: /home/zac/franka_ws/install/integration_launch_testing/share/integration_launch_testing/environment/ament_prefix_path.sh
+[0.697s] -- Up-to-date symlink: /home/zac/franka_ws/install/integration_launch_testing/share/integration_launch_testing/environment/ament_prefix_path.dsv
+[0.697s] -- Up-to-date symlink: /home/zac/franka_ws/install/integration_launch_testing/share/integration_launch_testing/environment/path.sh
+[0.698s] -- Up-to-date symlink: /home/zac/franka_ws/install/integration_launch_testing/share/integration_launch_testing/environment/path.dsv
+[0.699s] -- Up-to-date symlink: /home/zac/franka_ws/install/integration_launch_testing/share/integration_launch_testing/local_setup.bash
+[0.699s] -- Up-to-date symlink: /home/zac/franka_ws/install/integration_launch_testing/share/integration_launch_testing/local_setup.sh
+[0.700s] -- Up-to-date symlink: /home/zac/franka_ws/install/integration_launch_testing/share/integration_launch_testing/local_setup.zsh
+[0.700s] -- Up-to-date symlink: /home/zac/franka_ws/install/integration_launch_testing/share/integration_launch_testing/local_setup.dsv
+[0.701s] -- Symlinking: /home/zac/franka_ws/install/integration_launch_testing/share/integration_launch_testing/package.dsv
+[0.726s] -- Up-to-date symlink: /home/zac/franka_ws/install/integration_launch_testing/share/ament_index/resource_index/packages/integration_launch_testing
+[0.727s] -- Up-to-date symlink: /home/zac/franka_ws/install/integration_launch_testing/share/integration_launch_testing/cmake/ament_cmake_export_libraries-extras.cmake
+[0.727s] -- Up-to-date symlink: /home/zac/franka_ws/install/integration_launch_testing/share/integration_launch_testing/cmake/integration_launch_testingConfig.cmake
+[0.728s] -- Up-to-date symlink: /home/zac/franka_ws/install/integration_launch_testing/share/integration_launch_testing/cmake/integration_launch_testingConfig-version.cmake
+[0.728s] -- Up-to-date symlink: /home/zac/franka_ws/install/integration_launch_testing/share/integration_launch_testing/package.xml
+[0.736s] Invoked command in '/home/zac/franka_ws/build/integration_launch_testing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zac/franka_ws/build/integration_launch_testing

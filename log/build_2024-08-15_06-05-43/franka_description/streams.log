@@ -1,0 +1,123 @@
+[0.496s] Invoking command in '/home/zac/franka_ws/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zac/franka_ws/src/franka_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/franka_description
+[0.517s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.776s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.795s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.831s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.921s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.943s] -- Added test 'lint_cmake' to check CMake code style
+[1.948s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.993s] -- Added test 'xmllint' to check XML markup files
+[1.997s] -- Configuring done
+[2.022s] -- Generating done
+[2.027s] -- Build files have been written to: /home/zac/franka_ws/build/franka_description
+[2.031s] Invoked command in '/home/zac/franka_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zac/franka_ws/src/franka_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/franka_description
+[2.035s] Invoking command in '/home/zac/franka_ws/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zac/franka_ws/build/franka_description -- -j8 -l8
+[2.148s] Invoked command in '/home/zac/franka_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zac/franka_ws/build/franka_description -- -j8 -l8
+[2.236s] Invoking command in '/home/zac/franka_ws/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zac/franka_ws/build/franka_description
+[2.249s] -- Install configuration: "Release"
+[2.250s] -- Execute custom install script
+[2.251s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//launch/visualize_franka.launch.py
+[2.275s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/common/franka_arm.ros2_control.xacro
+[2.300s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/common/franka_arm.xacro
+[2.320s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/common/franka_robot.xacro
+[2.345s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/common/utils.xacro
+[2.367s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fer/dynamics.yaml
+[2.387s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fer/fer.urdf.xacro
+[2.409s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fer/inertials.yaml
+[2.431s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fer/joint_limits.yaml
+[2.453s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fer/kinematics.yaml
+[2.481s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fp3/dynamics.yaml
+[2.501s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fp3/fp3.urdf.xacro
+[2.522s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fp3/inertials.yaml
+[2.546s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fp3/joint_limits.yaml
+[2.572s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fp3/kinematics.yaml
+[2.597s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fr3/dynamics.yaml
+[2.626s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fr3/fr3.urdf.xacro
+[2.653s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fr3/inertials.yaml
+[2.679s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fr3/joint_limits.yaml
+[2.713s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//robots/fr3/kinematics.yaml
+[2.737s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump.urdf.xacro
+[2.762s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump_arguments.xacro
+[2.789s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/inertials.yaml
+[2.828s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/common/ee_with_one_link.xacro
+[2.852s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/common/franka_hand.xacro
+[2.872s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/common/utils.xacro
+[2.891s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand.urdf.xacro
+[2.917s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand_arguments.xacro
+[2.939s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/inertials.yaml
+[2.972s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/hand.stl
+[3.002s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link0.stl
+[3.023s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link1.stl
+[3.044s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link2.stl
+[3.069s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link3.stl
+[3.098s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link4.stl
+[3.120s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link5.stl
+[3.143s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link6.stl
+[3.165s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link7.stl
+[3.191s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/finger.dae
+[3.210s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/hand.dae
+[3.230s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link0.dae
+[3.249s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link1.dae
+[3.265s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link2.dae
+[3.285s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link3.dae
+[3.308s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link4.dae
+[3.325s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link5.dae
+[3.340s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link6.dae
+[3.356s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link7.dae
+[3.372s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link0.stl
+[3.391s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link1.stl
+[3.409s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link2.stl
+[3.428s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link3.stl
+[3.447s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link4.stl
+[3.464s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link5.stl
+[3.481s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link6.stl
+[3.496s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link7.stl
+[3.511s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link0.dae
+[3.531s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link1.dae
+[3.547s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link2.dae
+[3.560s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link3.dae
+[3.576s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link4.dae
+[3.594s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link5.dae
+[3.610s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link6.dae
+[3.627s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link7.dae
+[3.643s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link0.stl
+[3.656s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link1.stl
+[3.672s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link2.stl
+[3.687s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link3.stl
+[3.702s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link4.stl
+[3.715s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link5.stl
+[3.730s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link6.stl
+[3.744s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link7.stl
+[3.759s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link0.dae
+[3.782s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link1.dae
+[3.798s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link2.dae
+[3.814s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link3.dae
+[3.833s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link4.dae
+[3.850s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link5.dae
+[3.869s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link6.dae
+[3.885s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link7.dae
+[3.901s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/collision/cobot_pump.stl
+[3.934s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/visual/cobot_pump.dae
+[3.952s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/collision/hand.stl
+[3.969s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual/finger.dae
+[3.984s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual/hand.dae
+[4.000s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/collision/hand.stl
+[4.014s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual/finger.dae
+[4.028s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual/hand.dae
+[4.042s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description//rviz/visualize_franka.rviz
+[4.057s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description
+[4.073s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description
+[4.088s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.sh
+[4.103s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.dsv
+[4.121s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description/environment/path.sh
+[4.135s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description/environment/path.dsv
+[4.152s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description/local_setup.bash
+[4.165s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description/local_setup.sh
+[4.182s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description/local_setup.zsh
+[4.197s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description/local_setup.dsv
+[4.210s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description/package.dsv
+[4.224s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/ament_index/resource_index/packages/franka_description
+[4.237s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake
+[4.252s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake
+[4.268s] -- Symlinking: /home/zac/franka_ws/install/franka_description/share/franka_description/package.xml
+[4.289s] Invoked command in '/home/zac/franka_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zac/franka_ws/build/franka_description

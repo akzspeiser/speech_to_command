@@ -1,0 +1,128 @@
+[0.041s] Invoking command in '/home/zac/franka_ws/build/franka_fr3_moveit_config': CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_ign_ros2_control LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_hardware/lib:/home/zac/franka_ws/install/franka_gripper/lib:/home/zac/franka_ws/install/franka_msgs/lib:/home/zac/franka_ws/install/joint_trajectory_controller/lib:/home/zac/franka_ws/install/integration_launch_testing/lib:/home/zac/franka_ws/install/franka_robot_state_broadcaster/lib:/home/zac/franka_ws/install/franka_example_controllers/lib:/home/zac/franka_ws/install/franka_semantic_components/lib:/home/zac/franka_ws/install/franka_ign_ros2_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.049s] UpdateCTestConfiguration  from :/home/zac/franka_ws/build/franka_fr3_moveit_config/CTestConfiguration.ini
+[0.049s] Parse Config file:/home/zac/franka_ws/build/franka_fr3_moveit_config/CTestConfiguration.ini
+[0.049s]    Site: CHARISMA-Predator-571
+[0.049s]    Build name: (empty)
+[0.050s]  Add coverage exclude regular expressions.
+[0.050s] Create new tag: 20240815-0954 - Experimental
+[0.050s] UpdateCTestConfiguration  from :/home/zac/franka_ws/build/franka_fr3_moveit_config/CTestConfiguration.ini
+[0.050s] Parse Config file:/home/zac/franka_ws/build/franka_fr3_moveit_config/CTestConfiguration.ini
+[0.050s] Test project /home/zac/franka_ws/build/franka_fr3_moveit_config
+[0.050s] Constructing a list of tests
+[0.050s] Done constructing a list of tests
+[0.050s] Updating test list for fixtures
+[0.051s] Added 0 tests to meet fixture requirements
+[0.051s] Checking test dependency graph...
+[0.051s] Checking test dependency graph end
+[0.051s] test 1
+[0.051s]     Start 1: franka_fr3_moveit_config_srdf_tests
+[0.051s] 
+[0.051s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/franka_fr3_moveit_config_srdf_tests.xunit.xml" "--package-name" "franka_fr3_moveit_config" "--output-file" "/home/zac/franka_ws/build/franka_fr3_moveit_config/ament_cmake_pytest/franka_fr3_moveit_config_srdf_tests.txt" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/zac/franka_ws/src/franka_ros2/franka_fr3_moveit_config/test/srdf_tests.py" "-o" "cache_dir=/home/zac/franka_ws/build/franka_fr3_moveit_config/ament_cmake_pytest/franka_fr3_moveit_config_srdf_tests/.cache" "--junit-xml=/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/franka_fr3_moveit_config_srdf_tests.xunit.xml" "--junit-prefix=franka_fr3_moveit_config"
+[0.051s] 1: Test timeout computed to be: 60
+[0.118s] 1: -- run_test.py: invoking following command in '/home/zac/franka_ws/build/franka_fr3_moveit_config':
+[0.118s] 1:  - /usr/bin/python3 -u -m pytest /home/zac/franka_ws/src/franka_ros2/franka_fr3_moveit_config/test/srdf_tests.py -o cache_dir=/home/zac/franka_ws/build/franka_fr3_moveit_config/ament_cmake_pytest/franka_fr3_moveit_config_srdf_tests/.cache --junit-xml=/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/franka_fr3_moveit_config_srdf_tests.xunit.xml --junit-prefix=franka_fr3_moveit_config
+[0.536s] 1: ============================= test session starts ==============================
+[0.537s] 1: platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.545s] 1: cachedir: build/franka_fr3_moveit_config/ament_cmake_pytest/franka_fr3_moveit_config_srdf_tests/.cache
+[0.545s] 1: rootdir: /home/zac/franka_ws
+[0.545s] 1: plugins: launch-testing-ros-0.19.7, ament-flake8-0.12.11, ament-pep257-0.12.11, ament-lint-0.12.11, launch-testing-1.0.6, ament-copyright-0.12.11, ament-xmllint-0.12.11, cov-3.0.0, colcon-core-0.17.0
+[0.571s] 1: collected 3 items
+[0.571s] 1: 
+[0.643s] 1: ../../src/franka_ros2/franka_fr3_moveit_config/test/srdf_tests.py ...    [100%]
+[0.644s] 1: 
+[0.644s] 1: =============================== warnings summary ===============================
+[0.644s] 1: ../../../../../opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:558
+[0.644s] 1:   Warning: invalid escape sequence '\$'
+[0.644s] 1: 
+[0.644s] 1: ../../../../../opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py:559
+[0.644s] 1:   Warning: invalid escape sequence '\s'
+[0.645s] 1: 
+[0.645s] 1: -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[0.645s] 1: - generated xml file: /home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/franka_fr3_moveit_config_srdf_tests.xunit.xml -
+[0.645s] 1: ======================== 3 passed, 2 warnings in 0.11s =========================
+[0.705s] 1: -- run_test.py: return code 0
+[0.705s] 1: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/franka_fr3_moveit_config_srdf_tests.xunit.xml'
+[0.715s] 1/6 Test #1: franka_fr3_moveit_config_srdf_tests ...   Passed    0.66 sec
+[0.715s] test 2
+[0.715s]     Start 2: copyright
+[0.715s] 
+[0.715s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/copyright.xunit.xml" "--package-name" "franka_fr3_moveit_config" "--output-file" "/home/zac/franka_ws/build/franka_fr3_moveit_config/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/copyright.xunit.xml"
+[0.716s] 2: Test timeout computed to be: 200
+[0.780s] 2: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_fr3_moveit_config':
+[0.780s] 2:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/copyright.xunit.xml
+[0.989s] 2: No problems found, checked 3 files
+[1.001s] 2: -- run_test.py: return code 0
+[1.001s] 2: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/copyright.xunit.xml'
+[1.014s] 2/6 Test #2: copyright .............................   Passed    0.30 sec
+[1.015s] test 3
+[1.015s]     Start 3: flake8
+[1.015s] 
+[1.015s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/flake8.xunit.xml" "--package-name" "franka_fr3_moveit_config" "--output-file" "/home/zac/franka_ws/build/franka_fr3_moveit_config/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/flake8.xunit.xml"
+[1.015s] 3: Test timeout computed to be: 60
+[1.087s] 3: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_fr3_moveit_config':
+[1.087s] 3:  - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/flake8.xunit.xml
+[1.310s] 3: 
+[1.311s] 3: 3 files checked
+[1.311s] 3: No problems found
+[1.311s] 3: 
+[1.311s] 3: Checked files:
+[1.311s] 3: 
+[1.311s] 3: * ./launch/moveit.launch.py
+[1.311s] 3: * ./launch/move_group.launch.py
+[1.311s] 3: * ./test/srdf_tests.py
+[1.335s] 3: -- run_test.py: return code 0
+[1.335s] 3: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/flake8.xunit.xml'
+[1.345s] 3/6 Test #3: flake8 ................................   Passed    0.33 sec
+[1.345s] test 4
+[1.346s]     Start 4: lint_cmake
+[1.346s] 
+[1.346s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/lint_cmake.xunit.xml" "--package-name" "franka_fr3_moveit_config" "--output-file" "/home/zac/franka_ws/build/franka_fr3_moveit_config/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/lint_cmake.xunit.xml"
+[1.346s] 4: Test timeout computed to be: 60
+[1.408s] 4: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_fr3_moveit_config':
+[1.408s] 4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/lint_cmake.xunit.xml
+[1.484s] 4: 
+[1.484s] 4: No problems found
+[1.495s] 4: -- run_test.py: return code 0
+[1.495s] 4: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/lint_cmake.xunit.xml'
+[1.506s] 4/6 Test #4: lint_cmake ............................   Passed    0.16 sec
+[1.506s] test 5
+[1.506s]     Start 5: pep257
+[1.506s] 
+[1.506s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/pep257.xunit.xml" "--package-name" "franka_fr3_moveit_config" "--output-file" "/home/zac/franka_ws/build/franka_fr3_moveit_config/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/pep257.xunit.xml"
+[1.506s] 5: Test timeout computed to be: 60
+[1.571s] 5: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_fr3_moveit_config':
+[1.571s] 5:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/pep257.xunit.xml
+[1.712s] 5: checking ./launch/move_group.launch.py
+[1.713s] 5: checking ./launch/moveit.launch.py
+[1.713s] 5: checking ./test/srdf_tests.py
+[1.713s] 5: No problems found
+[1.733s] 5: -- run_test.py: return code 0
+[1.733s] 5: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/pep257.xunit.xml'
+[1.743s] 5/6 Test #5: pep257 ................................   Passed    0.24 sec
+[1.744s] test 6
+[1.744s]     Start 6: xmllint
+[1.744s] 
+[1.744s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/xmllint.xunit.xml" "--package-name" "franka_fr3_moveit_config" "--output-file" "/home/zac/franka_ws/build/franka_fr3_moveit_config/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/xmllint.xunit.xml"
+[1.744s] 6: Test timeout computed to be: 60
+[1.809s] 6: -- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_fr3_moveit_config':
+[1.809s] 6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/xmllint.xunit.xml
+[2.028s] 6: File 'package.xml' is valid
+[2.028s] 6: 
+[2.028s] 6: No problems found
+[2.044s] 6: -- run_test.py: return code 0
+[2.045s] 6: -- run_test.py: verify result file '/home/zac/franka_ws/build/franka_fr3_moveit_config/test_results/franka_fr3_moveit_config/xmllint.xunit.xml'
+[2.055s] 6/6 Test #6: xmllint ...............................   Passed    0.31 sec
+[2.055s] 
+[2.055s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[2.055s] 
+[2.055s] Label Time Summary:
+[2.055s] copyright     =   0.30 sec*proc (1 test)
+[2.055s] flake8        =   0.33 sec*proc (1 test)
+[2.055s] lint_cmake    =   0.16 sec*proc (1 test)
+[2.055s] linter        =   1.34 sec*proc (5 tests)
+[2.055s] pep257        =   0.24 sec*proc (1 test)
+[2.055s] pytest        =   0.66 sec*proc (1 test)
+[2.056s] xmllint       =   0.31 sec*proc (1 test)
+[2.056s] 
+[2.056s] Total Test time (real) =   2.01 sec
+[2.079s] Invoked command in '/home/zac/franka_ws/build/franka_fr3_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_fr3_moveit_config:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_gripper:/home/zac/franka_ws/install/franka_msgs:/home/zac/franka_ws/install/franka_description:/home/zac/franka_ws/install/joint_trajectory_controller:/home/zac/franka_ws/install/integration_launch_testing:/home/zac/franka_ws/install/franka_bringup:/home/zac/franka_ws/install/franka_robot_state_broadcaster:/home/zac/franka_ws/install/franka_example_controllers:/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_gazebo_bringup:/home/zac/franka_ws/install/franka_ign_ros2_control LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_hardware/lib:/home/zac/franka_ws/install/franka_gripper/lib:/home/zac/franka_ws/install/franka_msgs/lib:/home/zac/franka_ws/install/joint_trajectory_controller/lib:/home/zac/franka_ws/install/integration_launch_testing/lib:/home/zac/franka_ws/install/franka_robot_state_broadcaster/lib:/home/zac/franka_ws/install/franka_example_controllers/lib:/home/zac/franka_ws/install/franka_semantic_components/lib:/home/zac/franka_ws/install/franka_ign_ros2_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

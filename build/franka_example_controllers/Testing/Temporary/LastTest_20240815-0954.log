@@ -1,0 +1,390 @@
+Start testing: Aug 15 02:54 PDT
+----------------------------------------------------------
+1/11 Testing: clang_format
+1/11 Test: clang_format
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/clang_format.xunit.xml" "--package-name" "franka_example_controllers" "--output-file" "/home/zac/franka_ws/build/franka_example_controllers/ament_clang_format/clang_format.txt" "--command" "/opt/ros/humble/bin/ament_clang_format" "--xunit-file" "/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/clang_format.xunit.xml" "src" "include" "--config" "../.clang-format"
+Directory: /home/zac/franka_ws/src/franka_ros2/franka_example_controllers
+"clang_format" start time: Aug 15 02:54 PDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_example_controllers':
+ - /opt/ros/humble/bin/ament_clang_format --xunit-file /home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/clang_format.xunit.xml src include --config ../.clang-format
+No code style divergence in file 'src/cartesian_elbow_example_controller.cpp'
+
+No code style divergence in file 'src/cartesian_orientation_example_controller.cpp'
+
+No code style divergence in file 'src/cartesian_pose_example_controller.cpp'
+
+No code style divergence in file 'src/cartesian_velocity_example_controller.cpp'
+
+No code style divergence in file 'src/elbow_example_controller.cpp'
+
+No code style divergence in file 'src/gravity_compensation_example_controller.cpp'
+
+No code style divergence in file 'src/joint_impedance_example_controller.cpp'
+
+No code style divergence in file 'src/joint_impedance_with_ik_example_controller.cpp'
+
+No code style divergence in file 'src/joint_position_example_controller.cpp'
+
+No code style divergence in file 'src/joint_velocity_example_controller.cpp'
+
+No code style divergence in file 'src/model_example_controller.cpp'
+
+No code style divergence in file 'src/motion_generator.cpp'
+
+No code style divergence in file 'src/move_to_start_example_controller.cpp'
+
+No code style divergence in file 'include/franka_example_controllers/cartesian_elbow_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/cartesian_orientation_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/cartesian_pose_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/cartesian_velocity_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/default_robot_behavior_utils.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/elbow_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/gravity_compensation_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/joint_impedance_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/joint_impedance_with_ik_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/joint_position_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/joint_velocity_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/model_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/motion_generator.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/move_to_start_example_controller.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/robot_utils.hpp'
+
+No code style divergence in file 'include/franka_example_controllers/visibility_control.h'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/clang_format.xunit.xml'
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"clang_format" end time: Aug 15 02:54 PDT
+"clang_format" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: copyright
+2/11 Test: copyright
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/copyright.xunit.xml" "--package-name" "franka_example_controllers" "--output-file" "/home/zac/franka_ws/build/franka_example_controllers/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/copyright.xunit.xml" "src" "src" "include" "package.xml"
+Directory: /home/zac/franka_ws/src/franka_ros2/franka_example_controllers
+"copyright" start time: Aug 15 02:54 PDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_example_controllers':
+ - /opt/ros/humble/bin/ament_copyright --xunit-file /home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/copyright.xunit.xml src src include package.xml
+No problems found, checked 29 files
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/copyright.xunit.xml'
+<end of output>
+Test time =   1.15 sec
+----------------------------------------------------------
+Test Passed.
+"copyright" end time: Aug 15 02:54 PDT
+"copyright" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/11 Testing: cppcheck
+3/11 Test: cppcheck
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/cppcheck.xunit.xml" "--package-name" "franka_example_controllers" "--output-file" "/home/zac/franka_ws/build/franka_example_controllers/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/cppcheck.xunit.xml" "src" "include"
+Directory: /home/zac/franka_ws/src/franka_ros2/franka_example_controllers
+"cppcheck" start time: Aug 15 02:54 PDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_example_controllers':
+ - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/cppcheck.xunit.xml src include
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/cppcheck.xunit.xml'
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck" end time: Aug 15 02:54 PDT
+"cppcheck" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: lint_cmake
+4/11 Test: lint_cmake
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/lint_cmake.xunit.xml" "--package-name" "franka_example_controllers" "--output-file" "/home/zac/franka_ws/build/franka_example_controllers/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/lint_cmake.xunit.xml" "CMakeLists.txt"
+Directory: /home/zac/franka_ws/src/franka_ros2/franka_example_controllers
+"lint_cmake" start time: Aug 15 02:54 PDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_example_controllers':
+ - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/lint_cmake.xunit.xml CMakeLists.txt
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/lint_cmake.xunit.xml'
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"lint_cmake" end time: Aug 15 02:54 PDT
+"lint_cmake" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: flake8
+5/11 Test: flake8
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/flake8.xunit.xml" "--package-name" "franka_example_controllers" "--output-file" "/home/zac/franka_ws/build/franka_example_controllers/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/flake8.xunit.xml"
+Directory: /home/zac/franka_ws/src/franka_ros2/franka_example_controllers
+"flake8" start time: Aug 15 02:54 PDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_example_controllers':
+ - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/flake8.xunit.xml
+
+0 files checked
+No problems found
+
+Checked files:
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/flake8.xunit.xml'
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"flake8" end time: Aug 15 02:54 PDT
+"flake8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: pep257
+6/11 Test: pep257
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/pep257.xunit.xml" "--package-name" "franka_example_controllers" "--output-file" "/home/zac/franka_ws/build/franka_example_controllers/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/pep257.xunit.xml"
+Directory: /home/zac/franka_ws/src/franka_ros2/franka_example_controllers
+"pep257" start time: Aug 15 02:54 PDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_example_controllers':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/pep257.xunit.xml
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/pep257.xunit.xml'
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"pep257" end time: Aug 15 02:54 PDT
+"pep257" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: xmllint
+7/11 Test: xmllint
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/xmllint.xunit.xml" "--package-name" "franka_example_controllers" "--output-file" "/home/zac/franka_ws/build/franka_example_controllers/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/xmllint.xunit.xml"
+Directory: /home/zac/franka_ws/src/franka_ros2/franka_example_controllers
+"xmllint" start time: Aug 15 02:54 PDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_example_controllers':
+ - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/xmllint.xunit.xml
+File 'franka_example_controllers.xml' is valid
+
+File 'package.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/xmllint.xunit.xml'
+<end of output>
+Test time =   0.34 sec
+----------------------------------------------------------
+Test Passed.
+"xmllint" end time: Aug 15 02:54 PDT
+"xmllint" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: franka_example_controllers_test
+8/11 Test: franka_example_controllers_test
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_test.gtest.xml" "--package-name" "franka_example_controllers" "--output-file" "/home/zac/franka_ws/build/franka_example_controllers/ament_cmake_gmock/franka_example_controllers_test.txt" "--command" "/home/zac/franka_ws/build/franka_example_controllers/franka_example_controllers_test" "--gtest_output=xml:/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_test.gtest.xml"
+Directory: /home/zac/franka_ws/build/franka_example_controllers
+"franka_example_controllers_test" start time: Aug 15 02:54 PDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/franka_example_controllers':
+ - /home/zac/franka_ws/build/franka_example_controllers/franka_example_controllers_test --gtest_output=xml:/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_test.gtest.xml
+Running main() from gmock_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestLoadGravityCompensationExampleController
+[ RUN      ] TestLoadGravityCompensationExampleController.load_controller
+[INFO] [1723715668.386988016] [resource_manager]: Loading hardware 'TestActuatorHardware' 
+unknown file: Failure
+C++ exception with description "According to the loaded plugin descriptions the class test_actuator with base class type hardware_interface::ActuatorInterface does not exist. Declared types are  test_hardware_components/TestSingleJointActuator" thrown in the test body.
+[  FAILED  ] TestLoadGravityCompensationExampleController.load_controller (9 ms)
+[----------] 1 test from TestLoadGravityCompensationExampleController (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (9 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] TestLoadGravityCompensationExampleController.load_controller
+
+ 1 FAILED TEST
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_test.gtest.xml'
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_test.gtest.xml'
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Failed.
+"franka_example_controllers_test" end time: Aug 15 02:54 PDT
+"franka_example_controllers_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: franka_example_controllers_test_load_move_to_start
+9/11 Test: franka_example_controllers_test_load_move_to_start
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_test_load_move_to_start.gtest.xml" "--package-name" "franka_example_controllers" "--output-file" "/home/zac/franka_ws/build/franka_example_controllers/ament_cmake_gmock/franka_example_controllers_test_load_move_to_start.txt" "--command" "/home/zac/franka_ws/build/franka_example_controllers/franka_example_controllers_test_load_move_to_start" "--gtest_output=xml:/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_test_load_move_to_start.gtest.xml"
+Directory: /home/zac/franka_ws/build/franka_example_controllers
+"franka_example_controllers_test_load_move_to_start" start time: Aug 15 02:54 PDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/franka_example_controllers':
+ - /home/zac/franka_ws/build/franka_example_controllers/franka_example_controllers_test_load_move_to_start --gtest_output=xml:/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_test_load_move_to_start.gtest.xml
+Running main() from gmock_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestLoadMoveToStartExampleController
+[ RUN      ] TestLoadMoveToStartExampleController.load_controller
+[INFO] [1723715668.478358265] [resource_manager]: Loading hardware 'TestActuatorHardware' 
+unknown file: Failure
+C++ exception with description "According to the loaded plugin descriptions the class test_actuator with base class type hardware_interface::ActuatorInterface does not exist. Declared types are  test_hardware_components/TestSingleJointActuator" thrown in the test body.
+[  FAILED  ] TestLoadMoveToStartExampleController.load_controller (8 ms)
+[----------] 1 test from TestLoadMoveToStartExampleController (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] TestLoadMoveToStartExampleController.load_controller
+
+ 1 FAILED TEST
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_test_load_move_to_start.gtest.xml'
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_test_load_move_to_start.gtest.xml'
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Failed.
+"franka_example_controllers_test_load_move_to_start" end time: Aug 15 02:54 PDT
+"franka_example_controllers_test_load_move_to_start" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: franka_example_controllers_gravity_test
+10/11 Test: franka_example_controllers_gravity_test
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_gravity_test.gtest.xml" "--package-name" "franka_example_controllers" "--output-file" "/home/zac/franka_ws/build/franka_example_controllers/ament_cmake_gmock/franka_example_controllers_gravity_test.txt" "--command" "/home/zac/franka_ws/build/franka_example_controllers/franka_example_controllers_gravity_test" "--gtest_output=xml:/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_gravity_test.gtest.xml"
+Directory: /home/zac/franka_ws/build/franka_example_controllers
+"franka_example_controllers_gravity_test" start time: Aug 15 02:54 PDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/franka_example_controllers':
+ - /home/zac/franka_ws/build/franka_example_controllers/franka_example_controllers_gravity_test --gtest_output=xml:/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_gravity_test.gtest.xml
+Running main() from gmock_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from TestGravityCompensationExample
+[ RUN      ] TestGravityCompensationExample.JointsParameterNotSet
+[  SKIPPED ] TestGravityCompensationExample.JointsParameterNotSet (0 ms)
+[ RUN      ] TestGravityCompensationExample.JointsParameterIsEmpty
+[  SKIPPED ] TestGravityCompensationExample.JointsParameterIsEmpty (0 ms)
+[ RUN      ] TestGravityCompensationExample.given_correct_number_of_joints_configure_returns_success
+[       OK ] TestGravityCompensationExample.given_correct_number_of_joints_configure_returns_success (18 ms)
+[ RUN      ] TestGravityCompensationExample.given_joints_and_interface_when_update_expect_zero_values
+[       OK ] TestGravityCompensationExample.given_joints_and_interface_when_update_expect_zero_values (10 ms)
+[----------] 4 tests from TestGravityCompensationExample (28 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (37 ms total)
+[  PASSED  ] 2 tests.
+[  SKIPPED ] 2 tests, listed below:
+[  SKIPPED ] TestGravityCompensationExample.JointsParameterNotSet
+[  SKIPPED ] TestGravityCompensationExample.JointsParameterIsEmpty
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_gravity_test.gtest.xml'
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_gravity_test.gtest.xml'
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"franka_example_controllers_gravity_test" end time: Aug 15 02:54 PDT
+"franka_example_controllers_gravity_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: franka_example_controllers_move_to_start_test
+11/11 Test: franka_example_controllers_move_to_start_test
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_move_to_start_test.gtest.xml" "--package-name" "franka_example_controllers" "--output-file" "/home/zac/franka_ws/build/franka_example_controllers/ament_cmake_gmock/franka_example_controllers_move_to_start_test.txt" "--command" "/home/zac/franka_ws/build/franka_example_controllers/franka_example_controllers_move_to_start_test" "--gtest_output=xml:/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_move_to_start_test.gtest.xml"
+Directory: /home/zac/franka_ws/build/franka_example_controllers
+"franka_example_controllers_move_to_start_test" start time: Aug 15 02:54 PDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/franka_example_controllers':
+ - /home/zac/franka_ws/build/franka_example_controllers/franka_example_controllers_move_to_start_test --gtest_output=xml:/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_move_to_start_test.gtest.xml
+Running main() from gmock_main.cc
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from MoveToStartExampleControllerTest
+[ RUN      ] MoveToStartExampleControllerTest.controller_gains_not_set_failure
+[FATAL] [1723715668.836307575] [test_move_to_start_example]: k_gains parameter not set
+[       OK ] MoveToStartExampleControllerTest.controller_gains_not_set_failure (15 ms)
+[ RUN      ] MoveToStartExampleControllerTest.contoller_gain_empty
+[FATAL] [1723715668.844903947] [test_move_to_start_example]: k_gains parameter not set
+[       OK ] MoveToStartExampleControllerTest.contoller_gain_empty (9 ms)
+[ RUN      ] MoveToStartExampleControllerTest.contoller_damping_gain_empty
+[FATAL] [1723715668.853383855] [test_move_to_start_example]: d_gains parameter not set
+[       OK ] MoveToStartExampleControllerTest.contoller_damping_gain_empty (8 ms)
+[ RUN      ] MoveToStartExampleControllerTest.correct_controller_gains_success
+[       OK ] MoveToStartExampleControllerTest.correct_controller_gains_success (7 ms)
+[ RUN      ] MoveToStartExampleControllerTest.correct_setup_on_activate_expect_success
+[       OK ] MoveToStartExampleControllerTest.correct_setup_on_activate_expect_success (9 ms)
+[ RUN      ] MoveToStartExampleControllerTest.correct_setup_on_update_expect_ok
+[       OK ] MoveToStartExampleControllerTest.correct_setup_on_update_expect_ok (6 ms)
+[----------] 6 tests from MoveToStartExampleControllerTest (54 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (60 ms total)
+[  PASSED  ] 6 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_move_to_start_test.gtest.xml'
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_example_controllers/test_results/franka_example_controllers/franka_example_controllers_move_to_start_test.gtest.xml'
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"franka_example_controllers_move_to_start_test" end time: Aug 15 02:54 PDT
+"franka_example_controllers_move_to_start_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 15 02:54 PDT
+
+clang_format =   0.26 sec*proc
+
+copyright =   1.15 sec*proc
+
+cppcheck =   0.18 sec*proc
+
+flake8 =   0.26 sec*proc
+
+gmock =   0.69 sec*proc
+
+lint_cmake =   0.16 sec*proc
+
+linter =   2.55 sec*proc
+
+pep257 =   0.21 sec*proc
+
+xmllint =   0.34 sec*proc
+

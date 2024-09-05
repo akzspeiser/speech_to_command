@@ -1,0 +1,52 @@
+[0.039s] Invoking command in '/home/zac/franka_ws/build/franka_example_controllers': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_semantic_components/lib:/home/zac/franka_ws/install/franka_hardware/lib:/home/zac/franka_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zac/franka_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zac/franka_ws/build/franka_example_controllers -- -j8 -l8
+[0.133s] [  7%] Built target gmock_main
+[0.182s] [ 33%] Built target gmock
+[0.183s] [ 70%] Built target franka_example_controllers
+[0.227s] [ 77%] Built target franka_example_controllers_test
+[0.231s] [ 85%] Built target franka_example_controllers_test_load_move_to_start
+[0.278s] [ 92%] Built target franka_example_controllers_gravity_test
+[0.278s] [100%] Built target franka_example_controllers_move_to_start_test
+[0.297s] Invoked command in '/home/zac/franka_ws/build/franka_example_controllers' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_semantic_components/lib:/home/zac/franka_ws/install/franka_hardware/lib:/home/zac/franka_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zac/franka_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zac/franka_ws/build/franka_example_controllers -- -j8 -l8
+[0.401s] Invoking command in '/home/zac/franka_ws/build/franka_example_controllers': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_semantic_components/lib:/home/zac/franka_ws/install/franka_hardware/lib:/home/zac/franka_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zac/franka_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zac/franka_ws/build/franka_example_controllers
+[0.411s] -- Install configuration: "Release"
+[0.412s] -- Execute custom install script
+[0.412s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/franka_example_controllers//franka_example_controllers.xml
+[0.413s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/lib/libfranka_example_controllers.so
+[0.414s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/include/franka_example_controllers/cartesian_elbow_example_controller.hpp
+[0.414s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/include/franka_example_controllers/cartesian_orientation_example_controller.hpp
+[0.414s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/include/franka_example_controllers/cartesian_pose_example_controller.hpp
+[0.415s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/include/franka_example_controllers/cartesian_velocity_example_controller.hpp
+[0.415s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/include/franka_example_controllers/default_robot_behavior_utils.hpp
+[0.415s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/include/franka_example_controllers/elbow_example_controller.hpp
+[0.416s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/include/franka_example_controllers/gravity_compensation_example_controller.hpp
+[0.416s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp
+[0.416s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/include/franka_example_controllers/joint_impedance_with_ik_example_controller.hpp
+[0.417s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/include/franka_example_controllers/joint_position_example_controller.hpp
+[0.417s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/include/franka_example_controllers/joint_velocity_example_controller.hpp
+[0.417s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/include/franka_example_controllers/model_example_controller.hpp
+[0.417s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/include/franka_example_controllers/motion_generator.hpp
+[0.418s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/include/franka_example_controllers/move_to_start_example_controller.hpp
+[0.418s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/include/franka_example_controllers/robot_utils.hpp
+[0.418s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/include/franka_example_controllers/visibility_control.h
+[0.418s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/franka_example_controllers/environment/library_path.sh
+[0.419s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/franka_example_controllers/environment/library_path.dsv
+[0.419s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/ament_index/resource_index/package_run_dependencies/franka_example_controllers
+[0.419s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/ament_index/resource_index/parent_prefix_path/franka_example_controllers
+[0.420s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/franka_example_controllers/environment/ament_prefix_path.sh
+[0.420s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/franka_example_controllers/environment/ament_prefix_path.dsv
+[0.421s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/franka_example_controllers/environment/path.sh
+[0.421s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/franka_example_controllers/environment/path.dsv
+[0.422s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.bash
+[0.422s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.sh
+[0.422s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.zsh
+[0.423s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.dsv
+[0.423s] -- Symlinking: /home/zac/franka_ws/install/franka_example_controllers/share/franka_example_controllers/package.dsv
+[0.438s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/ament_index/resource_index/packages/franka_example_controllers
+[0.438s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_example_controllers
+[0.438s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.438s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[0.439s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.439s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/franka_example_controllersConfig.cmake
+[0.439s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/franka_example_controllersConfig-version.cmake
+[0.439s] -- Up-to-date symlink: /home/zac/franka_ws/install/franka_example_controllers/share/franka_example_controllers/package.xml
+[0.461s] Invoked command in '/home/zac/franka_ws/build/franka_example_controllers' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/franka_semantic_components:/home/zac/franka_ws/install/franka_hardware:/home/zac/franka_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/franka_semantic_components/lib:/home/zac/franka_ws/install/franka_hardware/lib:/home/zac/franka_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zac/franka_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zac/franka_ws/build/franka_example_controllers

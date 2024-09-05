@@ -1,0 +1,87 @@
+[0.042s] Invoking command in '/home/zac/franka_ws/build/moveit_ros_move_group': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_configs_utils:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_kinematics/lib:/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zac/franka_ws/build/moveit_configs_utils:/home/zac/franka_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/zac/franka_ws/src/moveit2/moveit_ros/move_group -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/moveit_ros_move_group
+[0.065s] -- Found moveit_common: 2.5.5 (/home/zac/franka_ws/install/moveit_common/share/moveit_common/cmake)
+[0.066s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.244s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.352s] [0mmoveit_ros_move_group: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.352s] -- Found moveit_core: 2.5.5 (/home/zac/franka_ws/install/moveit_core/share/moveit_core/cmake)
+[0.375s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.455s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.510s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.516s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.530s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.554s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.585s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.671s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.675s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.935s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.073s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.122s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.227s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.370s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.706s] -- Found moveit_ros_planning: 2.5.5 (/home/zac/franka_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[1.713s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.746s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.766s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.799s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.818s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.818s] -- Configured cppcheck include dirs: /home/zac/franka_ws/src/moveit2/moveit_ros/move_group/include
+[1.819s] -- Configured cppcheck exclude dirs and/or files: 
+[1.821s] -- Added test 'lint_cmake' to check CMake code style
+[1.822s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.824s] -- Added test 'xmllint' to check XML markup files
+[1.829s] -- Configuring done
+[2.037s] -- Generating done
+[2.041s] -- Build files have been written to: /home/zac/franka_ws/build/moveit_ros_move_group
+[2.061s] Invoked command in '/home/zac/franka_ws/build/moveit_ros_move_group' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_configs_utils:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_kinematics/lib:/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zac/franka_ws/build/moveit_configs_utils:/home/zac/franka_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/zac/franka_ws/src/moveit2/moveit_ros/move_group -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/moveit_ros_move_group
+[2.064s] Invoking command in '/home/zac/franka_ws/build/moveit_ros_move_group': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_configs_utils:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_kinematics/lib:/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zac/franka_ws/build/moveit_configs_utils:/home/zac/franka_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zac/franka_ws/build/moveit_ros_move_group -- -j8 -l8
+[2.142s] [35m[1mConsolidate compiler generated dependencies of target list_move_group_capabilities[0m
+[2.146s] [35m[1mConsolidate compiler generated dependencies of target moveit_move_group_capabilities_base[0m
+[2.222s] [  5%] [32m[1mLinking CXX executable list_move_group_capabilities[0m
+[2.237s] [ 21%] Built target moveit_move_group_capabilities_base
+[2.276s] [35m[1mConsolidate compiler generated dependencies of target move_group[0m
+[2.332s] [35m[1mConsolidate compiler generated dependencies of target moveit_move_group_default_capabilities[0m
+[2.375s] [ 26%] [32m[1mLinking CXX executable move_group[0m
+[2.706s] [ 89%] Built target moveit_move_group_default_capabilities
+[3.089s] [ 94%] Built target list_move_group_capabilities
+[3.133s] [100%] Built target move_group
+[3.156s] Invoked command in '/home/zac/franka_ws/build/moveit_ros_move_group' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_configs_utils:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_kinematics/lib:/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zac/franka_ws/build/moveit_configs_utils:/home/zac/franka_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zac/franka_ws/build/moveit_ros_move_group -- -j8 -l8
+[3.254s] Invoking command in '/home/zac/franka_ws/build/moveit_ros_move_group': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_configs_utils:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_kinematics/lib:/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zac/franka_ws/build/moveit_configs_utils:/home/zac/franka_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zac/franka_ws/build/moveit_ros_move_group
+[3.265s] -- Install configuration: "Release"
+[3.265s] -- Execute custom install script
+[3.266s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/lib/moveit_ros_move_group/move_group
+[3.279s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/lib/moveit_ros_move_group/list_move_group_capabilities
+[3.293s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/include/moveit/move_group/capability_names.h
+[3.307s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/include/moveit/move_group/move_group_capability.h
+[3.325s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/include/moveit/move_group/move_group_context.h
+[3.343s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/include/moveit/move_group/node_name.h
+[3.356s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/library_path.sh
+[3.370s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/library_path.dsv
+[3.385s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/lib/moveit_ros_move_group/load_map
+[3.398s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/lib/moveit_ros_move_group/save_map
+[3.416s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group//default_capabilities_plugin_description.xml
+[3.433s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/ament_index/resource_index/package_run_dependencies/moveit_ros_move_group
+[3.447s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/ament_index/resource_index/parent_prefix_path/moveit_ros_move_group
+[3.465s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/ament_prefix_path.sh
+[3.485s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/ament_prefix_path.dsv
+[3.503s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/path.sh
+[3.520s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/path.dsv
+[3.538s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/local_setup.bash
+[3.556s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/local_setup.sh
+[3.574s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/local_setup.zsh
+[3.592s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/local_setup.dsv
+[3.606s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/package.dsv
+[3.619s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/ament_index/resource_index/packages/moveit_ros_move_group
+[3.638s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/ament_index/resource_index/moveit_ros_move_group__pluginlib__plugin/moveit_ros_move_group
+[3.656s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/ConfigExtras.cmake
+[3.674s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/ament_cmake_export_targets-extras.cmake
+[3.688s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.705s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig.cmake
+[3.723s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig-version.cmake
+[3.740s] -- Symlinking: /home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/package.xml
+[3.758s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so.2.5.5
+[3.758s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so
+[3.760s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_move_group/lib/libmoveit_move_group_capabilities_base.so.2.5.5
+[3.761s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_move_group/lib/libmoveit_move_group_capabilities_base.so
+[3.761s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/export_moveit_ros_move_groupExport.cmake
+[3.761s] -- Up-to-date: /home/zac/franka_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/export_moveit_ros_move_groupExport-release.cmake
+[3.766s] Invoked command in '/home/zac/franka_ws/build/moveit_ros_move_group' returned '0': AMENT_PREFIX_PATH=/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_configs_utils:/home/zac/franka_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zac/franka_ws/install/moveit_kinematics:/home/zac/franka_ws/install/moveit_ros_planning:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor:/home/zac/franka_ws/install/moveit_core:/home/zac/franka_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zac/franka_ws/install/moveit_kinematics/lib:/home/zac/franka_ws/install/moveit_ros_planning/lib:/home/zac/franka_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/zac/franka_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/zac/franka_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zac/franka_ws/build/moveit_configs_utils:/home/zac/franka_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zac/franka_ws/build/moveit_ros_move_group

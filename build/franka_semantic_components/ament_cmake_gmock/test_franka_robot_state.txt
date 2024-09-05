@@ -1,0 +1,25 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/franka_semantic_components':
+ - /home/zac/franka_ws/build/franka_semantic_components/test_franka_robot_state --gtest_output=xml:/home/zac/franka_ws/build/franka_semantic_components/test_results/franka_semantic_components/test_franka_robot_state.gtest.xml
+
+Running main() from gmock_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from FrankaRobotStateTest
+[ RUN      ] FrankaRobotStateTest.validate_state_names_and_size
+[       OK ] FrankaRobotStateTest.validate_state_names_and_size (34 ms)
+[ RUN      ] FrankaRobotStateTest.robot_state_ptr_uncasted_correctly
+[       OK ] FrankaRobotStateTest.robot_state_ptr_uncasted_correctly (33 ms)
+[ RUN      ] FrankaRobotStateTest.givenFrankaSemanticStateInitialized_whenMessageReturnedExpectsCorrectValues
+[       OK ] FrankaRobotStateTest.givenFrankaSemanticStateInitialized_whenMessageReturnedExpectsCorrectValues (33 ms)
+[ RUN      ] FrankaRobotStateTest.givenInitializedRobotStateMsg_thenCorrectFrameIDs
+[       OK ] FrankaRobotStateTest.givenInitializedRobotStateMsg_thenCorrectFrameIDs (32 ms)
+[----------] 4 tests from FrankaRobotStateTest (132 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (132 ms total)
+[  PASSED  ] 4 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/zac/franka_ws/build/franka_semantic_components/test_results/franka_semantic_components/test_franka_robot_state.gtest.xml'
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_semantic_components/test_results/franka_semantic_components/test_franka_robot_state.gtest.xml'

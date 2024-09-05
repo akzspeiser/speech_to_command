@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="14" failures="0" disabled="0" errors="0" time="0.001" timestamp="2024-08-15T02:54:25" name="AllTests">
+  <testsuite name="FrankaCartesianPoseTest" tests="14" failures="0" disabled="0" errors="0" time="0.001" timestamp="2024-08-15T02:54:25">
+    <testcase name="given_correct_interfaces_set_carte_with_elbow_command_expect_successful" status="run" result="completed" time="0.001" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianPoseTest" />
+    <testcase name="given_correct_interfaces_when_get_elbow_command_values_called_expect_successful" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianPoseTest" />
+    <testcase name="given_elbow_is_not_activated_when_elbow_command_get_value_is_called_expect_throw" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianPoseTest" />
+    <testcase name="given_elbow_and_cartesian_pose_claimed_when_set_pose_command_without_elbow_expect_failure" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianPoseTest" />
+    <testcase name="given_only_cartesian_velocity_claimed_without_elbow_when_set_velocity_command_cartesian_vel_expect_successful" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianPoseTest" />
+    <testcase name="given_incorrect_command_interfaces_set_velocity_expect_unsuccesful" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianPoseTest" />
+    <testcase name="given_correct_interfaces_when_set_command_called_with_quaternion_and_translation_expect_the_correct_pose" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianPoseTest" />
+    <testcase name="given_correct_interfaces_when_set_command_called_with_quaternion_and_translation_and_elbow_expect_the_correct_pose" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianPoseTest" />
+    <testcase name="given_correct_interfaces_when_get_commanded_pose_called_expect_the_correct_pose" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianPoseTest" />
+    <testcase name="given_correct_interfaces_when_get_elbow_commanded_called_expect_the_correct_elbow" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianPoseTest" />
+    <testcase name="given_correct_interfaces_when_initial_elbow_request_expect_correct_state" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianPoseTest" />
+    <testcase name="given_elbow_not_activated_when_initial_elbow_requested_expect_throw" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianPoseTest" />
+    <testcase name="given_correct_interfaces_when_initial_orientation_request_expect_correct_pose" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianPoseTest" />
+    <testcase name="given_correct_interfaces_when_pose_requested_expect_correct_pose" status="run" result="completed" time="0" timestamp="2024-08-15T02:54:25" classname="franka_semantic_components.FrankaCartesianPoseTest" />
+  </testsuite>
+</testsuites>

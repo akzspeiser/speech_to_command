@@ -1,0 +1,2 @@
+Invoking command in '/home/zac/franka_ws/build/integration_launch_testing': /usr/bin/cmake /home/zac/franka_ws/src/franka_ros2/integration_launch_testing -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/integration_launch_testing
+Invoked command in '/home/zac/franka_ws/build/integration_launch_testing' returned '1': /usr/bin/cmake /home/zac/franka_ws/src/franka_ros2/integration_launch_testing -DCMAKE_INSTALL_PREFIX=/home/zac/franka_ws/install/integration_launch_testing

@@ -1,0 +1,12 @@
+-- run_test.py: invoking following command in '/home/zac/franka_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control':
+ - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/xmllint.xunit.xml
+
+File 'ign_hardware_plugins.xml' is valid
+
+File 'package.xml' is valid
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zac/franka_ws/build/franka_ign_ros2_control/test_results/franka_ign_ros2_control/xmllint.xunit.xml'

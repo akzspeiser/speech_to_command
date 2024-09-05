@@ -1,0 +1,793 @@
+Start testing: Aug 15 02:54 PDT
+----------------------------------------------------------
+1/3 Testing: test_trajectory
+1/3 Test: test_trajectory
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_trajectory.gtest.xml" "--package-name" "joint_trajectory_controller" "--output-file" "/home/zac/franka_ws/build/joint_trajectory_controller/ament_cmake_gmock/test_trajectory.txt" "--command" "/home/zac/franka_ws/build/joint_trajectory_controller/test_trajectory" "--gtest_output=xml:/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_trajectory.gtest.xml"
+Directory: /home/zac/franka_ws/build/joint_trajectory_controller
+"test_trajectory" start time: Aug 15 02:54 PDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/joint_trajectory_controller':
+ - /home/zac/franka_ws/build/joint_trajectory_controller/test_trajectory --gtest_output=xml:/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_trajectory.gtest.xml
+Running main() from gmock_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from TestTrajectory
+[ RUN      ] TestTrajectory.initialize_trajectory
+[       OK ] TestTrajectory.initialize_trajectory (0 ms)
+[ RUN      ] TestTrajectory.sample_trajectory_positions
+[       OK ] TestTrajectory.sample_trajectory_positions (0 ms)
+[ RUN      ] TestTrajectory.interpolation_pos_vel
+[       OK ] TestTrajectory.interpolation_pos_vel (0 ms)
+[ RUN      ] TestTrajectory.interpolation_pos_vel_accel
+[       OK ] TestTrajectory.interpolation_pos_vel_accel (0 ms)
+[ RUN      ] TestTrajectory.sample_trajectory_velocity_with_interpolation
+[       OK ] TestTrajectory.sample_trajectory_velocity_with_interpolation (1 ms)
+[ RUN      ] TestTrajectory.sample_trajectory_velocity_with_interpolation_strange_without_vel
+[       OK ] TestTrajectory.sample_trajectory_velocity_with_interpolation_strange_without_vel (0 ms)
+[ RUN      ] TestTrajectory.sample_trajectory_acceleration_with_interpolation
+[       OK ] TestTrajectory.sample_trajectory_acceleration_with_interpolation (0 ms)
+[ RUN      ] TestTrajectory.skip_interpolation
+[       OK ] TestTrajectory.skip_interpolation (0 ms)
+[----------] 8 tests from TestTrajectory (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 8 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_trajectory.gtest.xml'
+-- run_test.py: verify result file '/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_trajectory.gtest.xml'
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"test_trajectory" end time: Aug 15 02:54 PDT
+"test_trajectory" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: test_trajectory_controller
+2/3 Test: test_trajectory_controller
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_trajectory_controller.gtest.xml" "--package-name" "joint_trajectory_controller" "--output-file" "/home/zac/franka_ws/build/joint_trajectory_controller/ament_cmake_gmock/test_trajectory_controller.txt" "--env" "config_file=/home/zac/franka_ws/src/franka_ros2/joint_trajectory_controller/test/config/test_joint_trajectory_controller.yaml" "--command" "/home/zac/franka_ws/build/joint_trajectory_controller/test_trajectory_controller" "--gtest_output=xml:/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_trajectory_controller.gtest.xml"
+Directory: /home/zac/franka_ws/build/joint_trajectory_controller
+"test_trajectory_controller" start time: Aug 15 02:54 PDT
+Output:
+----------------------------------------------------------
+-- run_test.py: extra environment variables:
+ - config_file=/home/zac/franka_ws/src/franka_ros2/joint_trajectory_controller/test/config/test_joint_trajectory_controller.yaml
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/joint_trajectory_controller':
+ - /home/zac/franka_ws/build/joint_trajectory_controller/test_trajectory_controller --gtest_output=xml:/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_trajectory_controller.gtest.xml
+Running main() from gmock_main.cc
+[==========] Running 110 tests from 4 test suites.
+[----------] Global test environment set-up.
+[----------] 30 tests from PositionTrajectoryControllers/TrajectoryControllerTestParameterized
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/0
+[INFO] [1723715653.419250201] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715653.419352794] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position].
+[INFO] [1723715653.419380675] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715653.419655771] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715653.422042201] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/0 (35 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/1
+[INFO] [1723715653.441575741] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715653.441625269] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[INFO] [1723715653.441645908] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715653.441918635] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715653.442196850] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/1 (19 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/2
+[INFO] [1723715653.460759135] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715653.460811087] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position velocity acceleration].
+[INFO] [1723715653.460831152] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715653.461063382] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715653.461344198] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/2 (19 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/0
+[INFO] [1723715653.479469917] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715653.479520341] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position].
+[INFO] [1723715653.479539867] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715653.479791780] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715653.480057633] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/0 (19 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/1
+[INFO] [1723715653.498597466] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715653.498644656] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[INFO] [1723715653.498666036] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715653.498901224] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715653.499179626] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/1 (19 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/2
+[INFO] [1723715653.515167423] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715653.515205573] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position velocity acceleration].
+[INFO] [1723715653.515223966] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715653.515394574] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715653.515635355] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/2 (13 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/0
+[INFO] [1723715653.527480576] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position].
+[INFO] [1723715653.527515540] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715653.527701413] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715653.528010329] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/0 (13 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/1
+[INFO] [1723715653.543096025] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[INFO] [1723715653.543144142] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715653.543385980] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715653.543668511] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/1 (17 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/2
+[INFO] [1723715653.559772708] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position velocity acceleration].
+[INFO] [1723715653.559814764] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715653.560053254] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715653.560381523] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/2 (17 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.activate/0
+[INFO] [1723715653.578476416] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715653.578542614] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position].
+[INFO] [1723715653.578582653] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715653.578874900] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715653.579212326] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.activate/0 (17 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.activate/1
+[INFO] [1723715653.595644451] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715653.595692784] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[INFO] [1723715653.595714028] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715653.595971506] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715653.596267742] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.activate/1 (17 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.activate/2
+[INFO] [1723715653.613011400] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715653.613062966] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position velocity acceleration].
+[INFO] [1723715653.613086418] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715653.613350362] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715653.613655300] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.activate/2 (20 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/0
+[INFO] [1723715653.629920421] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715653.629961790] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position].
+[INFO] [1723715653.629973528] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715653.630199019] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715653.630439240] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/0 (265 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/1
+[INFO] [1723715653.897358582] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715653.897405290] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[INFO] [1723715653.897422378] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715653.897650966] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715653.897952396] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/1 (267 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/2
+[INFO] [1723715654.164314004] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715654.164365457] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position velocity acceleration].
+[INFO] [1723715654.164383182] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715654.164756559] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715654.165121859] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/2 (268 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/0
+[INFO] [1723715654.432773538] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715654.432840416] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position].
+[INFO] [1723715654.432858070] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715654.433103318] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715654.433407224] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/0 (18 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/1
+[INFO] [1723715654.450575400] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715654.450630184] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[INFO] [1723715654.450657588] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715654.451083957] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715654.451420525] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/1 (17 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/2
+[INFO] [1723715654.466784236] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715654.466844846] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position velocity acceleration].
+[INFO] [1723715654.466862818] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715654.467161757] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715654.467557896] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/2 (20 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/0
+[INFO] [1723715654.486432342] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715654.486488575] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position].
+[INFO] [1723715654.486508575] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715654.486791146] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715654.487114808] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/0 (15 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/1
+[INFO] [1723715654.503132644] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715654.503185682] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[INFO] [1723715654.503209524] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715654.503482971] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715654.503791595] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/1 (19 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/2
+[INFO] [1723715654.521023974] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715654.521105361] [test_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position velocity acceleration].
+[INFO] [1723715654.521140015] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715654.521424185] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715654.521721415] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/2 (17 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/0
+[  SKIPPED ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/0 (9 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/1
+[  SKIPPED ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/1 (8 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/2
+[  SKIPPED ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/2 (9 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/0
+[  SKIPPED ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/0 (8 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/1
+[  SKIPPED ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/1 (8 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/2
+[  SKIPPED ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/2 (8 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/0
+[  SKIPPED ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/0 (9 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/1
+[  SKIPPED ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/1 (8 ms)
+[ RUN      ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/2
+[  SKIPPED ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/2 (8 ms)
+[----------] 30 tests from PositionTrajectoryControllers/TrajectoryControllerTestParameterized (1207 ms total)
+
+[----------] 30 tests from PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/0
+[INFO] [1723715654.613312229] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715654.613363551] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position].
+[INFO] [1723715654.613393468] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715654.613627510] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715654.613893409] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/0 (17 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/1
+[INFO] [1723715654.630678006] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715654.630731811] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity].
+[INFO] [1723715654.630750212] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715654.631046763] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715654.631353260] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/1 (22 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/2
+[INFO] [1723715654.652723007] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715654.652773182] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity acceleration].
+[INFO] [1723715654.652790603] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715654.653137517] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715654.653531585] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/2 (17 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/0
+[INFO] [1723715654.665865295] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715654.665912280] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position].
+[INFO] [1723715654.665936389] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715654.666195762] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715654.666504602] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/0 (15 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/1
+[INFO] [1723715654.681597487] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715654.681632150] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity].
+[INFO] [1723715654.681644145] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715654.681808973] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715654.682058887] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/1 (15 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/2
+[INFO] [1723715654.696886401] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715654.696929139] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity acceleration].
+[INFO] [1723715654.696952710] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715654.697153825] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715654.697430357] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/2 (16 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/0
+[INFO] [1723715654.715753252] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position].
+[INFO] [1723715654.715819146] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715654.716280248] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715654.716816605] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/0 (20 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/1
+[INFO] [1723715654.734515460] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity].
+[INFO] [1723715654.734557994] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715654.734796855] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715654.735038376] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/1 (17 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/2
+[INFO] [1723715654.750033965] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity acceleration].
+[INFO] [1723715654.750085371] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715654.750358518] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715654.750679632] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/2 (16 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.activate/0
+[INFO] [1723715654.765949814] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715654.766001029] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position].
+[INFO] [1723715654.766019402] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715654.766232616] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715654.766545947] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.activate/0 (20 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.activate/1
+[INFO] [1723715654.786879470] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715654.786927786] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity].
+[INFO] [1723715654.786948032] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715654.787231935] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715654.787598087] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.activate/1 (17 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.activate/2
+[INFO] [1723715654.805094782] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715654.805131045] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity acceleration].
+[INFO] [1723715654.805146995] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715654.805383512] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715654.805735502] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.activate/2 (19 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/0
+[INFO] [1723715654.825554863] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715654.825606532] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position].
+[INFO] [1723715654.825629146] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715654.826025029] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715654.826400276] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/0 (270 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/1
+[INFO] [1723715655.094583712] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715655.094643933] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity].
+[INFO] [1723715655.094683144] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715655.094971646] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715655.095263740] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/1 (268 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/2
+[INFO] [1723715655.363499460] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715655.363550982] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity acceleration].
+[INFO] [1723715655.363566324] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715655.363833818] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715655.364113756] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/2 (266 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/0
+[INFO] [1723715655.629605363] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715655.629674783] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position].
+[INFO] [1723715655.629693969] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715655.629990176] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715655.630286835] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/0 (18 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/1
+[INFO] [1723715655.647365099] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715655.647422527] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity].
+[INFO] [1723715655.647447797] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715655.647778718] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715655.648116356] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/1 (18 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/2
+[INFO] [1723715655.665120617] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715655.665170828] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity acceleration].
+[INFO] [1723715655.665190661] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715655.665453856] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715655.665752689] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/2 (17 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/0
+[INFO] [1723715655.682419598] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715655.682473184] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position].
+[INFO] [1723715655.682491875] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715655.682850538] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715655.683207876] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/0 (18 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/1
+[INFO] [1723715655.699967332] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715655.700057582] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity].
+[INFO] [1723715655.700087075] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715655.700545616] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715655.700959631] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/1 (18 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/2
+[INFO] [1723715655.719312571] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715655.719361256] [test_joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity acceleration].
+[INFO] [1723715655.719379760] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715655.719679506] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715655.720004678] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/2 (17 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/0
+[  SKIPPED ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/0 (8 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/1
+[  SKIPPED ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/1 (8 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/2
+[  SKIPPED ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/2 (8 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/0
+[  SKIPPED ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/0 (9 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/1
+[  SKIPPED ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/1 (8 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/2
+[  SKIPPED ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/2 (9 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/0
+[  SKIPPED ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/0 (10 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/1
+[  SKIPPED ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/1 (10 ms)
+[ RUN      ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/2
+[  SKIPPED ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/2 (9 ms)
+[----------] 30 tests from PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized (1202 ms total)
+
+[----------] 30 tests from PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/0
+[INFO] [1723715655.815499287] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715655.815599386] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position].
+[INFO] [1723715655.815677920] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715655.816081470] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715655.816669782] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/0 (20 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/1
+[INFO] [1723715655.836679760] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715655.836748932] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position velocity].
+[INFO] [1723715655.836769213] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715655.837089430] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715655.837421688] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/1 (19 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/2
+[INFO] [1723715655.854711033] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715655.854794131] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position velocity acceleration].
+[INFO] [1723715655.854822073] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715655.855070731] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715655.855365537] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/2 (19 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/0
+[INFO] [1723715655.873227946] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715655.873295491] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position].
+[INFO] [1723715655.873315785] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715655.873534545] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715655.873809388] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/0 (17 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/1
+[INFO] [1723715655.891628694] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715655.891690117] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position velocity].
+[INFO] [1723715655.891710751] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715655.892025089] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715655.892340240] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/1 (17 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/2
+[INFO] [1723715655.908543093] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715655.908591776] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position velocity acceleration].
+[INFO] [1723715655.908616065] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715655.908849844] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715655.909137096] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/2 (19 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/0
+[INFO] [1723715655.927401110] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position].
+[INFO] [1723715655.927452511] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715655.927833387] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715655.928194606] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/0 (16 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/1
+[INFO] [1723715655.942701127] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position velocity].
+[INFO] [1723715655.942751747] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715655.943019208] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715655.943324419] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/1 (18 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/2
+[INFO] [1723715655.961724540] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position velocity acceleration].
+[INFO] [1723715655.961792788] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715655.962103235] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715655.962502087] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/2 (18 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.activate/0
+[INFO] [1723715655.978025802] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715655.978078349] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position].
+[INFO] [1723715655.978100556] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715655.978371107] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715655.978675128] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.activate/0 (16 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.activate/1
+[INFO] [1723715655.997346652] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715655.997415933] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position velocity].
+[INFO] [1723715655.997434153] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715655.997750918] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715655.998080195] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.activate/1 (19 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.activate/2
+[INFO] [1723715656.013740117] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715656.013781226] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position velocity acceleration].
+[INFO] [1723715656.013793985] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715656.013976599] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715656.014220195] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.activate/2 (15 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/0
+[INFO] [1723715656.028575383] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715656.028618471] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position].
+[INFO] [1723715656.028637756] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715656.028807342] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715656.029034940] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/0 (263 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/1
+[INFO] [1723715656.292306541] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715656.292379941] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position velocity].
+[INFO] [1723715656.292422776] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715656.292659955] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715656.293105777] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/1 (265 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/2
+[INFO] [1723715656.559111915] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715656.559146266] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position velocity acceleration].
+[INFO] [1723715656.559157653] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715656.559382422] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715656.559685897] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/2 (267 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/0
+[INFO] [1723715656.825200462] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715656.825231711] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position].
+[INFO] [1723715656.825242746] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715656.825440463] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715656.825716269] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/0 (15 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/1
+[INFO] [1723715656.842704910] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715656.842736787] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position velocity].
+[INFO] [1723715656.842748689] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715656.842917287] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715656.843156260] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/1 (22 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/2
+[INFO] [1723715656.864800967] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715656.864830738] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position velocity acceleration].
+[INFO] [1723715656.864842126] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715656.865098928] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715656.865410273] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/2 (23 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/0
+[INFO] [1723715656.888498521] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715656.888548751] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position].
+[INFO] [1723715656.888570527] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715656.888899276] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715656.889240383] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/0 (24 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/1
+[INFO] [1723715656.912948966] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715656.912986012] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position velocity].
+[INFO] [1723715656.913026464] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715656.913253502] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715656.913482568] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/1 (24 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/2
+[INFO] [1723715656.935813678] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715656.935854402] [test_joint_trajectory_controller]: Command interfaces are [position velocity acceleration] and state interfaces are [position velocity acceleration].
+[INFO] [1723715656.935874021] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715656.936184301] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715656.936513817] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/2 (23 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/0
+[  SKIPPED ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/0 (10 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/1
+[  SKIPPED ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/1 (8 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/2
+[  SKIPPED ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/2 (9 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/0
+[  SKIPPED ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/0 (7 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/1
+[  SKIPPED ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/1 (9 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/2
+[  SKIPPED ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/2 (11 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/0
+[  SKIPPED ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/0 (10 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/1
+[  SKIPPED ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/1 (9 ms)
+[ RUN      ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/2
+[  SKIPPED ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/2 (10 ms)
+[----------] 30 tests from PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized (1225 ms total)
+
+[----------] 20 tests from OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized
+[ RUN      ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/0
+[INFO] [1723715657.041839338] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[WARN] [1723715657.041899058] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.041968674] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.042067163] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[INFO] [1723715657.042152146] [test_joint_trajectory_controller]: Command interfaces are [velocity] and state interfaces are [position velocity].
+[INFO] [1723715657.042191507] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715657.042426053] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715657.042716568] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/0 (20 ms)
+[ RUN      ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/1
+[INFO] [1723715657.061593862] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[WARN] [1723715657.061632438] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.061691064] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.061750396] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[INFO] [1723715657.061824332] [test_joint_trajectory_controller]: Command interfaces are [velocity] and state interfaces are [position velocity acceleration].
+[INFO] [1723715657.061861891] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715657.062144581] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715657.062500971] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.configure_state_ignores_commands/1 (21 ms)
+[ RUN      ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/0
+[INFO] [1723715657.079742997] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[WARN] [1723715657.079776777] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.079816455] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.079858835] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[INFO] [1723715657.079931703] [test_joint_trajectory_controller]: Command interfaces are [velocity] and state interfaces are [position velocity].
+[INFO] [1723715657.079959644] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715657.080183400] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715657.080476933] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/0 (17 ms)
+[ RUN      ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/1
+[INFO] [1723715657.099342509] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[WARN] [1723715657.099384483] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.099478620] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.099551157] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[INFO] [1723715657.099624246] [test_joint_trajectory_controller]: Command interfaces are [velocity] and state interfaces are [position velocity acceleration].
+[INFO] [1723715657.099650083] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715657.099906473] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715657.100215790] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names/1 (22 ms)
+[ RUN      ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/0
+[WARN] [1723715657.121279687] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.121384614] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.121491389] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[INFO] [1723715657.121595284] [test_joint_trajectory_controller]: Command interfaces are [velocity] and state interfaces are [position velocity].
+[INFO] [1723715657.121622023] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715657.121925388] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715657.122222908] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/0 (22 ms)
+[ RUN      ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/1
+[WARN] [1723715657.144408550] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.144522066] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.144586498] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[INFO] [1723715657.144651754] [test_joint_trajectory_controller]: Command interfaces are [velocity] and state interfaces are [position velocity acceleration].
+[INFO] [1723715657.144679405] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715657.144928643] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715657.145270819] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.check_interface_names_with_command_joints/1 (22 ms)
+[ RUN      ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.activate/0
+[INFO] [1723715657.163593870] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[WARN] [1723715657.163626429] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.163686426] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.163787747] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[INFO] [1723715657.163903932] [test_joint_trajectory_controller]: Command interfaces are [velocity] and state interfaces are [position velocity].
+[INFO] [1723715657.163932694] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715657.164151459] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715657.164438432] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.activate/0 (21 ms)
+[ RUN      ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.activate/1
+[INFO] [1723715657.185887390] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[WARN] [1723715657.185923292] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.185981775] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.186037888] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[INFO] [1723715657.186076526] [test_joint_trajectory_controller]: Command interfaces are [velocity] and state interfaces are [position velocity acceleration].
+[INFO] [1723715657.186089897] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715657.186303746] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715657.186603911] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.activate/1 (21 ms)
+[ RUN      ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/0
+[INFO] [1723715657.208748950] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715657.208784541] [test_joint_trajectory_controller]: Command interfaces are [velocity] and state interfaces are [position velocity].
+[INFO] [1723715657.208796154] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715657.209011564] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715657.209339233] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/0 (270 ms)
+[ RUN      ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/1
+[INFO] [1723715657.479264054] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1723715657.479303696] [test_joint_trajectory_controller]: Command interfaces are [velocity] and state interfaces are [position velocity acceleration].
+[INFO] [1723715657.479322349] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715657.479518991] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715657.479928383] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup/1 (271 ms)
+[ RUN      ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/0
+[INFO] [1723715657.750168650] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[WARN] [1723715657.750210004] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.750274971] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.750344855] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[INFO] [1723715657.750424495] [test_joint_trajectory_controller]: Command interfaces are [velocity] and state interfaces are [position velocity].
+[INFO] [1723715657.750473094] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715657.750800523] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715657.751151127] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/0 (23 ms)
+[ RUN      ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/1
+[INFO] [1723715657.769790800] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[WARN] [1723715657.769826467] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.769854558] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.769892796] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[INFO] [1723715657.769945891] [test_joint_trajectory_controller]: Command interfaces are [velocity] and state interfaces are [position velocity acceleration].
+[INFO] [1723715657.769966117] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715657.770168071] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715657.770452694] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.cleanup_after_configure/1 (19 ms)
+[ RUN      ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/0
+[INFO] [1723715657.791536460] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[WARN] [1723715657.791572027] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.791601374] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.791646866] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[INFO] [1723715657.791709000] [test_joint_trajectory_controller]: Command interfaces are [velocity] and state interfaces are [position velocity].
+[INFO] [1723715657.791732696] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715657.792012426] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715657.792349735] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/0 (24 ms)
+[ RUN      ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/1
+[INFO] [1723715657.816224433] [test_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[WARN] [1723715657.816307613] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.816392780] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1723715657.816478314] [test_joint_trajectory_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[INFO] [1723715657.816550164] [test_joint_trajectory_controller]: Command interfaces are [velocity] and state interfaces are [position velocity acceleration].
+[INFO] [1723715657.816590977] [test_joint_trajectory_controller]: Using 'splines' interpolation method.
+[INFO] [1723715657.817028430] [test_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1723715657.817411759] [test_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[       OK ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.correct_initialization_using_parameters/1 (25 ms)
+[ RUN      ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/0
+[  SKIPPED ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/0 (9 ms)
+[ RUN      ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/1
+[  SKIPPED ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/1 (11 ms)
+[ RUN      ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/0
+[  SKIPPED ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/0 (7 ms)
+[ RUN      ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/1
+[  SKIPPED ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/1 (9 ms)
+[ RUN      ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/0
+[  SKIPPED ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/0 (9 ms)
+[ RUN      ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/1
+[  SKIPPED ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/1 (9 ms)
+[----------] 20 tests from OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized (852 ms total)
+
+[----------] Global test environment tear-down
+[==========] 110 tests from 4 test suites ran. (4493 ms total)
+[  PASSED  ] 77 tests.
+[  SKIPPED ] 33 tests, listed below:
+[  SKIPPED ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/0
+[  SKIPPED ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/1
+[  SKIPPED ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/2
+[  SKIPPED ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/0
+[  SKIPPED ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/1
+[  SKIPPED ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/2
+[  SKIPPED ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/0
+[  SKIPPED ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/1
+[  SKIPPED ] PositionTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/2
+[  SKIPPED ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/0
+[  SKIPPED ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/1
+[  SKIPPED ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/2
+[  SKIPPED ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/0
+[  SKIPPED ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/1
+[  SKIPPED ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/2
+[  SKIPPED ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/0
+[  SKIPPED ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/1
+[  SKIPPED ] PositionVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/2
+[  SKIPPED ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/0
+[  SKIPPED ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/1
+[  SKIPPED ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/2
+[  SKIPPED ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/0
+[  SKIPPED ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/1
+[  SKIPPED ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/2
+[  SKIPPED ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/0
+[  SKIPPED ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/1
+[  SKIPPED ] PositionVelocityAccelerationTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/2
+[  SKIPPED ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/0
+[  SKIPPED ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.state_topic_consistency/1
+[  SKIPPED ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/0
+[  SKIPPED ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_not_normalized/1
+[  SKIPPED ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/0
+[  SKIPPED ] OnlyVelocityTrajectoryControllers/TrajectoryControllerTestParameterized.position_error_normalized/1
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_trajectory_controller.gtest.xml'
+-- run_test.py: verify result file '/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_trajectory_controller.gtest.xml'
+<end of output>
+Test time =   4.71 sec
+----------------------------------------------------------
+Test Passed.
+"test_trajectory_controller" end time: Aug 15 02:54 PDT
+"test_trajectory_controller" time elapsed: 00:00:04
+----------------------------------------------------------
+
+3/3 Testing: test_load_joint_trajectory_controller
+3/3 Test: test_load_joint_trajectory_controller
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_load_joint_trajectory_controller.gtest.xml" "--package-name" "joint_trajectory_controller" "--output-file" "/home/zac/franka_ws/build/joint_trajectory_controller/ament_cmake_gmock/test_load_joint_trajectory_controller.txt" "--command" "/home/zac/franka_ws/build/joint_trajectory_controller/test_load_joint_trajectory_controller" "--gtest_output=xml:/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_load_joint_trajectory_controller.gtest.xml"
+Directory: /home/zac/franka_ws/build/joint_trajectory_controller
+"test_load_joint_trajectory_controller" start time: Aug 15 02:54 PDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/zac/franka_ws/build/joint_trajectory_controller':
+ - /home/zac/franka_ws/build/joint_trajectory_controller/test_load_joint_trajectory_controller --gtest_output=xml:/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_load_joint_trajectory_controller.gtest.xml
+Running main() from gmock_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestLoadJointStateController
+[ RUN      ] TestLoadJointStateController.load_controller
+[INFO] [1723715658.109065708] [resource_manager]: Loading hardware 'TestActuatorHardware' 
+unknown file: Failure
+C++ exception with description "According to the loaded plugin descriptions the class test_actuator with base class type hardware_interface::ActuatorInterface does not exist. Declared types are  test_hardware_components/TestSingleJointActuator" thrown in the test body.
+[  FAILED  ] TestLoadJointStateController.load_controller (8 ms)
+[----------] 1 test from TestLoadJointStateController (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] TestLoadJointStateController.load_controller
+
+ 1 FAILED TEST
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_load_joint_trajectory_controller.gtest.xml'
+-- run_test.py: verify result file '/home/zac/franka_ws/build/joint_trajectory_controller/test_results/joint_trajectory_controller/test_load_joint_trajectory_controller.gtest.xml'
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Failed.
+"test_load_joint_trajectory_controller" end time: Aug 15 02:54 PDT
+"test_load_joint_trajectory_controller" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 15 02:54 PDT
+
+gmock =   4.89 sec*proc
+
